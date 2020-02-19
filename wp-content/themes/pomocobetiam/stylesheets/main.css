@@ -489,3 +489,67 @@ template {
 [hidden] {
   display: none;
 }
+
+/* line 1, ../sass/base/_base.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 1, ../sass/base/_fonts.scss */
+h1, h2, h3, h4, h5, h6,
+p,
+a,
+li {
+  font-family: "Tahoma", "Arial", sans-serif;
+}
+
+/* line 7, ../sass/base/_fonts.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: black;
+}
+
+/* line 11, ../sass/base/_fonts.scss */
+p, li {
+  color: black;
+}
+
+/* line 14, ../sass/base/_fonts.scss */
+a, a:visited, a:hover {
+  color: white;
+}
+
+/* line 18, ../sass/base/_fonts.scss */
+html {
+  font-size: 16px;
+}
+
+/* line 21, ../sass/base/_fonts.scss */
+h1 {
+  font-size: 2em;
+}
+
+/* line 24, ../sass/base/_fonts.scss */
+h2 {
+  font-size: 1.8em;
+}
+
+/* line 27, ../sass/base/_fonts.scss */
+h3 {
+  font-size: 1.6em;
+}
+
+/* line 30, ../sass/base/_fonts.scss */
+h4 {
+  font-size: 1.4em;
+}
+
+/* line 33, ../sass/base/_fonts.scss */
+h5 {
+  font-size: 1.2em;
+}
+
+/* line 36, ../sass/base/_fonts.scss */
+h6 {
+  font-size: 1em;
+}
