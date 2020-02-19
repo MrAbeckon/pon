@@ -1,0 +1,22 @@
+// COLORS
+$main-theme-color: $pink;
+$main-background-color: $light-pink;
+$main-font-color: $black;
+$main-font-color2: $white;
+
+$second-theme-color: $blue;
+$second-background-color: $light-blue;
+$second-font-color: $pink;
+
+$third-font-color: $blue;
+
+// TYPOGRAPHY
+$font-main: 'Tahoma';
+$font-second: 'Arial';
+$font-third: sans-serif;
+$main-fonts: ($font-main, $font-second, $font-third);
+
+$extra-large: 48px;
+$large: 32px;
+$big: 24px;
+$normal: 16px;
