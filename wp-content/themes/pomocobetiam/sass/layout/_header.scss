@@ -1,0 +1,37 @@
+.page-head {
+    padding: 0 80px;
+    &-nav {
+        padding-top:0px;
+        &-logo {
+            .navbar-brand {
+                img {
+                    width: 100px;
+                    display: inline-block;
+                }
+            }
+        }
+        &-headings {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        &-list {
+            
+            &-item {
+                padding: 50px 25px;
+                &.active {
+                    background-color: $main-background-color;
+                }
+                &:hover:not(.active) {
+                    background-color: $main-background-color;
+                }
+                &:hover:not(.active) a {
+                    color: $main-font-color2;
+                
+                }
+                &-dropdown {
+                    
+                }
+            }
+        }
+    }
+}
