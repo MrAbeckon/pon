@@ -1,0 +1,33 @@
+.button {
+    background-color: transparent;
+    padding: 7px 15px;
+    border-width: 2px;
+    outline: none;
+    margin: 20px 0;
+    font-weight: bold;
+
+    @import "compass/css3/transition";
+    @include transition(all 0.3s ease-in-out);
+}
+
+.button-pink {
+    border-color: $main-theme-color;
+    color: $main-theme-color;
+    &:hover {
+        background-color: $main-background-color;
+        transform: scale(1.02);
+        box-shadow: 0 0 8px 4px $main-background-color;
+        // color: white;
+        // border-width: 3px;
+    }
+}
+
+.button-blue {
+    border-color: $second-theme-color;
+    color: $second-theme-color;
+    &:hover {
+        background-color: $second-background-color;
+        transform: scale(1.02);
+        box-shadow: 0 0 8px 4px $second-background-color;
+    }
+}
