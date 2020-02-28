@@ -3,16 +3,25 @@ p,
 a, 
 li {
     font-family: $main-fonts;
+    margin-bottom: 0;
 }
 h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
     color: $main-font-color;
 }
-p, li {
+p, li,
+a, a:visited, a:hover {
     color: $main-font-color;
 }
-a, a:visited, a:hover {
-    color: $main-font-color2;
+.active a{
+    color: $main-theme-color;
+    font-weight: bold;
+}
+.block h1, .block h2, .block h3, .block h4, .block h5, .block h6 {
+    margin-bottom: 12px;
+}
+.block p {
+    margin-bottom: 20px;
 }
 
 html {
