@@ -1,0 +1,28 @@
+.home-linka {
+    text-align: center;
+    p {
+        text-transform: uppercase;
+    }
+    h1 {
+        color: $second-font-color;
+        display: inline-block;
+        padding: 5px 20px;
+        margin: 5px 0 20px;
+        background-color: $main-background-color;
+    }
+}
+.home-intro {
+    padding: 0 18%;
+    text-align: center;
+    p {
+    }
+}
+
+#faq {
+    .question {
+        h4 {
+            color: $main-font-color;
+            margin-bottom: 5px;
+        }
+    }
+}
