@@ -495,61 +495,237 @@ template {
   text-align: center;
 }
 
+/* line 4, ../sass/base/_base.scss */
+.block {
+  padding: 70px 0;
+  margin: 20px 0;
+}
+/* line 7, ../sass/base/_base.scss */
+.block-inner + .block-inner {
+  margin-top: 20px;
+}
+
+/* line 11, ../sass/base/_base.scss */
+.block-pink {
+  background-color: rgba(237, 12, 110, 0.2);
+}
+/* line 13, ../sass/base/_base.scss */
+.block-pink h2, .block-pink h3, .block-pink h4 {
+  color: #ed0c6e;
+}
+
+/* line 17, ../sass/base/_base.scss */
+.block-blue {
+  background-color: rgba(0, 153, 204, 0.2);
+}
+/* line 19, ../sass/base/_base.scss */
+.block-blue h2, .block-blue h3, .block-blue h4 {
+  color: #0099cc;
+}
+
+/* line 23, ../sass/base/_base.scss */
+.block-transparent {
+  background-color: transparent;
+}
+/* line 25, ../sass/base/_base.scss */
+.block-transparent h2, .block-transparent h3, .block-transparent h4 {
+  color: #0099cc;
+}
+
+/* line 30, ../sass/base/_base.scss */
+.page-main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* line 36, ../sass/base/_base.scss */
+.contact-info-item {
+  display: inline-block;
+}
+/* line 38, ../sass/base/_base.scss */
+.contact-info-item + .contact-info-item {
+  margin-left: 20px;
+}
+
 /* line 1, ../sass/base/_fonts.scss */
 h1, h2, h3, h4, h5, h6,
 p,
 a,
 li {
   font-family: "Tahoma", "Arial", sans-serif;
+  margin-bottom: 0;
 }
 
-/* line 7, ../sass/base/_fonts.scss */
+/* line 8, ../sass/base/_fonts.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   color: black;
 }
 
-/* line 11, ../sass/base/_fonts.scss */
-p, li {
+/* line 12, ../sass/base/_fonts.scss */
+p, li,
+a, a:visited, a:hover {
   color: black;
 }
 
-/* line 14, ../sass/base/_fonts.scss */
-a, a:visited, a:hover {
-  color: white;
+/* line 16, ../sass/base/_fonts.scss */
+.active a {
+  color: #ed0c6e;
+  font-weight: bold;
 }
 
-/* line 18, ../sass/base/_fonts.scss */
+/* line 20, ../sass/base/_fonts.scss */
+.block h1, .block h2, .block h3, .block h4, .block h5, .block h6 {
+  margin-bottom: 12px;
+}
+
+/* line 23, ../sass/base/_fonts.scss */
+.block p {
+  margin-bottom: 20px;
+}
+
+/* line 27, ../sass/base/_fonts.scss */
 html {
   font-size: 16px;
 }
 
-/* line 21, ../sass/base/_fonts.scss */
+/* line 30, ../sass/base/_fonts.scss */
 h1 {
   font-size: 2em;
 }
 
-/* line 24, ../sass/base/_fonts.scss */
+/* line 33, ../sass/base/_fonts.scss */
 h2 {
   font-size: 1.8em;
 }
 
-/* line 27, ../sass/base/_fonts.scss */
+/* line 36, ../sass/base/_fonts.scss */
 h3 {
   font-size: 1.6em;
 }
 
-/* line 30, ../sass/base/_fonts.scss */
+/* line 39, ../sass/base/_fonts.scss */
 h4 {
   font-size: 1.4em;
 }
 
-/* line 33, ../sass/base/_fonts.scss */
+/* line 42, ../sass/base/_fonts.scss */
 h5 {
   font-size: 1.2em;
 }
 
-/* line 36, ../sass/base/_fonts.scss */
+/* line 45, ../sass/base/_fonts.scss */
 h6 {
   font-size: 1em;
+}
+
+/* line 1, ../sass/layout/_header.scss */
+.page-head {
+  padding: 0 80px;
+}
+/* line 3, ../sass/layout/_header.scss */
+.page-head-nav {
+  padding-top: 0px;
+}
+/* line 7, ../sass/layout/_header.scss */
+.page-head-nav-logo .navbar-brand img {
+  width: 100px;
+  display: inline-block;
+}
+/* line 13, ../sass/layout/_header.scss */
+.page-head-nav-headings {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 19, ../sass/layout/_header.scss */
+.page-head-nav-list-item {
+  padding: 50px 25px;
+}
+/* line 21, ../sass/layout/_header.scss */
+.page-head-nav-list-item.active {
+  background-color: rgba(237, 12, 110, 0.2);
+}
+/* line 24, ../sass/layout/_header.scss */
+.page-head-nav-list-item:hover:not(.active) {
+  background-color: rgba(237, 12, 110, 0.2);
+}
+/* line 27, ../sass/layout/_header.scss */
+.page-head-nav-list-item:hover:not(.active) a {
+  color: white;
+}
+
+/* line 1, ../sass/layout/_footer.scss */
+.page-footer {
+  margin-top: 40px;
+}
+/* line 4, ../sass/layout/_footer.scss */
+.page-footer h3, .page-footer h4, .page-footer h5 {
+  color: #ed0c6e;
+}
+
+/* line 1, ../sass/components/_buttons.scss */
+.button {
+  background-color: transparent;
+  padding: 7px 15px;
+  border-width: 2px;
+  outline: none;
+  margin: 20px 0;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 13, ../sass/components/_buttons.scss */
+.button-pink {
+  border-color: #ed0c6e;
+  color: #ed0c6e;
+}
+/* line 16, ../sass/components/_buttons.scss */
+.button-pink:hover {
+  background-color: rgba(237, 12, 110, 0.2);
+  transform: scale(1.02);
+  box-shadow: 0 0 8px 4px rgba(237, 12, 110, 0.2);
+}
+
+/* line 25, ../sass/components/_buttons.scss */
+.button-blue {
+  border-color: #0099cc;
+  color: #0099cc;
+}
+/* line 28, ../sass/components/_buttons.scss */
+.button-blue:hover {
+  background-color: rgba(0, 153, 204, 0.2);
+  transform: scale(1.02);
+  box-shadow: 0 0 8px 4px rgba(0, 153, 204, 0.2);
+}
+
+/* line 1, ../sass/pages/_home.scss */
+.home-linka {
+  text-align: center;
+}
+/* line 3, ../sass/pages/_home.scss */
+.home-linka p {
+  text-transform: uppercase;
+}
+/* line 6, ../sass/pages/_home.scss */
+.home-linka h1 {
+  color: #ed0c6e;
+  display: inline-block;
+  padding: 5px 20px;
+  margin: 5px 0 20px;
+  background-color: rgba(237, 12, 110, 0.2);
+}
+
+/* line 14, ../sass/pages/_home.scss */
+.home-intro {
+  padding: 0 18%;
+  text-align: center;
+}
+
+/* line 23, ../sass/pages/_home.scss */
+#faq .question h4 {
+  color: black;
+  margin-bottom: 5px;
 }
