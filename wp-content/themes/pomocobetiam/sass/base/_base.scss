@@ -1,3 +1,42 @@
 .text-center{
     text-align: center;
 }
+.block {
+    padding: 70px 0;
+    margin: 20px 0;
+    &-inner + &-inner {
+        margin-top: 20px;
+    }
+}
+.block-pink {
+    background-color: $main-background-color;
+    h2, h3, h4 {
+        color: $second-font-color;
+    }
+}
+.block-blue {
+    background-color: $second-background-color;
+    h2, h3, h4 {
+        color: $third-font-color;
+    }
+}
+.block-transparent {
+    background-color: transparent;
+    h2, h3, h4 {
+        color: $third-font-color;
+    }
+}
+
+.page-main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-info {
+    &-item {
+        display: inline-block;
+        & + & {
+            margin-left: 20px;
+        }
+    }
+}
