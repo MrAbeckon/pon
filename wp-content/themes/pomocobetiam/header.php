@@ -133,7 +133,12 @@
         </header>
 
         <!-- START OF PAGE -->
-        <main class="page-main container">
+        <?php 
+        global $post;
+        $page_title_class = $post->post_name ?? 'homepage';
+
+        ?>
+        <main class="page-main container <?php echo $page_title_class; ?>">
             <?php 
 
           // NOT HOME
