@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
 // COLORS
 $main-theme-color: $pink;
 $main-background-color: $light-pink;
@@ -11,10 +13,15 @@ $second-font-color: $pink;
 $third-font-color: $blue;
 
 // TYPOGRAPHY
-$font-main: 'Tahoma';
+$raleway: 'Raleway';
+$tahoma: 'Tahoma';
+$font-main: $tahoma;
 $font-second: 'Arial';
 $font-third: sans-serif;
+
+$navigation-fonts: ($font-main, $font-second, $font-third);
 $main-fonts: ($font-main, $font-second, $font-third);
+$block-fonts: ($raleway, $font-second, $font-third);
 
 $extra-large: 48px;
 $large: 32px;
