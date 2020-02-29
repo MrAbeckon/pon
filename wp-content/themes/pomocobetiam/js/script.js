@@ -20,6 +20,7 @@ var userAgent = navigator.userAgent.toLowerCase(),
   plugins = {
     rdGoogleMaps: $(".rd-google-map"),
     reCaptchaValidation: $('.wpcf7-form'),
+    navigationBar: $('.page-head'),
   };
 
 /**
@@ -159,9 +160,20 @@ $document.ready(function () {
         
       });
   }
-  
+  if (plugins.navigationBar.length) {
+
+    var innerNavWrap = $('.page-head-nav-list');   
+    var navItems = innerNavWrap.children('li');
+
+    navItems.each(function(index) {
+      if(window.location.pathname == $(this).children('a')[0].pathname) {
+
+        $(this).addClass('active');
+      }
+    });
+  }
   // cookie consent
-  if(true) {
+  if(false) {
     window.cookieconsent.initialise({
       container: document.getElementById("cookieconsent"),
       palette:{
