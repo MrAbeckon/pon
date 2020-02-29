@@ -1,7 +1,8 @@
 .page-head {
-    padding: 0 80px;
+    background-color: rgba(255,255,255,0.8);
     &-nav {
-        padding-top:0px;
+        padding:0px;
+
         &-logo {
             .navbar-brand {
                 img {
@@ -14,18 +15,81 @@
             display: inline-block;
             vertical-align: middle;
         }
-        &-list {
+        &-list {            
+            text-align: center;
+            letter-spacing: 1px;
             
+             * {
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                -webkit-transition: all 0.35s ease;
+                transition: all 0.35s ease;
+            }
+
             &-item {
-                padding: 50px 25px;
+                display: inline-block;
+                list-style: outside none none;
+                margin: 0 1em;
+                padding: 50px 5px;
+                
+                a {
+                    padding: 0.5em 0.8em;
+                    margin: 0.2em 0;
+                    display: block;
+                    color: rgba(0, 0, 0, 0.5);
+                    position: relative;
+                    text-decoration: none;
+
+                    &:before,
+                    &:after {
+                        height: 14px;
+                        width: 14px;
+                        position: absolute;
+                        content: '';
+                        -webkit-transition: all 0.35s ease;
+                        transition: all 0.35s ease;
+                        opacity: 0;
+                    }
+                    &:before {
+                        left: 0;
+                        top: 0;
+                        border-left: 3px solid $main-theme-color;
+                        border-top: 3px solid $main-theme-color;
+                        -webkit-transform: translate(100%, 50%);
+                        transform: translate(100%, 50%);
+                    }
+                    &:after {
+                        right: 0;
+                        bottom: 0;
+                        border-right: 3px solid $main-theme-color;
+                        border-bottom: 3px solid $main-theme-color;
+                        -webkit-transform: translate(-100%, -50%);
+                        transform: translate(-100%, -50%);
+                    }
+                    &:hover,
+                    .active & {
+                        color: #000;
+                    }
+                    &:hover:before,
+                    .active &:before,
+                    &:hover:after,
+                    .active &:after {
+                        -webkit-transform: translate(0%, 0%);
+                        transform: translate(0%, 0%);
+                        opacity: 1;
+                    }
+                }
+                &:hover a{
+                    text-decoration: none;
+                }
                 &.active {
-                    background-color: $main-background-color;
+                    // background-color: $main-background-color;
                 }
                 &:hover:not(.active) {
-                    background-color: $main-background-color;
+                    // background-color: $main-background-color;
                 }
                 &:hover:not(.active) a {
-                    color: $main-font-color2;
+                    // color: $main-font-color2;
                 
                 }
                 &-dropdown {
