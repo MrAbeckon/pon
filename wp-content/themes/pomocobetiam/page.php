@@ -1,10 +1,7 @@
 <?php get_header(); ?>
-	</div>
-</section>
 
-<!-- END OF CATEGORY HEADER -->
-<!-- START OF PAGE -->
-<section class="">
+	<!-- END OF CATEGORY HEADER -->
+	<!-- START OF PAGE CONTENT-->
 	<?php 
 	if(have_posts()):
 		while(have_posts()):
@@ -12,6 +9,8 @@
 			<?php the_content(); 
 		endwhile; 
 	endif; ?>
+	
+	</div>
 </section>
 
 <?php get_footer(); ?>
