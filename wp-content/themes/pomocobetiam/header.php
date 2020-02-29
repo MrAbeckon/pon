@@ -52,8 +52,8 @@
         </script>
 
         <!-- NAVIGATION BAR -->
-        <header class="page-head">
-          <nav class="page-head-nav navbar navbar-expand-lg">
+        <header class="page-head container fixed-top">
+          <nav class="page-head-nav navbar navbar-light navbar-expand-lg">
             <div class="page-head-nav-logo">
               <a class="navbar-brand" href="#">
                 <img src="<?php echo get_template_directory_uri() ?>/images/logo.jpg" alt="POMOC OBETIAM LOGO" />
@@ -63,9 +63,13 @@
                 <p>Občianske združenie</p>
                 <p>Victim Support Slovakia</p>
               </div>
-              
             </div>
-            <div class="collapse navbar-collapse justify-content-end">
+
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul class="page-head-nav-list navbar-nav">
                 <?php
                 $locations = get_nav_menu_locations();
@@ -141,43 +145,41 @@
         <main class="page-main container <?php echo $page_title_class; ?>">
             <?php 
 
-          // NOT HOME
+          // NOT HOMEPAGE
           if(!is_home()) { ?>
-            <section class="header-image section-40 section-sm-40 section-md-66 bg-gray-dark page-title-wrap">
-              <div class="shell">
-                <div class="page-title">
-                  <h1 id="course-title">
-                    <?php 
-                    if ( 'custom-taxonomy' == get_query_var( 'taxonomy' )) {
-                      $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) ); 
-                      echo $term->name;
-                    } else {
-                      the_title();
-                    } ?>
-                  </h1>
-                </div>
+            <section class="page-title-wrap">
+              <div class="page-title col-8 offset-2">
+                <h1 id="page-title">
+                  <?php 
+                  if ( 'custom-taxonomy' == get_query_var( 'taxonomy' )) {
+                    $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) ); 
+                    echo $term->name;
+                  } else {
+                    the_title();
+                  } ?>
+                </h1>
               </div>
             </section>
 
-          <!--OR CAROUSEL -->
+          <!--HOMEPAGE -->
         <?php } else { 
             // get_template_part('components/home', 'carousel');    
           } 
              
         // START OF LAYOUT ?>
 
-            <section class="row">
+          <?php
+              if (!is_home()): ?>
+            <section class="row block block-transparent pt-0">
+                <div class="col-8 offset-2 block-inner">
 
-            <?php
-                if (!is_home()): ?>
-                <div class="col-12">
-
-                <?php
-                else: ?>
-                <div class="col-12">
+              <?php
+              else: ?>
+              <section class="row">
+                  <div class="col-4">
                 
-                <?php
-                endif; ?>
+              <?php
+              endif; ?>
 
 
 
