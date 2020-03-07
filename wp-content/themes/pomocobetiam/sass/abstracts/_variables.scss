@@ -1,3 +1,5 @@
+@import "compass/css3/transition";
+@import "compass/css3/transform";
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
 
 // COLORS
@@ -9,8 +11,12 @@ $main-font-color2: $white;
 $second-theme-color: $blue;
 $second-background-color: $light-blue;
 $second-font-color: $pink;
+$second-font-color-medium: $medium-pink;
+$second-font-color-light: $light-pink;
 
 $third-font-color: $blue;
+$third-font-color-light: $light-blue;
+$third-font-color-medium: $medium-blue;
 
 // TYPOGRAPHY
 $raleway: 'Raleway';
@@ -27,3 +33,35 @@ $extra-large: 48px;
 $large: 32px;
 $big: 24px;
 $normal: 16px;
+
+%component {
+    background-color: transparent;
+    outline: none;
+    border-radius: 4px;
+    @include transition(all 0.3s ease-in-out);
+    i {
+        @include transition(all 0.3s ease-in-out);
+        padding-right: 5px;
+    }
+}
+%link {
+    @extend %component;
+
+    border: none;
+    padding: 8px 20px 8px 20px;
+    margin: 5px 0;
+    a {
+        padding: 0px 4px;
+    }
+}
+%button {
+    @extend %component;
+    border-width: 2px;
+    border-style: solid;
+    padding: 7px 15px;
+    font-weight: bold;
+    margin: 20px 0;
+    &:hover {
+        @include scale(1.1);
+    }
+}
