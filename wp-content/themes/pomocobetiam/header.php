@@ -146,7 +146,7 @@
             <?php 
 
           // NOT HOMEPAGE
-          if(!is_home()) { ?>
+          if(!is_front_page()) { ?>
             <section class="page-title-wrap">
               <div class="page-title col-8 offset-2">
                 <h1 id="page-title">
@@ -169,7 +169,7 @@
         // START OF LAYOUT ?>
 
           <?php
-              if (!is_home()): ?>
+              if (!is_front_page()): ?>
             <section class="row block block-transparent pt-0">
                 <div class="col-8 offset-2 block-inner">
 
