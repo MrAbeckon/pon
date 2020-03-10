@@ -26,8 +26,8 @@ endif;
 add_action('after_setup_theme', 'pomocobetiam_setup');
 
 // ENQUEUE
-$js_v = '0.1';
-$css_v = '0.1';
+$js_v = '1.1';
+$css_v = '1.1';
 function enqueueGoogleApi(){
   // wp_enqueue_script ( 'google-api', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyD8wff3dxcoXHYSJHnZNGMiXTctffRYwzU', array());
 }
@@ -51,6 +51,7 @@ function enqueue_styles_scripts() {
   wp_enqueue_style ('style', get_template_directory_uri().'/stylesheets/main.css', array(), $css_v);
   // wp_enqueue_style ('style-career', get_template_directory_uri().'/css/style-career.css', array(), $css_v);
   wp_enqueue_style ('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
+  wp_enqueue_style ('google-fonts', 'https://fonts.googleapis.com/css?family=Work+Sans:400,700&amp;subset=latin-ext');
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_styles_scripts' );
 
@@ -68,33 +69,33 @@ function remove_default_post_type() {
   remove_submenu_page('options-general.php', 'options-discussion.php');
 }
 add_action('admin_menu','remove_default_post_type');
+
 // favicon settings
 function favicon($rootPath) {
-  echo '<link rel="apple-touch-icon" sizes="180x180" href="/'. $rootPath .'wp-content/themes/pomocobetiam/apple-touch-icon.png">';
+  
+  echo '<link rel="apple-touch-icon" sizes="57x57" href="/'. $rootPath .'wp-content/themes/pomocobetiam/apple-icon-57x57.png">';
+  echo '<link rel="apple-touch-icon" sizes="60x60" href="/'. $rootPath .'wp-content/themes/pomocobetiam/apple-icon-60x60.png">';
+  echo '<link rel="apple-touch-icon" sizes="72x72" href="/'. $rootPath .'wp-content/themes/pomocobetiam/apple-icon-72x72.png">';
+  echo '<link rel="apple-touch-icon" sizes="76x76" href="/'. $rootPath .'wp-content/themes/pomocobetiam/apple-icon-76x76.png">';
+  echo '<link rel="apple-touch-icon" sizes="114x114" href="/'. $rootPath .'wp-content/themes/pomocobetiam/apple-icon-114x114.png">';
+  echo '<link rel="apple-touch-icon" sizes="120x120" href="/'. $rootPath .'wp-content/themes/pomocobetiam/apple-icon-120x120.png">';
+  echo '<link rel="apple-touch-icon" sizes="144x144" href="/'. $rootPath .'wp-content/themes/pomocobetiam/apple-icon-144x144.png">';
+  echo '<link rel="apple-touch-icon" sizes="152x152" href="/'. $rootPath .'wp-content/themes/pomocobetiam/apple-icon-152x152.png">';
+  echo '<link rel="apple-touch-icon" sizes="180x180" href="/'. $rootPath .'wp-content/themes/pomocobetiam/apple-icon-180x180.png">';
+
+  echo '<link rel="icon" type="image/png" sizes="192x192" href="/'. $rootPath .'wp-content/themes/pomocobetiam/android-icon-192x192.png">';
+  echo '<link rel="icon" type="image/png" sizes="96x96" href="/'. $rootPath .'wp-content/themes/pomocobetiam/favicon-96x96.png">';
   echo '<link rel="icon" type="image/png" sizes="32x32" href="/'. $rootPath .'wp-content/themes/pomocobetiam/favicon-32x32.png">';
   echo '<link rel="icon" type="image/png" sizes="16x16" href="/'. $rootPath .'wp-content/themes/pomocobetiam/favicon-16x16.png">';
-  echo '<link rel="manifest" href="/'. $rootPath .'wp-content/themes/pomocobetiam/site.webmanifest">';
-  echo '<link rel="mask-icon" href="/'. $rootPath .'wp-content/themes/pomocobetiam/safari-pinned-tab.svg" color="#5bbad5">';
-  echo '<meta name="msapplication-TileColor" content="#da532c">';
-  echo '<meta name="theme-color" content="#ffffff">';
-}
-// add_action('admin_head', 'favicon', '../');
-// add_action('wp_enqueue_scripts', 'favicon', '');
 
-// Skryti stranek ako homepage, organizacni pokyny
-function hide_posts_pages() {
-  global $current_user;
-  if (in_array('editor', $current_user->roles)) {
-      ?>
-      <style>
-          #post-49, #post-89{
-              display:none;
-          }
-      </style>
-      <?php
-  }
+  echo '<link rel="manifest" href="/'. $rootPath .'wp-content/themes/pomocobetiam/manifest.json">';
+  echo '<meta name="msapplication-TileColor" content="#ffffff">';
+  echo '<meta name="msapplication-TileImage" content="/'. $rootPath .'wp-content/themes/pomocobetiam/ms-icon-144x144.png">';
+  echo '<meta name="theme-color" content="#ffffff">';
+
 }
-// add_action('admin_head', 'hide_posts_pages');
+add_action('admin_head', 'favicon');
+add_action('wp_enqueue_scripts', 'favicon', '');
 
 // Smazani roli a zmena nazvu
 function majales_change_role_name() {
