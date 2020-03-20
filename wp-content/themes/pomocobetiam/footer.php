@@ -40,23 +40,23 @@
         <ul class="list-unstyled">
           <h5>Lorem</h5>
           <li>
-            <a href="#!">Link 1</a>
+            <a href="#">Link 1</a>
           </li>
           <li>
-            <a href="#!">Link 2</a>
+            <a href="#">Link 2</a>
           </li>
           <li>
-            <a href="#!">Link 3</a>
+            <a href="#">Link 3</a>
           </li>
         </ul>
 
         <ul class="list-unstyled">
           <h5>Lorem</h5>
           <li>
-            <a href="#!">Link 1</a>
+            <a href="#">Link 1</a>
           </li>
           <li>
-            <a href="#!">Link 2</a>
+            <a href="#">Link 2</a>
           </li>
         </ul>
 
@@ -69,20 +69,20 @@
         <ul class="list-unstyled">
           <h5>Lorem</h5>
           <li>
-            <a href="#!">Link 1</a>
+            <a href="#">Link 1</a>
           </li>
           <li>
-            <a href="#!">Link 2</a>
+            <a href="#">Link 2</a>
           </li>
         </ul>
 
         <ul class="list-unstyled">
           <h5>Lorem</h5>
           <li>
-            <a href="#!">Link 1</a>
+            <a href="#">Link 1</a>
           </li>
           <li>
-            <a href="#!">Link 2</a>
+            <a href="#">Link 2</a>
           </li>
         </ul>
 
@@ -92,7 +92,7 @@
 
     <div class="row copyright">
       <div class="col-12 text-center">
-        © 2014 Pomoc obetiam násilia - Victim support Slovakia
+        © 2020 Pomoc obetiam násilia - Victim support Slovakia
       </div>
     </div>
 
