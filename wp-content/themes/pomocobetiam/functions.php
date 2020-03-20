@@ -133,7 +133,7 @@ remove_action( 'template_redirect', 'wp_shortlink_header', 11 );
 add_filter('show_admin_bar', '__return_false');
 
 // POSTTYPES
-/******************************  PREZENCNE KURZY  ******************************/
+/******************************  FAQ  ******************************/
 function faq() {
   $labels = array(
     'name' => 'Najčastejšie otázky',
@@ -171,7 +171,47 @@ function faq() {
 
 }
 add_action('init', 'faq');
-/******************************  end PREZENCNE KURZY  ******************************/
+/******************************  end FAQ  ******************************/
+
+/******************************  vyrocne_spravy  ******************************/
+function vyrocne_spravy() {
+  $labels = array(
+    'name' => 'Výročné správy',
+    'singular_name' => 'Výročná správa',
+    'add_new' => 'Pridať výročnú správu',
+    'add_new_item' => 'Pridať novú výročnú správu',
+    'edit_item' => 'Zmeniť výročnú správu',
+    'new_item' => 'Pridať výročnú správu',
+    'all_items' => 'Zoznam výročných správ',
+    'view_item' => 'Zobrazit výročnú správu',
+    'search_items' => 'Hľadať výročné správy',
+    'not_found' => 'Výročné správy nenájdené',
+    'not_found_in_trash' => 'Výročné správy nenájdené',
+    'parent_item_colon' => '',
+    'menu_name' => 'Výročné správy'
+    );
+
+  $info = array(
+    'labels' => $labels,
+    'public' => true,
+    'publicly_queryable' => true,
+    'show_ui' => true,
+    'show_in_menu' => true,
+    'query_var' => true,
+    'rewrite' => array('slug' => 'vyrocne_spravy'),
+    'capability_type' => 'post',
+    'has_archive' => false,
+    'hierarchical' => false,
+    'menu_position' => null,
+    'supports' => array('title'),
+    'taxonomies' => array(),
+    );
+
+  register_post_type('vyrocne_spravy', $info);
+
+}
+add_action('init', 'vyrocne_spravy');
+/******************************  end vyrocne_spravy  ******************************/
 
 //Změna slova pro stránkování
   function my_custom_page_word() {
