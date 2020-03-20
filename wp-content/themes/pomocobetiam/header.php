@@ -175,8 +175,8 @@
 
               <?php
               else: ?>
-              <section class="row">
-                  <div class="col-4">
+              <section class="row mb-5">
+                  <div class="col-6 offset-3 text-center mb-4 ">
                 
               <?php
               endif; ?>

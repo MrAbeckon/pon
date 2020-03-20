@@ -10,7 +10,7 @@
 			<h1 class="text-center"><?php the_field('linka_pomoci'); ?></h1>
 		</div>
 	</div>
-	<div class="col-8">
+	<div class="col-6 offset-3 text-center">
 		<div class="home-intro">
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem molestias quod vel porro voluptatibus? Porro dolor sapiente maxime provident adipisci labore obcaecati temporibus corporis laboriosam quis? Id doloribus aliquid assumenda?
@@ -133,7 +133,7 @@
 			</a>
 		</div>
 		<div class="form">
-			<?php echo do_shortcode( '[contact-form-7 id="41" title="Web payment" html_class="form-support"]'); ?>
+			<?php echo do_shortcode( '[contact-form-7 id="41" title="Kontaktujte nás" html_class="form-support"]'); ?>
 		</div>
 	</div>
 	<!-- <div class="col-4 offset-2 block-inner">
