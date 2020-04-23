@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Nineteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-06-17 15:25:47+0000\n"
+"PO-Revision-Date: 2020-04-03 07:46:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,7 +19,19 @@ msgstr "Naša predvolená téma na rok 2019 bola navrhnutá tak, aby ukázala si
 msgid "Twenty Nineteen"
 msgstr "Twenty Nineteen"
 
-#. translators: %s: parent post link
+#: classes/class-twentynineteen-walker-comment.php:96
+msgid "Your comment is awaiting moderation. This is a preview, your comment will be visible after it has been approved."
+msgstr "Váš komentár čaká na schválenie. Toto je iba náhľad, komentár bude viditeľný až po schválení."
+
+#: functions.php:153
+msgid "Dark Blue"
+msgstr "Tmavomodrá"
+
+#: functions.php:148
+msgid "Blue"
+msgstr "Modrá"
+
+#. translators: %s: Parent post link.
 #: single.php:31
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%s</span>"
 msgstr "<span class=\"meta-nav\">Publikované v</span><span class=\"post-title\">%s</span>"
@@ -29,21 +41,22 @@ msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><br><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Publikované v </span><br><span class=\"post-title\">%title</span>"
 
-#: template-parts/content/content.php:18
 #: template-parts/content/content-excerpt.php:18
+#: template-parts/content/content.php:18
 msgctxt "post"
 msgid "Featured"
 msgstr "Odporúčaný"
 
-#: inc/back-compat.php:39 inc/back-compat.php:53 inc/back-compat.php:73
+#. translators: %s: WordPress version.
+#: inc/back-compat.php:40 inc/back-compat.php:55 inc/back-compat.php:76
 msgid "Twenty Nineteen requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again."
 msgstr "Twenty Nineteen vyžaduje minimálne WordPress 4.7. Vy používate verziu %s. Prejdite na novšiu verziu a skúste to znovu."
 
-#: inc/template-functions.php:216
+#: inc/template-functions.php:143
 msgid "Back"
 msgstr "Späť"
 
-#: inc/template-functions.php:209
+#: inc/template-functions.php:136
 msgid "More"
 msgstr "Viac"
 
@@ -65,55 +78,51 @@ msgctxt "primary color"
 msgid "Default"
 msgstr "Predvolená"
 
-#: functions.php:166
+#: functions.php:168
 msgid "White"
 msgstr "Biela"
 
-#: functions.php:161
+#: functions.php:163
 msgid "Light Gray"
 msgstr "Svetlá šedá"
 
-#: functions.php:156
+#: functions.php:158
 msgid "Dark Gray"
 msgstr "Tmavá šedá"
 
-#: functions.php:151
-msgid "Secondary"
-msgstr "Sekundárne"
-
-#: functions.php:134
+#: functions.php:136
 msgid "XL"
 msgstr "XL"
 
-#: functions.php:133
+#: functions.php:135
 msgid "Huge"
 msgstr "Obrovský"
 
-#: functions.php:128
+#: functions.php:130
 msgid "L"
 msgstr "L"
 
-#: functions.php:127
+#: functions.php:129
 msgid "Large"
 msgstr "Veľký"
 
-#: functions.php:122
+#: functions.php:124
 msgid "M"
 msgstr "M"
 
-#: functions.php:121
+#: functions.php:123
 msgid "Normal"
 msgstr "Normálny"
 
-#: functions.php:115
+#: functions.php:117
 msgid "Small"
 msgstr "Malý"
 
-#: functions.php:116
+#: functions.php:118
 msgid "S"
 msgstr "S"
 
-#: functions.php:60 footer.php:37
+#: footer.php:37 functions.php:60
 msgid "Footer Menu"
 msgstr "Menu pätičky"
 
@@ -126,11 +135,11 @@ msgstr "Plná veľkosť"
 msgid "Page"
 msgstr "Stránka"
 
-#: functions.php:190
+#: functions.php:192
 msgid "Add widgets here to appear in your footer."
 msgstr "Widgety sem pridané sa zobrazia vo vašej pätičke."
 
-#: functions.php:188 template-parts/footer/footer-widgets.php:12
+#: template-parts/footer/footer-widgets.php:12 functions.php:190
 msgid "Footer"
 msgstr "Pätička"
 
@@ -142,7 +151,7 @@ msgstr "Hlavné farba"
 msgid "No comments"
 msgstr "Žiadne komentáre"
 
-#. translators: %1(X comments)$s
+#. translators: %d: Number of comments.
 #: template-parts/post/discussion-meta.php:16
 msgid "%d Comment"
 msgid_plural "%d Comments"
@@ -154,7 +163,7 @@ msgstr[2] "%d komentárov"
 msgid "View more posts"
 msgstr "Zobraziť viac článkov"
 
-#. translators: %s: post author
+#. translators: %s: Post author.
 #: template-parts/post/author-bio.php:17
 msgid "Published by %s"
 msgstr "Publikoval %s"
@@ -163,15 +172,15 @@ msgstr "Publikoval %s"
 msgid "Top Menu"
 msgstr "Horné menu"
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content/content.php:36
+#. translators: %s: Post title. Only visible to screen readers.
 #: template-parts/content/content-single.php:27
+#: template-parts/content/content.php:36
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "Pokračovať v čítaní<span class=\"screen-reader-text\"> \"%s\"</span>"
 
-#: image.php:52 template-parts/content/content-page.php:27
-#: template-parts/content/content.php:49
 #: template-parts/content/content-single.php:40
+#: template-parts/content/content.php:49
+#: template-parts/content/content-page.php:27 image.php:52
 msgid "Pages:"
 msgstr "Stránky:"
 
@@ -183,7 +192,7 @@ msgstr "Vyzerá to, že nemôžeme nájsť čo hľadáte. Možno pomôže vyhlad
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr "Ľutujeme, hľadaný výraz sa nenašiel. Prosím, skúste iné kľúčové slová."
 
-#. translators: 1: link to WP admin new post page.
+#. translators: 1: Link to WP admin new post page.
 #: template-parts/content/content-none.php:26
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "Ste pripravený publikovať váš prvý príspevok? <a href=\"%1$s\">Začnite tu</a>."
@@ -209,7 +218,7 @@ msgid "Next Post"
 msgstr "Ďalší článok"
 
 #: search.php:22
-msgid "Search results for:"
+msgid "Search results for: "
 msgstr "Výsledky vyhľadávania: "
 
 #: inc/template-tags.php:234
@@ -228,12 +237,12 @@ msgstr "Značky:"
 msgid "Posted in"
 msgstr "Publikované v "
 
-#. translators: used between list items, there is a space after the comma.
+#. translators: Used between list items, there is a space after the comma.
 #: inc/template-tags.php:86 inc/template-tags.php:98
 msgid ", "
 msgstr ", "
 
-#. translators: %s: Name of current post. Only visible to screen readers.
+#. translators: %s: Post title. Only visible to screen readers.
 #: inc/template-tags.php:63
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Zanechať komentár<span class=\"screen-reader-text\"> na %s</span>"
@@ -256,7 +265,7 @@ msgstr "R"
 msgid "Archives:"
 msgstr "Archívy:"
 
-#. translators: %s: Taxonomy singular name
+#. translators: %s: Taxonomy singular name.
 #: inc/template-functions.php:90
 msgid "%s Archives:"
 msgstr "%s Archívy:"
@@ -289,10 +298,9 @@ msgstr "Archívy značiek"
 msgid "Category Archives: "
 msgstr "Archívy kategórie:"
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#. translators: %s: Name of current post. Only visible to screen readers.
-#: template-parts/content/content-page.php:41
-#: template-parts/header/entry-header.php:32 inc/template-tags.php:120
+#. translators: %s: Post title. Only visible to screen readers.
+#: template-parts/header/entry-header.php:32
+#: template-parts/content/content-page.php:41 inc/template-tags.php:120
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "Upraviť <span class=\"screen-reader-text\">%s</span>"
 
@@ -300,11 +308,11 @@ msgstr "Upraviť <span class=\"screen-reader-text\">%s</span>"
 msgid "Skip to content"
 msgstr "Prejsť na obsah"
 
-#: functions.php:61 template-parts/header/site-branding.php:46
+#: template-parts/header/site-branding.php:46 functions.php:61
 msgid "Social Links Menu"
 msgstr "Menu odkazov sociálnych sietí"
 
-#: functions.php:59 functions.php:146
+#: functions.php:59
 msgid "Primary"
 msgstr "Primárne"
 
@@ -329,7 +337,7 @@ msgstr "Predchádzajúca"
 msgid "Comments"
 msgstr "Komentáre"
 
-#. translators: 1: number of comments, 2: post title
+#. translators: 1: Number of comments, 2: Post title.
 #: comments.php:44
 msgctxt "comments title"
 msgid "%1$s reply on &ldquo;%2$s&rdquo;"
@@ -338,7 +346,7 @@ msgstr[0] "%1$s odpoveď na &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s odpovede na &ldquo;%2$s&rdquo;"
 msgstr[2] "%1$s odpovedí na &ldquo;%2$s&rdquo;"
 
-#. translators: %s: post title
+#. translators: %s: Post title.
 #: comments.php:40
 msgctxt "comments title"
 msgid "One reply on &ldquo;%s&rdquo;"
@@ -352,20 +360,21 @@ msgstr "Zanechať komentár"
 msgid "Join the Conversation"
 msgstr "Pridajte sa do konverzácie"
 
-#: classes/class-twentynineteen-walker-comment.php:99
+#: classes/class-twentynineteen-walker-comment.php:94
 msgid "Your comment is awaiting moderation."
 msgstr "Váš komentár čaká na schválenie."
 
-#: classes/class-twentynineteen-walker-comment.php:94
+#: classes/class-twentynineteen-walker-comment.php:87
 msgid "Edit"
 msgstr "Upraviť"
 
-#. translators: 1: comment date, 2: comment time
-#: classes/class-twentynineteen-walker-comment.php:86
+#. translators: 1: Comment date, 2: Comment time.
+#: classes/class-twentynineteen-walker-comment.php:79
 msgid "%1$s at %2$s"
 msgstr "%1$s o %2$s"
 
-#: classes/class-twentynineteen-walker-comment.php:66
+#. translators: %s: Comment author link.
+#: classes/class-twentynineteen-walker-comment.php:59
 msgid "%s <span class=\"screen-reader-text says\">says:</span>"
 msgstr "%s <span class=\"screen-reader-text says\">hovorí:</span>"
 
