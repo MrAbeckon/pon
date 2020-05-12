@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.4.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-03-26 14:35:16+0000\n"
+"PO-Revision-Date: 2020-04-29 19:20:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -48,7 +48,7 @@ msgid "&#8221;"
 msgstr "&#8220;"
 
 #. translators: Opening curly double quote.
-#: wp-includes/formatting.php:101 wp-includes/formatting.php:5379
+#: wp-includes/formatting.php:101 wp-includes/formatting.php:5396
 msgctxt "opening curly double quote"
 msgid "&#8220;"
 msgstr "&#8222;"
@@ -78,22 +78,22 @@ msgid "number_format_thousands_sep"
 msgstr " "
 
 #. translators: 1: Type of block (i.e. Text, Image etc)
-#: wp-includes/js/dist/block-editor.js:23769
+#: wp-includes/js/dist/block-editor.js:23760
 msgid "Block %1$s is at the beginning of the content and can’t be moved left"
 msgstr "Blok %1$s je na začiatku obsahu a preto nemôže byť posunutý vľavo."
 
 #. translators: 1: Type of block (i.e. Text, Image etc)
-#: wp-includes/js/dist/block-editor.js:23764
+#: wp-includes/js/dist/block-editor.js:23755
 msgid "Block %1$s is at the beginning of the content and can’t be moved up"
 msgstr "Blok %1$s je na začiatku obsahu a preto nemôže byť posunutý vyššie"
 
 #. translators: 1: Type of block (i.e. Text, Image etc)
-#: wp-includes/js/dist/block-editor.js:23729
+#: wp-includes/js/dist/block-editor.js:23720
 msgid "Block %1$s is at the end of the content and can’t be moved left"
 msgstr "Blok %1$s je na konci obsahu a nemôže byť posunutý vľavo"
 
 #. translators: 1: Type of block (i.e. Text, Image etc)
-#: wp-includes/js/dist/block-editor.js:23724
+#: wp-includes/js/dist/block-editor.js:23715
 msgid "Block %1$s is at the end of the content and can’t be moved down"
 msgstr "Blok %1$s je na konci obsahu a nemôže byť posunutý dole"
 
@@ -439,121 +439,121 @@ msgstr "Sprievodca na privítanie"
 msgid "Keyboard shortcuts"
 msgstr "Klávesové skratky"
 
-#: wp-includes/js/dist/block-editor.js:25291
+#: wp-includes/js/dist/block-editor.js:25282
 msgid "Remove multiple selected blocks."
 msgstr "Odstrániť vybrané bloky."
 
 #. translators: 1: Type of block (i.e. Text, Image etc), 2: Position of
 #. selected block, 3: New position
-#: wp-includes/js/dist/block-editor.js:23714
-#: wp-includes/js/dist/block-editor.js:23754
+#: wp-includes/js/dist/block-editor.js:23705
+#: wp-includes/js/dist/block-editor.js:23745
 msgid "Move %1$s block from position %2$d right to position %3$d"
 msgstr "Presunúť %1$s blok z pozície %2$d vpravo na pozíciu %3$d"
 
 #. translators: 1: Type of block (i.e. Text, Image etc), 2: Position of
 #. selected block, 3: New position
-#: wp-includes/js/dist/block-editor.js:23709
-#: wp-includes/js/dist/block-editor.js:23749
+#: wp-includes/js/dist/block-editor.js:23700
+#: wp-includes/js/dist/block-editor.js:23740
 msgid "Move %1$s block from position %2$d left to position %3$d"
 msgstr "Presunúť %1$s blok z pozície %2$d vľavo na pozíciu %3$d"
 
-#: wp-includes/js/dist/block-editor.js:22539
+#: wp-includes/js/dist/block-editor.js:22530
 msgid "Tools offer different interactions for block selection & editing. To select, press Escape, to go back to editing, press Enter."
 msgstr "Nástroje ponúkajú rôzne možnosti interakcie pre výber blokov a editovanie. Pre voľbu, stlačte Escape, pre návrat k editácii, stlačte Enter."
 
-#: wp-includes/js/dist/block-editor.js:21574
+#: wp-includes/js/dist/block-editor.js:21565
 msgid "Large screens"
 msgstr "Veľké obrazovky"
 
-#: wp-includes/js/dist/block-editor.js:21571
+#: wp-includes/js/dist/block-editor.js:21562
 msgid "Medium screens"
 msgstr "Stredne veľké obrazovky"
 
-#: wp-includes/js/dist/block-editor.js:21568
+#: wp-includes/js/dist/block-editor.js:21559
 msgid "Small screens"
 msgstr "Malé obrazovky"
 
-#: wp-includes/js/dist/block-editor.js:21586
+#: wp-includes/js/dist/block-editor.js:21577
 msgid "Toggle between using the same value for all screen sizes or using a unique value per screen size."
 msgstr "Prepnite medzi použitím rovnakej hodnoty pre všetky veľkosti obrazovky alebo použitím jedinečnej hodnoty pre každú veľkosť obrazovky."
 
-#: wp-includes/js/dist/block-editor.js:21583
+#: wp-includes/js/dist/block-editor.js:21574
 msgid "Use the same %s on all screensizes."
 msgstr "Použite rovnaké %s pre všetky veľkosti obrazovky."
 
-#: wp-includes/js/dist/block-editor.js:21520
+#: wp-includes/js/dist/block-editor.js:21511
 msgctxt "Text labelling a interface as controlling a given layout property (eg: margin) for a given screen size."
 msgid "Controls the %1$s property for %2$s viewports."
 msgstr "Nastavuje vlastnosť %1$s pre %2$s výrezy."
 
-#: wp-includes/js/dist/block-editor.js:20918
+#: wp-includes/js/dist/block-editor.js:20909
 msgid "Open Media Library"
 msgstr "Otvoriť knižnicu multimédií"
 
-#: wp-includes/js/dist/block-editor.js:20825
+#: wp-includes/js/dist/block-editor.js:20816
 msgid "The media file has been replaced"
 msgstr "Mediálna položka bola nahradená"
 
-#: wp-includes/js/dist/block-editor.js:20113
+#: wp-includes/js/dist/block-editor.js:20104
 msgid "Currently selected"
 msgstr "Aktuálne vybrané"
 
-#: wp-includes/js/dist/block-editor.js:19797
+#: wp-includes/js/dist/block-editor.js:19788
 msgid "Search or type url"
 msgstr "Vyhľadajte alebo zadajte URL"
 
-#: wp-includes/js/dist/block-editor.js:19716
+#: wp-includes/js/dist/block-editor.js:19707
 msgid "Press ENTER to add this link"
 msgstr "Pre pridanie odkazu stlačte ENTER"
 
-#: wp-includes/js/dist/block-editor.js:20065
+#: wp-includes/js/dist/block-editor.js:20056
 msgid "Recently updated"
 msgstr "Naposledy aktualizované"
 
-#: wp-includes/js/dist/block-editor.js:19666
+#: wp-includes/js/dist/block-editor.js:19657
 msgid "Currently selected link settings"
 msgstr "Aktuálne vybrané nastavenia odkazov"
 
-#: wp-includes/js/dist/block-editor.js:19200
+#: wp-includes/js/dist/block-editor.js:19191
 msgid "Image size"
 msgstr "Veľkosť obrázku"
 
-#: wp-includes/js/dist/block-editor.js:19068
+#: wp-includes/js/dist/block-editor.js:19059
 msgid "Gradient Presets"
 msgstr "Predvolené gradienty (prechody)"
 
-#: wp-includes/js/dist/block-editor.js:19001
+#: wp-includes/js/dist/block-editor.js:18992
 msgid "Editor footer"
 msgstr "Pätička editora"
 
-#: wp-includes/js/dist/block-editor.js:18720
+#: wp-includes/js/dist/block-editor.js:18711
 msgid "Select a variation to start with."
 msgstr "Vyberte variáciu s ktorou začnete."
 
-#: wp-includes/js/dist/block-editor.js:18718
+#: wp-includes/js/dist/block-editor.js:18709
 msgid "Choose variation"
 msgstr "Vyberte variáciu"
 
-#: wp-includes/js/dist/block-editor.js:18195
-#: wp-includes/js/dist/block-editor.js:18449
+#: wp-includes/js/dist/block-editor.js:18186
+#: wp-includes/js/dist/block-editor.js:18440
 msgctxt "Generic label for block inserter button"
 msgid "Add block"
 msgstr "Pridať blok"
 
 #. translators: %s: the name of the block when there is only one
-#: wp-includes/js/dist/block-editor.js:18193
-#: wp-includes/js/dist/block-editor.js:18447
+#: wp-includes/js/dist/block-editor.js:18184
+#: wp-includes/js/dist/block-editor.js:18438
 msgctxt "directly add the only allowed block"
 msgid "Add %s"
 msgstr "Pridať %s"
 
 #. translators: %s: the name of the block that has been added
-#: wp-includes/js/dist/block-editor.js:18141
-#: wp-includes/js/dist/block-editor.js:18400
+#: wp-includes/js/dist/block-editor.js:18132
+#: wp-includes/js/dist/block-editor.js:18391
 msgid "%s block added"
 msgstr "blok %s pridaný"
 
-#: wp-includes/js/dist/block-editor.js:15314
+#: wp-includes/js/dist/block-editor.js:15305
 msgid "Multiple selected blocks"
 msgstr "Viacero vybraných blokov"
 
@@ -626,7 +626,7 @@ msgid "(%s: color %s)"
 msgstr "(%s: farba %s)"
 
 #: wp-includes/js/dist/block-editor.js:7226
-#: wp-includes/js/dist/block-editor.js:19122
+#: wp-includes/js/dist/block-editor.js:19113
 msgid "Gradient"
 msgstr "Gradient(prechod)"
 
@@ -937,7 +937,7 @@ msgstr "Zadajte svoje používateľské meno alebo e-mailovú adresu. Dostanete 
 msgid "Media upload failed. If this is a photo or a large image, please scale it down and try again."
 msgstr "Nahrávanie médií zlyhalo. Ak ide o fotku alebo veľký obrázok, zmenšite ho a skúste to znova."
 
-#: wp-includes/js/dist/block-editor.js:18014
+#: wp-includes/js/dist/block-editor.js:18005
 msgid "No Preview Available."
 msgstr "Náhľad nie je dostupný."
 
@@ -997,8 +997,8 @@ msgstr[2] "%s vybraných položiek"
 msgid "Filter Media"
 msgstr "Filtrovať médiá"
 
-#: wp-includes/js/dist/block-editor.js:18592
-#: wp-includes/js/dist/block-editor.js:18669
+#: wp-includes/js/dist/block-editor.js:18583
+#: wp-includes/js/dist/block-editor.js:18660
 msgid "Block navigation"
 msgstr "Navigácia bloku"
 
@@ -1048,13 +1048,13 @@ msgstr "Nastavenia obsahu článku"
 msgid "Column settings"
 msgstr "Nastavenia stĺpcov"
 
-#: wp-includes/js/dist/block-editor.js:24047
-#: wp-includes/js/dist/block-editor.js:24053
+#: wp-includes/js/dist/block-editor.js:24038
+#: wp-includes/js/dist/block-editor.js:24044
 msgid "Move right"
 msgstr "Presunúť vpravo"
 
-#: wp-includes/js/dist/block-editor.js:24047
-#: wp-includes/js/dist/block-editor.js:24053
+#: wp-includes/js/dist/block-editor.js:24038
+#: wp-includes/js/dist/block-editor.js:24044
 msgid "Move left"
 msgstr "Presunúť vľavo"
 
@@ -1158,8 +1158,8 @@ msgstr "Pri citovaní iných citujeme sami seba."
 msgid "Ordered list settings"
 msgstr "Nastavenia zoradeného zoznamu"
 
-#: wp-includes/js/dist/block-editor.js:19633
-#: wp-includes/js/dist/block-editor.js:22899
+#: wp-includes/js/dist/block-editor.js:19624
+#: wp-includes/js/dist/block-editor.js:22890
 #: wp-includes/js/dist/block-library.js:9741
 #: wp-includes/js/dist/block-library.js:13578
 msgid "Open in new tab"
@@ -1361,7 +1361,7 @@ msgstr "Blok sa vykresľuje ako prázdny."
 msgid "More tools & options"
 msgstr "Viac nástrojov a možností"
 
-#: wp-includes/js/dist/block-editor.js:26253
+#: wp-includes/js/dist/block-editor.js:26249
 msgid "Learn more about anchors"
 msgstr "Viac informácií o kotvách"
 
@@ -1377,7 +1377,7 @@ msgstr "Zakázať & Znovu načítať"
 msgid "Display these keyboard shortcuts."
 msgstr "Zobraziť tieto klávesové skratky."
 
-#: wp-includes/js/dist/block-editor.js:26355
+#: wp-includes/js/dist/block-editor.js:26351
 msgid "Separate multiple classes with spaces."
 msgstr "Viaceré triedy oddeľte medzerami."
 
@@ -1392,7 +1392,7 @@ msgstr[2] "%1$d blokov je zakázaných."
 msgid "Pre-publish checks"
 msgstr "Kontrola pred publikovaním"
 
-#: wp-includes/js/dist/block-editor.js:26251
+#: wp-includes/js/dist/block-editor.js:26247
 msgid "Enter a word or two — without spaces — to make a unique web address just for this heading, called an “anchor.” Then, you’ll be able to link directly to this section of your page."
 msgstr "Zadajte jedno alebo dve slová (bez medzier) aby ste vytvorili jedinečnú webovú adresu len pre tento nadpis, ktorá sa nazýva „anchor“ (kotva). Potom budete môcť priamo odkazovať na túto časť svojej stránky."
 
@@ -1400,28 +1400,28 @@ msgstr "Zadajte jedno alebo dve slová (bez medzier) aby ste vytvorili jedinečn
 msgid "Inserter help panel"
 msgstr "Panel pomoci pre vkladanie obsahu"
 
-#: wp-includes/js/dist/block-editor.js:23541
+#: wp-includes/js/dist/block-editor.js:23532
 msgid "Default Style"
 msgstr "Predvolený štýl"
 
-#: wp-includes/js/dist/block-editor.js:21280
+#: wp-includes/js/dist/block-editor.js:21271
 msgid "Upload a video file, pick one from your media library, or add one with a URL."
 msgstr "Nahrajte video súbor, vyberte ho z knižnice alebo načítajte z URL adresy."
 
-#: wp-includes/js/dist/block-editor.js:21278
+#: wp-includes/js/dist/block-editor.js:21269
 #: wp-includes/js/dist/block-library.js:5201
 msgid "Upload an image file, pick one from your media library, or add one with a URL."
 msgstr "Nahrajte súbor obrázku, vyberte ho z knižnice alebo načítajte z URL adresy."
 
-#: wp-includes/js/dist/block-editor.js:18315
+#: wp-includes/js/dist/block-editor.js:18306
 msgid "Add a block"
 msgstr "Pridať blok"
 
-#: wp-includes/js/dist/block-editor.js:18755
+#: wp-includes/js/dist/block-editor.js:18746
 msgid "Skip"
 msgstr "Preskočiť"
 
-#: wp-includes/js/dist/block-editor.js:18020
+#: wp-includes/js/dist/block-editor.js:18011
 msgid "There are blocks available for all kinds of content: insert text, headings, images, lists, videos, tables, and lots more."
 msgstr "Sú dostupné bloky pre všetky typy obsahu: pridanie textu, nadpisy, obrázky, zoznamy, videá, tabuľky a veľa iných."
 
@@ -1429,47 +1429,47 @@ msgstr "Sú dostupné bloky pre všetky typy obsahu: pridanie textu, nadpisy, ob
 msgid "This color combination may be hard for people to read."
 msgstr "Táto farebná kombinácia môže byť pre ľudí ťažko čitateľná."
 
-#: wp-includes/js/dist/block-editor.js:21276
+#: wp-includes/js/dist/block-editor.js:21267
 msgid "Upload an audio file, pick one from your media library, or add one with a URL."
 msgstr "Nahrajte audio súbor, vyberte ho z knižnice alebo načítajte z URL adresy."
 
-#: wp-includes/js/dist/block-editor.js:21273
+#: wp-includes/js/dist/block-editor.js:21264
 msgid "Upload a media file or pick one from your media library."
 msgstr "Nahrajte súbor medií alebo ho vyberte z knižnice."
 
-#: wp-includes/js/dist/block-editor.js:18020
+#: wp-includes/js/dist/block-editor.js:18011
 msgid "Browse through the library to learn more about what each block does."
 msgstr "Preskúmajte knižnicu a zistite viac o tom, čo ktorý blok robí."
 
-#: wp-includes/js/dist/block-editor.js:18020
+#: wp-includes/js/dist/block-editor.js:18011
 msgid "While writing, you can press <kbd>/</kbd> to quickly insert new blocks."
 msgstr "Počas písania stlačte <kbd>/</kbd> pre rýchle vloženie nového bloku."
 
-#: wp-includes/js/dist/block-editor.js:18020
+#: wp-includes/js/dist/block-editor.js:18011
 msgid "Content blocks"
 msgstr "Obsahové bloky"
 
-#: wp-includes/js/dist/block-editor.js:18826
+#: wp-includes/js/dist/block-editor.js:18817
 msgctxt "Block vertical alignment setting"
 msgid "Vertically Align Middle"
 msgstr "Vertikálne zarovnať nastred"
 
-#: wp-includes/js/dist/block-editor.js:18830
+#: wp-includes/js/dist/block-editor.js:18821
 msgctxt "Block vertical alignment setting"
 msgid "Vertically Align Bottom"
 msgstr "Vertikálne zarovnať nadol"
 
-#: wp-includes/js/dist/block-editor.js:18822
+#: wp-includes/js/dist/block-editor.js:18813
 msgctxt "Block vertical alignment setting"
 msgid "Vertically Align Top"
 msgstr "Vertikálne zarovnať nahor"
 
-#: wp-includes/js/dist/block-editor.js:18854
+#: wp-includes/js/dist/block-editor.js:18845
 msgctxt "Block vertical alignment setting label"
 msgid "Change vertical alignment"
 msgstr "Zmeniť vertikálne zarovnanie"
 
-#: wp-includes/js/dist/block-editor.js:18020
+#: wp-includes/js/dist/block-editor.js:18011
 msgid "Welcome to the wonderful world of blocks! Blocks are the basis of all content within the editor."
 msgstr "Vitajte v úžasnom svete blokov. Bloky sú základom každého obsahu v rámci editora."
 
@@ -1593,7 +1593,7 @@ msgstr "Oddeľte čiarkami, medzerami alebo tlačidlom Enter."
 msgid "Separate with commas or the Enter key."
 msgstr "Oddeľte čiarkami alebo tlačidlom Enter."
 
-#: wp-includes/formatting.php:4786
+#: wp-includes/formatting.php:4803
 msgid "https://wordpress.org/support/article/using-permalinks/#choosing-your-permalink-structure"
 msgstr "https://wordpress.org/support/article/using-permalinks/#choosing-your-permalink-structure"
 
@@ -1825,7 +1825,7 @@ msgid "Unexpected response from the server. The file may have been uploaded succ
 msgstr "Neočakávaná odpoveď servera. Súbor sa pravdepodobne nahral úspešne. Skontrolujte Knižnicu médií alebo obnovte stránku."
 
 #. translators: Maximum number of words used in a post excerpt.
-#: wp-includes/formatting.php:3810
+#: wp-includes/formatting.php:3827
 msgctxt "excerpt_length"
 msgid "55"
 msgstr "55"
@@ -1850,7 +1850,7 @@ msgstr "Náhľad prílohy"
 msgid "Your browser cannot upload files"
 msgstr "Váš prehliadač nemôže nahrávať súbory"
 
-#: wp-includes/class-wp-customize-manager.php:5466
+#: wp-includes/class-wp-customize-manager.php:5493
 msgctxt "Original Size"
 msgid "Original"
 msgstr "Pôvodná veľkosť"
@@ -2256,7 +2256,7 @@ msgstr "Funkcia deaktivovaná"
 msgid "Block Manager"
 msgstr "Manažér blokov"
 
-#: wp-includes/js/dist/block-editor.js:23348
+#: wp-includes/js/dist/block-editor.js:23339
 #: wp-includes/js/dist/block-library.js:5790
 #: wp-includes/js/dist/block-library.js:6922
 #: wp-includes/js/dist/block-library.js:17706
@@ -2283,7 +2283,7 @@ msgstr "Chyba nebola spôsobená pluginom alebo témou."
 msgid "Failed to store the error."
 msgstr "Nastala chyba pri ukladaní chyby."
 
-#: wp-includes/js/dist/block-editor.js:24772
+#: wp-includes/js/dist/block-editor.js:24763
 msgid "Change block type or style"
 msgstr "Zmeniť typ alebo štýl bloku"
 
@@ -2304,7 +2304,7 @@ msgstr "Ukončenie režimu obnovenia zlyhalo. Skúste neskôr."
 msgid "Exit recovery mode link expired."
 msgstr "Odkaz ukončenia módu obnovy vypršal."
 
-#: wp-includes/js/dist/block-editor.js:21720
+#: wp-includes/js/dist/block-editor.js:21711
 msgid "More rich text controls"
 msgstr "Viac možností bohatého textu"
 
@@ -2483,7 +2483,7 @@ msgid "REST API routes must be registered on the %s action."
 msgstr "REST API cesty musia byť registrované akciou %s."
 
 #. translators: Used to join last two items in a list with more than 2 times.
-#: wp-includes/formatting.php:5053
+#: wp-includes/formatting.php:5070
 msgid "%1$s, and %2$s"
 msgstr "%1$s, a %2$s"
 
@@ -2575,7 +2575,7 @@ msgstr "Zdá sa, že webová stránka už bola odinicializovaná."
 #. translators: %s: Time duration in second or seconds.
 #. translators: Time difference between two dates, in seconds. %s: Number of
 #. seconds.
-#: wp-includes/functions.php:537 wp-includes/formatting.php:3723
+#: wp-includes/functions.php:537 wp-includes/formatting.php:3740
 msgid "%s second"
 msgid_plural "%s seconds"
 msgstr[0] "%s sekunda"
@@ -2596,7 +2596,7 @@ msgid "%1$s by %2$s pixels"
 msgstr "%1$s na %2$s pixelov"
 
 #. translators: Used to join items in a list with more than 2 items.
-#: wp-includes/formatting.php:5051
+#: wp-includes/formatting.php:5068
 msgid "%1$s, %2$s"
 msgstr "%1$s, %2$s"
 
@@ -2689,7 +2689,7 @@ msgid "Top toolbar"
 msgstr "Horný panel nástrojov"
 
 #. translators: %d: number of words
-#: wp-includes/js/dist/block-editor.js:23478
+#: wp-includes/js/dist/block-editor.js:23469
 msgid "%d word"
 msgid_plural "%d words"
 msgstr[0] "%d slovo"
@@ -2700,7 +2700,7 @@ msgstr[2] "%d slov"
 msgid "Classic Block Keyboard Shortcuts"
 msgstr "Klávesové skratky klasického bloku"
 
-#: wp-includes/js/dist/block-editor.js:15693
+#: wp-includes/js/dist/block-editor.js:15684
 msgid "Block tools"
 msgstr "Nástroje bloku"
 
@@ -2716,11 +2716,11 @@ msgstr "Tento obrázok nemá vyplnený ALT popisok"
 msgid "This image has an empty alt attribute; its file name is %s"
 msgstr "Tento obrázok nemá vyplnený ALT popisok, jeho názov je %s"
 
-#: wp-includes/js/dist/block-editor.js:18536
+#: wp-includes/js/dist/block-editor.js:18527
 msgid "(selected block)"
 msgstr "(zvolený blok)"
 
-#: wp-includes/js/dist/block-editor.js:21263
+#: wp-includes/js/dist/block-editor.js:21254
 msgid "To edit this block, you need permission to upload media."
 msgstr "Pre úpravu tohto bloku potrebuje oprávnenie nahrávať súbory médii."
 
@@ -2744,7 +2744,7 @@ msgstr "Začnite písať text alebo HTML"
 msgid "Type text or HTML"
 msgstr "Zadajte text alebo HTML"
 
-#: wp-includes/js/dist/block-editor.js:24748
+#: wp-includes/js/dist/block-editor.js:24739
 msgid "Block icon"
 msgstr "Ikona bloku"
 
@@ -2756,7 +2756,7 @@ msgstr "Zarovnať text na stred"
 msgid "Empty block; start writing or type forward slash to choose a block"
 msgstr "Prázdny blok; začnite písať alebo zadajte lomítko a vyberte blok"
 
-#: wp-includes/js/dist/block-editor.js:16588
+#: wp-includes/js/dist/block-editor.js:16579
 #: wp-includes/js/dist/block-library.js:3382
 msgid "Start writing or type / to choose a block"
 msgstr "Začnite písať alebo zadajte / pre výber bloku"
@@ -3062,7 +3062,7 @@ msgstr "stránkovanie"
 msgid "next page"
 msgstr "ďaľšia strana"
 
-#: wp-includes/js/dist/block-editor.js:19208
+#: wp-includes/js/dist/block-editor.js:19199
 msgid "Image dimensions"
 msgstr "Rozmery obrázku"
 
@@ -3717,7 +3717,7 @@ msgstr "Skryť nastavenia bloku"
 msgid "Block settings closed"
 msgstr "Nastavenia bloku sú uzavreté"
 
-#: wp-includes/js/dist/block-editor.js:18987
+#: wp-includes/js/dist/block-editor.js:18978
 msgid "Editor settings"
 msgstr "Nastavenia editoru"
 
@@ -3765,7 +3765,7 @@ msgstr "Znovupoužiteľné bloky"
 msgid "Embeds"
 msgstr "Vložené prvky"
 
-#: wp-includes/js/dist/block-editor.js:18980
+#: wp-includes/js/dist/block-editor.js:18971
 msgid "Editor content"
 msgstr "Obsah editora"
 
@@ -3785,7 +3785,7 @@ msgstr "Znovupoužiteľný Blok"
 msgid "Layout elements"
 msgstr "Prvky rozloženia"
 
-#: wp-includes/js/dist/block-editor.js:25282
+#: wp-includes/js/dist/block-editor.js:25273
 msgid "Insert a new block after the selected block(s)."
 msgstr "Vložte nový blok po vybratom bloku(blokoch)."
 
@@ -3813,15 +3813,15 @@ msgstr "Nastaviť pre vybraný text tučné písmo."
 msgid "Text formatting"
 msgstr "Formátovanie textu"
 
-#: wp-includes/js/dist/block-editor.js:25273
+#: wp-includes/js/dist/block-editor.js:25264
 msgid "Insert a new block before the selected block(s)."
 msgstr "Vložiť nový blok pred vybraný blok(y)."
 
-#: wp-includes/js/dist/block-editor.js:25264
+#: wp-includes/js/dist/block-editor.js:25255
 msgid "Remove the selected block(s)."
 msgstr "Odstrániť vybraný blok(y)."
 
-#: wp-includes/js/dist/block-editor.js:25255
+#: wp-includes/js/dist/block-editor.js:25246
 msgid "Duplicate the selected block(s)."
 msgstr "Duplikovať vybraný blok(y)."
 
@@ -3829,7 +3829,7 @@ msgstr "Duplikovať vybraný blok(y)."
 msgid "Block shortcuts"
 msgstr "Skratky bloku"
 
-#: wp-includes/js/dist/block-editor.js:25302
+#: wp-includes/js/dist/block-editor.js:25293
 msgid "Select all text when typing. Press again to select all blocks."
 msgstr "Vyberte celý text pri písaní. Opätovným stlačením tlačítka vyberte všetky bloky."
 
@@ -3865,7 +3865,7 @@ msgstr "Znovu vykonať odvolené zmeny."
 msgid "Undo your last changes."
 msgstr "Odvolať vaše posledné zmeny."
 
-#: wp-includes/js/dist/block-editor.js:18994
+#: wp-includes/js/dist/block-editor.js:18985
 msgid "Editor publish"
 msgstr "Publikovanie editora"
 
@@ -3919,7 +3919,7 @@ msgstr "Lomítko"
 msgid "Change the block type after adding a new paragraph."
 msgstr "Zmeniť typ bloku po pridaní odstavca."
 
-#: wp-includes/js/dist/block-editor.js:25319
+#: wp-includes/js/dist/block-editor.js:25310
 msgid "Navigate to the nearest toolbar."
 msgstr "Navigovať k najbližšiemu panelu nástrojov."
 
@@ -3932,7 +3932,7 @@ msgid "Invalid Reusable Block JSON file"
 msgstr "Neplatný znovu-použiteľný blokový JSON súbor"
 
 #. translators: %d: number of blocks
-#: wp-includes/js/dist/block-editor.js:23474
+#: wp-includes/js/dist/block-editor.js:23465
 msgid "%d block"
 msgid_plural "%d blocks"
 msgstr[0] "%d blok"
@@ -3996,7 +3996,7 @@ msgstr "Získate prístup ku všetkým nástrojom bloku a dokumentu na jednom mi
 msgid "Spotlight mode"
 msgstr "Režim reflektorov"
 
-#: wp-includes/js/dist/block-editor.js:18971
+#: wp-includes/js/dist/block-editor.js:18962
 msgid "Editor top bar"
 msgstr "Top bar editora"
 
@@ -4045,7 +4045,7 @@ msgstr "tyrkysovo šedá"
 msgid "Reset the template"
 msgstr "Resetovať šablónu"
 
-#: wp-includes/js/dist/block-editor.js:26250
+#: wp-includes/js/dist/block-editor.js:26246
 msgid "HTML anchor"
 msgstr "HTML kotva"
 
@@ -4133,12 +4133,12 @@ msgstr "Publikovanie zlyhalo."
 msgid "Scheduling failed."
 msgstr "Plánovanie zlyhalo."
 
-#: wp-includes/js/dist/block-editor.js:21032
+#: wp-includes/js/dist/block-editor.js:21023
 #: wp-includes/js/dist/block-library.js:9739
 msgid "Link settings"
 msgstr "Nastavenia odkazu"
 
-#: wp-includes/js/dist/block-editor.js:26348
+#: wp-includes/js/dist/block-editor.js:26344
 msgid "Additional CSS class(es)"
 msgstr "Dodatočná CSS trieda/triedy"
 
@@ -4163,7 +4163,7 @@ msgstr "Pridať novú kategóriu"
 msgid "Add new Term"
 msgstr "Pridať nový výraz"
 
-#: wp-includes/js/dist/block-editor.js:23219
+#: wp-includes/js/dist/block-editor.js:23210
 msgid "Skip to the selected block"
 msgstr "Preskočiť na zvolený blok"
 
@@ -4392,12 +4392,12 @@ msgstr "Kopírovať trvalý odkaz"
 msgid "Permalink copied"
 msgstr "Trvalý odkaz skopírovaný"
 
-#: wp-includes/js/dist/block-editor.js:17909
+#: wp-includes/js/dist/block-editor.js:17900
 #: wp-includes/js/dist/edit-post.js:3432
 msgid "Available block types"
 msgstr "Dostupné typy blokov"
 
-#: wp-includes/js/dist/block-editor.js:24636
+#: wp-includes/js/dist/block-editor.js:24627
 msgid "Remove Block"
 msgid_plural "Remove Blocks"
 msgstr[0] "Odobrať blok"
@@ -4412,8 +4412,8 @@ msgstr "Nahradiť obrázok"
 msgid "Allow comments"
 msgstr "Povoliť komentáre"
 
-#: wp-includes/js/dist/block-editor.js:17897
-#: wp-includes/js/dist/block-editor.js:17900
+#: wp-includes/js/dist/block-editor.js:17888
+#: wp-includes/js/dist/block-editor.js:17891
 #: wp-includes/js/dist/edit-post.js:3419
 msgid "Search for a block"
 msgstr "Vyhľadať blok"
@@ -4426,20 +4426,20 @@ msgstr "Kopírovať chybu"
 msgid "Copy Post Text"
 msgstr "Kopírovať text článku"
 
-#: wp-includes/js/dist/block-editor.js:24798
+#: wp-includes/js/dist/block-editor.js:24789
 msgid "Block Styles"
 msgstr "Štýly bloku"
 
 #: wp-includes/js/dist/block-editor.js:13760
-#: wp-includes/js/dist/block-editor.js:24599
+#: wp-includes/js/dist/block-editor.js:24590
 msgid "More options"
 msgstr "Viac možností"
 
-#: wp-includes/js/dist/block-editor.js:24424
+#: wp-includes/js/dist/block-editor.js:24415
 msgid "Edit visually"
 msgstr "Upraviť vizuálne"
 
-#: wp-includes/js/dist/block-editor.js:24616
+#: wp-includes/js/dist/block-editor.js:24607
 msgid "Duplicate"
 msgstr "Duplikovať"
 
@@ -4451,7 +4451,7 @@ msgstr "Táto farebná kombinácia môže byť pre ľudí ťažšie čitateľná
 msgid "This color combination may be hard for people to read. Try using a darker background color and/or a brighter text color."
 msgstr "Táto farebná kombinácia môže byť pre ľudí ťažšie čitateľná. Skúste použiť tmavšiu farbu pozadia a / alebo svetlejšiu farbu textu. "
 
-#: wp-includes/js/dist/block-editor.js:24805
+#: wp-includes/js/dist/block-editor.js:24796
 msgid "Transform To:"
 msgstr "Zmeniť na:"
 
@@ -4459,7 +4459,7 @@ msgstr "Zmeniť na:"
 msgid "(Empty heading)"
 msgstr "(Prázdny nadpis)"
 
-#: wp-includes/js/dist/block-editor.js:24424
+#: wp-includes/js/dist/block-editor.js:24415
 msgid "Edit as HTML"
 msgstr "Upraviť ako HTML"
 
@@ -4519,11 +4519,11 @@ msgstr "Chat"
 msgid "Write an excerpt (optional)"
 msgstr "Napíšte zhrnutie (voliteľné)"
 
-#: wp-includes/js/dist/block-editor.js:23795
+#: wp-includes/js/dist/block-editor.js:23786
 msgid "Blocks cannot be moved up as they are already at the top"
 msgstr "Bloky nemôžu byť posunuté nahor, pretože sú už na vrchu"
 
-#: wp-includes/js/dist/block-editor.js:23799
+#: wp-includes/js/dist/block-editor.js:23790
 msgid "Blocks cannot be moved down as they are already at the bottom"
 msgstr "Bloky nemôžu byť posunuté nadol, pretože sú už na spodku"
 
@@ -4555,7 +4555,7 @@ msgstr "žiadny rodič"
 msgid "Add to Reusable blocks"
 msgstr "Pridať k znovupoužiteľným blokom"
 
-#: wp-includes/js/dist/block-editor.js:17964
+#: wp-includes/js/dist/block-editor.js:17955
 msgid "Reusable"
 msgstr "Znovupoužiteľný"
 
@@ -4563,16 +4563,16 @@ msgstr "Znovupoužiteľný"
 msgid "Remove from Reusable blocks"
 msgstr "Odstrániť zo znovupoužiteľných blokov"
 
-#: wp-includes/js/dist/block-editor.js:24624
+#: wp-includes/js/dist/block-editor.js:24615
 msgid "Insert After"
 msgstr "Vložiť po"
 
-#: wp-includes/js/dist/block-editor.js:24620
+#: wp-includes/js/dist/block-editor.js:24611
 msgid "Insert Before"
 msgstr "Vložiť pred"
 
 #. translators: 1: Number of selected blocks, 2: Position of selected blocks
-#: wp-includes/js/dist/block-editor.js:23804
+#: wp-includes/js/dist/block-editor.js:23795
 msgid "Move %1$d block from position %2$d up by one place"
 msgid_plural "Move %1$d blocks from position %2$d up by one place"
 msgstr[0] "Presunúť %1$d blok z pozície %2$d o jedno miesto nahor."
@@ -4580,7 +4580,7 @@ msgstr[1] "Presunúť %1$d bloky z pozície %2$d o jedno miesto nahor."
 msgstr[2] "Presunúť %1$d blokov z pozície %2$d o jedno miesto nahor."
 
 #. translators: 1: Number of selected blocks, 2: Position of selected blocks
-#: wp-includes/js/dist/block-editor.js:23809
+#: wp-includes/js/dist/block-editor.js:23800
 msgid "Move %1$d block from position %2$d down by one place"
 msgid_plural "Move %1$d blocks from position %2$d down by one place"
 msgstr[0] "Presunúť %1$d blok z pozície %2$d o jedno miesto nadol."
@@ -4599,7 +4599,7 @@ msgstr "Prevziať"
 msgid "Edit or update the image"
 msgstr "Upraviť alebo aktualizovať obrázok"
 
-#: wp-includes/js/dist/block-editor.js:17978
+#: wp-includes/js/dist/block-editor.js:17969
 #: wp-includes/js/dist/edit-post.js:1385
 msgid "Manage all reusable blocks"
 msgstr "Spravovať všetky znovupoužiteľné bloky"
@@ -4608,7 +4608,7 @@ msgstr "Spravovať všetky znovupoužiteľné bloky"
 msgid "Avatar"
 msgstr "Avatar"
 
-#: wp-includes/js/dist/block-editor.js:24772
+#: wp-includes/js/dist/block-editor.js:24763
 msgid "Change type of %d block"
 msgid_plural "Change type of %d blocks"
 msgstr[0] "Zmeniť typ %d bloku"
@@ -4624,12 +4624,12 @@ msgstr "Tento článok už upravuje niekto iný."
 msgid "%s is currently working on this post, which means you cannot make changes, unless you take over."
 msgstr "%s práve edituje tento článok. Pokiaľ neprevezmete kontrolu nad článkom, nemôžete v ňom robiť zmeny."
 
-#: wp-includes/js/dist/block-editor.js:21102
+#: wp-includes/js/dist/block-editor.js:21093
 msgid "Paste or type URL"
 msgstr "Vložte alebo zadajte URL adresu"
 
 #: wp-includes/js/dist/editor.js:11722
-#: wp-includes/js/dist/block-editor.js:17839
+#: wp-includes/js/dist/block-editor.js:17830
 msgid "%d result found."
 msgid_plural "%d results found."
 msgstr[0] "Nájdený %d výsledok."
@@ -4659,28 +4659,28 @@ msgstr "%s má teraz kontrolu nad úpravou tohto článku. Nebojte sa, vaše zme
 msgid "Allow pingbacks & trackbacks"
 msgstr "Povoliť spätné odkazy a spätné upozornenia"
 
-#: wp-includes/js/dist/block-editor.js:17916
+#: wp-includes/js/dist/block-editor.js:17907
 msgctxt "blocks"
 msgid "Most used"
 msgstr "Najpoužívanejšie"
 
 #. translators: 1: Type of block (i.e. Text, Image etc)
-#: wp-includes/js/dist/block-editor.js:23774
+#: wp-includes/js/dist/block-editor.js:23765
 msgid "Block %1$s is at the beginning of the content and can’t be moved right"
 msgstr "Blok %1$s je na začiatku obsahu a nemôže byť posunutý vpravo"
 
 #. translators: 1: Type of block (i.e. Text, Image etc)
-#: wp-includes/js/dist/block-editor.js:23734
+#: wp-includes/js/dist/block-editor.js:23725
 msgid "Block %1$s is at the end of the content and can’t be moved right"
 msgstr "Blok %s je na konci obsahu a nemôže byť posunutý dole"
 
 #. translators: 1: Type of block (i.e. Text, Image etc), 2: Position of
 #. selected block, 3: New position
-#: wp-includes/js/dist/block-editor.js:23744
+#: wp-includes/js/dist/block-editor.js:23735
 msgid "Move %1$s block from position %2$d up to position %3$d"
 msgstr "Presunúť %1$s blok z pozície %2$d nahor na pozíciu %3$d"
 
-#: wp-includes/js/dist/block-editor.js:16608
+#: wp-includes/js/dist/block-editor.js:16599
 #: wp-includes/js/dist/block-directory.js:1262
 msgid "Add block"
 msgstr "Pridať blok"
@@ -4734,17 +4734,17 @@ msgid "Item removed."
 msgstr "Položka odobraná."
 
 #: wp-includes/js/dist/block-editor.js:14030
-#: wp-includes/js/dist/block-editor.js:24474
+#: wp-includes/js/dist/block-editor.js:24465
 msgid "Convert to Blocks"
 msgstr "Konvertovať na bloky"
 
-#: wp-includes/js/dist/block-editor.js:16209
+#: wp-includes/js/dist/block-editor.js:16200
 msgid "Block: %s"
 msgstr "Blok: %s"
 
 #: wp-includes/js/dist/components.js:35173
 #: wp-includes/js/dist/components.js:35322
-#: wp-includes/js/dist/block-editor.js:19250
+#: wp-includes/js/dist/block-editor.js:19241
 msgid "Reset"
 msgstr "Resetovať"
 
@@ -4760,11 +4760,11 @@ msgid "Dismiss this notice"
 msgstr "Skryť toto oznámenie"
 
 #. translators: %s: Type of block (i.e. Text, Image etc)
-#: wp-includes/js/dist/block-editor.js:23695
+#: wp-includes/js/dist/block-editor.js:23686
 msgid "Block %s is the only block, and cannot be moved"
 msgstr "Blok %s je jediný blok a nemôže byť posunutý"
 
-#: wp-includes/js/dist/block-editor.js:23593
+#: wp-includes/js/dist/block-editor.js:23584
 msgid "No block selected."
 msgstr "Nie je vybratý žiadny blok."
 
@@ -4774,7 +4774,7 @@ msgstr "Tento blok zaznamenal neočakávanú chybu a nemôže byť prezretý."
 
 #. translators: 1: Type of block (i.e. Text, Image etc), 2: Position of
 #. selected block, 3: New position
-#: wp-includes/js/dist/block-editor.js:23704
+#: wp-includes/js/dist/block-editor.js:23695
 msgid "Move %1$s block from position %2$d down to position %3$d"
 msgstr "Presunúť %1$s blok z pozície %2$d nadol na pozíciu %3$d"
 
@@ -4843,7 +4843,7 @@ msgstr "Kód farby: %s"
 
 #: wp-includes/js/dist/components.js:24023
 #: wp-includes/js/dist/components.js:36349
-#: wp-includes/js/dist/block-editor.js:20371
+#: wp-includes/js/dist/block-editor.js:20362
 msgid "No results."
 msgstr "Žiadne výsledky."
 
@@ -4856,7 +4856,7 @@ msgstr "Blok aktualizovaný."
 msgid "Color: %s"
 msgstr "Farba: %s"
 
-#: wp-includes/post.php:273 wp-includes/js/dist/block-editor.js:17993
+#: wp-includes/post.php:273 wp-includes/js/dist/block-editor.js:17984
 #: wp-includes/js/dist/edit-post.js:3436
 msgid "No blocks found."
 msgstr "Žiadny blok sa nenašiel."
@@ -4867,7 +4867,7 @@ msgstr "Vlastný výber farby"
 
 #: wp-includes/js/dist/components.js:24021
 #: wp-includes/js/dist/components.js:36349
-#: wp-includes/js/dist/block-editor.js:20369
+#: wp-includes/js/dist/block-editor.js:20360
 msgid "%d result found, use up and down arrow keys to navigate."
 msgid_plural "%d results found, use up and down arrow keys to navigate."
 msgstr[0] "%d výsledok bol nájdený, použite klávesy hore a dolu pre navigáciu."
@@ -5067,9 +5067,9 @@ msgstr "Na zmenu základnej farby použite šípky. Pre zosvetlenie farby šípk
 #: wp-includes/media-template.php:173
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:59
 #: wp-includes/functions.php:7441
-#: wp-includes/class-wp-customize-manager.php:4277
-#: wp-includes/class-wp-customize-manager.php:5599
-#: wp-includes/class-wp-customize-manager.php:5620
+#: wp-includes/class-wp-customize-manager.php:4304
+#: wp-includes/class-wp-customize-manager.php:5626
+#: wp-includes/class-wp-customize-manager.php:5647
 #: wp-includes/js/dist/components.js:34651 wp-includes/js/dist/editor.js:8930
 msgid "(opens in a new tab)"
 msgstr "(otvára sa na novej karte)"
@@ -5741,16 +5741,16 @@ msgid "The link you followed has expired."
 msgstr "Odkaz, ktorý ste sledovali vypršal."
 
 #. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:4044
+#: wp-includes/class-wp-customize-manager.php:4071
 msgid "%s is already customizing this changeset. Do you want to take over?"
 msgstr "%s práve upravuje tento súbor zmien. Chcete prevziať kontrolu?"
 
 #. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:4042
+#: wp-includes/class-wp-customize-manager.php:4069
 msgid "%s is already customizing this changeset. Please wait until they are done to try customizing. Your latest changes have been autosaved."
 msgstr "%s práve upravuje tento súbor zmien. Počkajte kým dokončí prácu a skúste to znovu. Vaše najnovšie zmeny boli automaticky uložené."
 
-#: wp-includes/class-wp-customize-manager.php:4250
+#: wp-includes/class-wp-customize-manager.php:4277
 msgid "Update anyway, even though it might break your site?"
 msgstr "Aktualizovať, napriek tomu, že to môže znefunkčniť webovú stránku?"
 
@@ -5806,7 +5806,7 @@ msgid "Schedule"
 msgstr "Naplánovať"
 
 #: wp-includes/script-loader.php:1157
-#: wp-includes/class-wp-customize-manager.php:4761
+#: wp-includes/class-wp-customize-manager.php:4788
 msgctxt "customizer changeset action/button label"
 msgid "Schedule"
 msgstr "Naplánovať"
@@ -5835,17 +5835,17 @@ msgstr "Pridať navigačné menu do bočného panelu. "
 msgid "%s has taken over and is currently customizing."
 msgstr "%s prevzal kontrolu a práve prispôsobuje."
 
-#: wp-includes/class-wp-customize-manager.php:3311
+#: wp-includes/class-wp-customize-manager.php:3338
 msgid "Security check failed."
 msgstr "Kontrola zabezpečenia zlyhala."
 
 #. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:4051
+#: wp-includes/class-wp-customize-manager.php:4078
 msgid "%s is already customizing this site. Do you want to take over?"
 msgstr "%s práve prispôsobuje túto webovú stránku. Chcete to prevziať?"
 
 #. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:4049
+#: wp-includes/class-wp-customize-manager.php:4076
 msgid "%s is already customizing this site. Please wait until they are done to try customizing. Your latest changes have been autosaved."
 msgstr "%s práve prispôsobuje túto webovú stránku. Počkajte, kým neskončí, aby ste si vyskúšali prispôsobenie. Vaše posledné zmeny boli automaticky uložené."
 
@@ -5853,15 +5853,15 @@ msgstr "%s práve prispôsobuje túto webovú stránku. Počkajte, kým neskonč
 msgid "Looks like something&#8217;s gone wrong. Wait a couple seconds, and then try again."
 msgstr "Zdá sa, že sa niečo pokazilo. Počkajte pár sekúnd a skúste to znova."
 
-#: wp-includes/class-wp-customize-manager.php:4236
+#: wp-includes/class-wp-customize-manager.php:4263
 msgid "Take over"
 msgstr "Prevziať"
 
-#: wp-includes/class-wp-customize-manager.php:4232
+#: wp-includes/class-wp-customize-manager.php:4259
 msgid "Go back"
 msgstr "Vrátiť sa"
 
-#: wp-includes/class-wp-customize-manager.php:3322
+#: wp-includes/class-wp-customize-manager.php:3349
 msgid "No changeset found to take over"
 msgstr "Nenájdené žiadne množiny zmien na prevzatie."
 
@@ -5869,7 +5869,7 @@ msgstr "Nenájdené žiadne množiny zmien na prevzatie."
 msgid "Changeset is being edited by other user."
 msgstr "Množinu zmien práve upravuje iný používateľ."
 
-#: wp-includes/class-wp-customize-manager.php:3331
+#: wp-includes/class-wp-customize-manager.php:3358
 msgid "Sorry, you are not allowed to take over."
 msgstr "Nie ste oprávnený prevziať."
 
@@ -5903,11 +5903,11 @@ msgctxt "menu locations"
 msgid "View All Locations"
 msgstr "Zobraziť všetky umiestnenia"
 
-#: wp-includes/class-wp-customize-manager.php:4965
+#: wp-includes/class-wp-customize-manager.php:4992
 msgid "Looking for a theme? You can search or browse the WordPress.org theme directory, install and preview themes, then activate them right here."
 msgstr "Hľadáte tému? Vyhľadajte alebo prechádzajte zoznam tém na WordPress.org, nainštalujte a zobrazte náhľad témy, potom aj aktivujte."
 
-#: wp-includes/class-wp-customize-manager.php:4966
+#: wp-includes/class-wp-customize-manager.php:4993
 msgid "While previewing a new theme, you can continue to tailor things like widgets and menus, and explore theme-specific options."
 msgstr "Počas náhľadu novej témy môžete naďalej pracovať s vecami ako widgety a menu, a objavovať špecifické možnosti témy."
 
@@ -6618,7 +6618,7 @@ msgstr "Ak vaša téma obsahuje oblasti pre widgety, môžete tam taktiež prida
 msgid "Usage of user levels is deprecated. Use capabilities instead."
 msgstr "Použitie úrovní používateľov je zastaralé. Namiesto toho použite možnosti."
 
-#: wp-includes/class-wp-customize-manager.php:5655
+#: wp-includes/class-wp-customize-manager.php:5682
 msgid "CSS code"
 msgstr "CSS kód"
 
@@ -6634,21 +6634,21 @@ msgstr[2] "Vaša téma môže zobrazovať menu v %s umiestneniach."
 msgid "Your theme can display menus in one location."
 msgstr "Vaša téma môže zobrazovať menu na jednom umiestnení."
 
-#: wp-includes/class-wp-customize-manager.php:5593
+#: wp-includes/class-wp-customize-manager.php:5620
 msgid "Add your own CSS code here to customize the appearance and layout of your site."
 msgstr "Tu pridajte váš vlastný CSS kód pre upravenie vzhľadu a rozloženia webovej stránky."
 
 #: wp-includes/widgets/class-wp-widget-custom-html.php:326
-#: wp-includes/class-wp-customize-manager.php:5607
+#: wp-includes/class-wp-customize-manager.php:5634
 msgid "Screen reader users: when in forms mode, you may need to press the Esc key twice."
 msgstr "Používatelia čítačiek obrazoviek: Ak ste v forms móde, možno budete musieť stlačiť klávesu Esc dva razy."
 
 #: wp-includes/widgets/class-wp-widget-custom-html.php:322
-#: wp-includes/class-wp-customize-manager.php:5603
+#: wp-includes/class-wp-customize-manager.php:5630
 msgid "When using a keyboard to navigate:"
 msgstr "Pomocou klávesnice sa môžete pohybovať:"
 
-#: wp-includes/class-wp-customize-manager.php:5545
+#: wp-includes/class-wp-customize-manager.php:5572
 msgid "Your homepage displays"
 msgstr "Úvodná stránka zobrazuje"
 
@@ -6657,40 +6657,40 @@ msgid "If your theme has multiple menus, giving them clear names will help you m
 msgstr "Ak vaša téma obsahuje viacero menu, ich správne pomenovanie vám zjednoduší ich správu."
 
 #: wp-includes/widgets/class-wp-widget-custom-html.php:324
-#: wp-includes/class-wp-customize-manager.php:5605
+#: wp-includes/class-wp-customize-manager.php:5632
 msgid "In the editing area, the Tab key enters a tab character."
 msgstr "V oblasti editora, klávesa Tab vloží tabulátor."
 
 #: wp-includes/widgets/class-wp-widget-custom-html.php:325
-#: wp-includes/class-wp-customize-manager.php:5606
+#: wp-includes/class-wp-customize-manager.php:5633
 msgid "To move away from this area, press the Esc key followed by the Tab key."
 msgstr "Pre odchod z oblasti editora použite klávesu Esc nasledovanú klávesou Tab."
 
 #. translators: 1: Link to user profile, 2: Additional link attributes, 3:
 #. Accessibility text.
 #: wp-includes/widgets/class-wp-widget-custom-html.php:311
-#: wp-includes/class-wp-customize-manager.php:5614
+#: wp-includes/class-wp-customize-manager.php:5641
 msgid "The edit field automatically highlights code syntax. You can disable this in your <a href=\"%1$s\" %2$s>user profile%3$s</a> to work in plain text mode."
 msgstr "Pole na úpravu automaticky zvýrazňuje syntax kódu. Pre prácu v textovom režime to môžete zakázať vo vašom <a href=\"%1$s\" %2$s>používateľskom profile%3$s</a>."
 
-#: wp-includes/class-wp-customize-manager.php:5528
+#: wp-includes/class-wp-customize-manager.php:5555
 msgid "You can choose what&#8217;s displayed on the homepage of your site. It can be posts in reverse chronological order (classic blog), or a fixed/static page. To set a static homepage, you first need to create two Pages. One will become the homepage, and the other will be where your posts are displayed."
 msgstr "Môžete vybrať čo sa zobrazí na domovskej stránke vašej webovej stránky. Môžu to byť články zoradené v opačnom chronologickom poradí (bežný blog) alebo statická stránka. Pre nastavenie statickej domovskej stránky je potrebné najprv vytvoriť dve stránky. Jedna sa stane domovskou stránkou, druhá bude tá, kde sa zobrazia vaše články."
 
-#: wp-includes/class-wp-customize-manager.php:5526
+#: wp-includes/class-wp-customize-manager.php:5553
 msgid "Homepage Settings"
 msgstr "Nastavenia domovskej stránky"
 
-#: wp-includes/class-wp-customize-manager.php:4994
+#: wp-includes/class-wp-customize-manager.php:5021
 msgid "WordPress.org themes"
 msgstr "WordPress.org témy"
 
-#: wp-includes/class-wp-customize-manager.php:4979
+#: wp-includes/class-wp-customize-manager.php:5006
 msgid "Installed themes"
 msgstr "Nainštalované témy"
 
 #. translators: %s: Site icon size in pixels.
-#: wp-includes/class-wp-customize-manager.php:5100
+#: wp-includes/class-wp-customize-manager.php:5127
 msgid "Site Icons should be square and at least %s pixels."
 msgstr "Ikony webovej stránky by mali byť štvorcové s rozmerom aspoň %s pixelov."
 
@@ -6698,40 +6698,40 @@ msgstr "Ikony webovej stránky by mali byť štvorcové s rozmerom aspoň %s pix
 msgid "Publish Settings"
 msgstr "Nastavenie publikovania"
 
-#: wp-includes/class-wp-customize-manager.php:4280
+#: wp-includes/class-wp-customize-manager.php:4307
 msgid "Copied"
 msgstr "Skopírované"
 
-#: wp-includes/class-wp-customize-manager.php:4274
+#: wp-includes/class-wp-customize-manager.php:4301
 msgid "Preview Link"
 msgstr "Odkaz na ukážku"
 
-#: wp-includes/class-wp-customize-manager.php:4269
+#: wp-includes/class-wp-customize-manager.php:4296
 msgid "Share Preview Link"
 msgstr "Zdieľať odkaz na ukážku"
 
-#: wp-includes/class-wp-customize-manager.php:4271
+#: wp-includes/class-wp-customize-manager.php:4298
 msgid "See how changes would look live on your website, and share the preview with people who can't access the Customizer."
 msgstr "Pozrite sa, ako by vaša webová stránka vyzerala so zmenami a zdieľajte ukážku s ľuďmi, ktorí nemajú prístup k nástroju možností prispôsobenia (Customizer)."
 
-#: wp-includes/class-wp-customize-manager.php:3091
+#: wp-includes/class-wp-customize-manager.php:3118
 msgid "There was an authentication problem. Please reload and try again."
 msgstr "Vyskytol sa problém s autentifikáciou. Znova načítajte a skúste to znova."
 
-#: wp-includes/class-wp-customize-manager.php:3101
+#: wp-includes/class-wp-customize-manager.php:3128
 msgid "No changes saved yet, so there is nothing to trash."
 msgstr "Zatiaľ neboli uložené žiadne zmeny, takže nie je nič na zahodenie do koša."
 
-#: wp-includes/class-wp-customize-manager.php:3112
-#: wp-includes/class-wp-customize-manager.php:3132
+#: wp-includes/class-wp-customize-manager.php:3139
+#: wp-includes/class-wp-customize-manager.php:3159
 msgid "Unable to trash changes."
 msgstr "Nie je možné zahodiť zmeny."
 
-#: wp-includes/class-wp-customize-manager.php:3139
+#: wp-includes/class-wp-customize-manager.php:3166
 msgid "Changes trashed successfully."
 msgstr "Zmeny úspešne zahodené."
 
-#: wp-includes/class-wp-customize-manager.php:3120
+#: wp-includes/class-wp-customize-manager.php:3147
 msgid "Changes have already been trashed."
 msgstr "Zmeny už boli zahodené."
 
@@ -6750,7 +6750,7 @@ msgstr[0] "Nebolo možné uložiť kvôli %s zlému nastaveniu."
 msgstr[1] "Nebolo možné uložiť kvôli %s zlým nastaveniam."
 msgstr[2] "Nebolo možné uložiť kvôli %s zlým nastaveniam."
 
-#: wp-includes/class-wp-customize-manager.php:5098
+#: wp-includes/class-wp-customize-manager.php:5125
 msgid "Site Icons are what you see in browser tabs, bookmark bars, and within the WordPress mobile apps. Upload one here!"
 msgstr "Ikona webovej stránky je viditeľná v kartách a záložkách prehliadača, a vo WordPress mobilných appkách. Nahrajte ju tu!"
 
@@ -7587,7 +7587,7 @@ msgid "Cannot create a comment with that type."
 msgstr "Nemôžete vytvoriť tento typ komentára."
 
 #: wp-includes/script-loader.php:1211 wp-includes/rest-api.php:1332
-#: wp-includes/post.php:3736
+#: wp-includes/post.php:3739
 msgid "Invalid date."
 msgstr "Neplatný dátum."
 
@@ -7605,7 +7605,7 @@ msgstr "Nesprávna e-mailová adresa."
 msgid "Invalid comment content."
 msgstr "Nesprávny obsah komentára."
 
-#: wp-includes/post.php:4036
+#: wp-includes/post.php:4045
 msgid "Invalid page template."
 msgstr "Nesprávna šablóna stránky."
 
@@ -7934,7 +7934,7 @@ msgstr "Skryť ovládanie"
 msgid "Document Preview"
 msgstr "Náhľad dokumentu"
 
-#: wp-includes/class-wp-customize-manager.php:5227
+#: wp-includes/class-wp-customize-manager.php:5254
 msgid "Header Media"
 msgstr "Média Hlavičky"
 
@@ -7968,11 +7968,11 @@ msgstr "HTML titulok pre prílohu, transformovaný pre zobrazenie. "
 msgid "Caption for the attachment, as it exists in the database."
 msgstr "Titulok pre prílohu, tak ako existuje v databáze. "
 
-#: wp-includes/class-wp-customize-manager.php:6002
+#: wp-includes/class-wp-customize-manager.php:6029
 msgid "Please enter a valid YouTube URL."
 msgstr "Prosím zadajte platnú YouTube URL adresu."
 
-#: wp-includes/class-wp-customize-manager.php:5341
+#: wp-includes/class-wp-customize-manager.php:5368
 msgid "Or, enter a YouTube URL:"
 msgstr "Alebo vložte YouTube URL:"
 
@@ -8047,7 +8047,7 @@ msgstr "Prázdny nadpis."
 msgid "We already have a ping from that URL for this post."
 msgstr "Ping z danej URL adresy pre tento članok už máme. "
 
-#: wp-includes/class-wp-customize-manager.php:5566
+#: wp-includes/class-wp-customize-manager.php:5593
 msgid "Homepage"
 msgstr "Domovská stránka"
 
@@ -8996,10 +8996,6 @@ msgstr "Kliknite pre editáciu tohto elementu."
 msgid "New version available. %s"
 msgstr "Dostupná nová verzia. %s"
 
-#: wp-includes/customize/class-wp-customize-theme-control.php:102
-msgid "Update now"
-msgstr "Aktualizovať teraz"
-
 #. translators: %s: Theme name.
 #: wp-includes/customize/class-wp-customize-theme-control.php:61
 msgid "Details for theme: %s"
@@ -9019,6 +9015,10 @@ msgstr "Živý náhľad témy: %s"
 #: wp-includes/customize/class-wp-customize-theme-control.php:67
 msgid "Install and preview theme: %s"
 msgstr "Inštalácia a náhľad témy: %s"
+
+#: wp-includes/customize/class-wp-customize-theme-control.php:102
+msgid "Update now"
+msgstr "Aktualizovať"
 
 #: wp-includes/customize/class-wp-customize-selective-refresh.php:194
 msgid "Click to edit this widget."
@@ -9083,110 +9083,110 @@ msgid "Post"
 msgstr "Článok"
 
 #. translators: 1: .mp4, 2: .mov
-#: wp-includes/class-wp-customize-manager.php:5977
+#: wp-includes/class-wp-customize-manager.php:6004
 msgid "Only %1$s or %2$s files may be used for header video. Please convert your video file and try again, or, upload your video to YouTube and link it with the option below."
 msgstr "Len súbory %1$s alebo %2$s môžu byť použité pre video v hlavičke. Prosím prekonvertujte váš súbor a skúste znovu alebo nahrajte video na YouTube a vložte link do nastavení nižšie."
 
-#: wp-includes/class-wp-customize-manager.php:5969
+#: wp-includes/class-wp-customize-manager.php:5996
 msgid "This video file is too large to use as a header video. Try a shorter video or optimize the compression settings and re-upload a file that is less than 8MB. Or, upload your video to YouTube and link it with the option below."
 msgstr "Toto video je príliš veľké na to, aby bolo použité ako video v hlavičke. Skúste skrátiť video alebo optimalizovať nastavenia kompresie a znovu nahrajte súbor, ktorý je menší ako 8MB. Alebo nahrajte video na YouTube a vložte link do nastavení nižšie."
 
-#: wp-includes/class-wp-customize-manager.php:5928
+#: wp-includes/class-wp-customize-manager.php:5955
 msgid "Unrecognized background setting."
 msgstr "Nerozpoznané nastavenie pozadia stránky."
 
-#: wp-includes/class-wp-customize-manager.php:5597
+#: wp-includes/class-wp-customize-manager.php:5624
 msgid "Learn more about CSS"
 msgstr "Zistiť viac o CSS"
 
-#: wp-includes/class-wp-customize-manager.php:5633
+#: wp-includes/class-wp-customize-manager.php:5660
 msgid "Additional CSS"
 msgstr "Dodatočné CSS"
 
-#: wp-includes/class-wp-customize-manager.php:5919
-#: wp-includes/class-wp-customize-manager.php:5923
+#: wp-includes/class-wp-customize-manager.php:5946
+#: wp-includes/class-wp-customize-manager.php:5950
 msgid "Invalid value for background size."
 msgstr "Neplatná hodnota pre veľkosť pozadia."
 
-#: wp-includes/class-wp-customize-manager.php:5915
+#: wp-includes/class-wp-customize-manager.php:5942
 msgid "Invalid value for background position Y."
 msgstr "Neplatná hodnota pre pozíciu Y pozadia."
 
-#: wp-includes/class-wp-customize-manager.php:5911
+#: wp-includes/class-wp-customize-manager.php:5938
 msgid "Invalid value for background position X."
 msgstr "Neplatná hodnota pre pozíciu X pozadia."
 
-#: wp-includes/class-wp-customize-manager.php:5907
+#: wp-includes/class-wp-customize-manager.php:5934
 msgid "Invalid value for background attachment."
 msgstr "Neplatná hodnota pre prílohu pozadia."
 
-#: wp-includes/class-wp-customize-manager.php:5903
+#: wp-includes/class-wp-customize-manager.php:5930
 msgid "Invalid value for background repeat."
 msgstr "Neplatná hodnota pre repeat pozadia."
 
-#: wp-includes/class-wp-customize-manager.php:5462
-#: wp-includes/js/dist/block-editor.js:19235
+#: wp-includes/class-wp-customize-manager.php:5489
+#: wp-includes/js/dist/block-editor.js:19226
 msgid "Image Size"
 msgstr "Veľkosť obrázku"
 
 #: wp-includes/customize/class-wp-customize-background-position-control.php:93
-#: wp-includes/class-wp-customize-manager.php:5440
+#: wp-includes/class-wp-customize-manager.php:5467
 msgid "Image Position"
 msgstr "Pozícia obrázku"
 
-#: wp-includes/class-wp-customize-manager.php:5412
+#: wp-includes/class-wp-customize-manager.php:5439
 msgctxt "Custom Preset"
 msgid "Custom"
 msgstr "Vlastné"
 
-#: wp-includes/class-wp-customize-manager.php:5485
+#: wp-includes/class-wp-customize-manager.php:5512
 msgid "Repeat Background Image"
 msgstr "Opakovať obrázok pozadia"
 
-#: wp-includes/class-wp-customize-manager.php:5411
+#: wp-includes/class-wp-customize-manager.php:5438
 msgctxt "Repeat Image"
 msgid "Repeat"
 msgstr "Opakovať"
 
-#: wp-includes/class-wp-customize-manager.php:5503
+#: wp-includes/class-wp-customize-manager.php:5530
 msgid "Scroll with Page"
 msgstr "Posúvať so stránkou"
 
-#: wp-includes/class-wp-customize-manager.php:5410
-#: wp-includes/class-wp-customize-manager.php:5467
+#: wp-includes/class-wp-customize-manager.php:5437
+#: wp-includes/class-wp-customize-manager.php:5494
 msgid "Fit to Screen"
 msgstr "Prispôsobiť obrazovke"
 
-#: wp-includes/class-wp-customize-manager.php:5327
+#: wp-includes/class-wp-customize-manager.php:5354
 msgid "Header Video"
 msgstr "Video hlavičky"
 
 #. translators: 1: .mp4, 2: Header width in pixels.
-#: wp-includes/class-wp-customize-manager.php:5242
+#: wp-includes/class-wp-customize-manager.php:5269
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends a width of %2$s pixels."
 msgstr "Nahrajte vaše video vo formáte %1$s a minimalizujte veľkosť súboru pre najlepší výsledok. Vaša téma odporúča šírku %2$s pixelov."
 
 #. translators: 1: .mp4, 2: Header height in pixels.
-#: wp-includes/class-wp-customize-manager.php:5249
+#: wp-includes/class-wp-customize-manager.php:5276
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends a height of %2$s pixels."
 msgstr "Nahrajte vaše video vo formáte %1$s a minimalizujte veľkosť súboru pre najlepší výsledok. Vaša téma odporúča výšku %2$s pixelov."
 
-#: wp-includes/class-wp-customize-manager.php:5404
+#: wp-includes/class-wp-customize-manager.php:5431
 msgctxt "Background Preset"
 msgid "Preset"
 msgstr "Predvoľba"
 
-#: wp-includes/class-wp-customize-manager.php:5408
+#: wp-includes/class-wp-customize-manager.php:5435
 msgctxt "Default Preset"
 msgid "Default"
 msgstr "Základná predvoľba"
 
 #. translators: 1: .mp4, 2: Header size in pixels.
-#: wp-includes/class-wp-customize-manager.php:5235
+#: wp-includes/class-wp-customize-manager.php:5262
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends dimensions of %2$s pixels."
 msgstr "Nahrajte vaše video vo formáte %1$s a minimalizujte veľkosť súboru pre najlepší výsledok. Vaša téma odporúča rozmer %2$s pixelov."
 
-#: wp-includes/class-wp-customize-manager.php:5228
+#: wp-includes/class-wp-customize-manager.php:5255
 msgid "If you add a video, the image will be used as a fallback while the video loads."
 msgstr "Ak pridáte video, obrázok bude použitý ako náhrada pokiaľ sa video načíta."
 
@@ -9205,24 +9205,24 @@ msgstr "Nastavenie neexistuje alebo nie je rozpoznané."
 msgid "Unauthorized to modify setting due to capability."
 msgstr "Neoprávnený meniť nastavenie kvôli úrovni schopnosti. "
 
-#: wp-includes/class-wp-customize-manager.php:4838
+#: wp-includes/class-wp-customize-manager.php:4865
 msgid "Are you sure you want to delete this theme?"
 msgstr "Ste si istý, že chcete vymazať túto tému?"
 
 #. translators: %d: Number of theme search results, which cannot currently
 #. consider singular vs. plural forms.
-#: wp-includes/class-wp-customize-manager.php:4840
+#: wp-includes/class-wp-customize-manager.php:4867
 msgid "%d themes found"
 msgstr "%d nájdených tém"
 
 #. translators: %s: Theme name.
-#: wp-includes/class-wp-customize-manager.php:4844
+#: wp-includes/class-wp-customize-manager.php:4871
 msgid "Showing details for theme: %s"
 msgstr "Zobrazujeme detail pre tému: %s"
 
 #. translators: %d: Number of themes being displayed, which cannot currently
 #. consider singular vs. plural forms.
-#: wp-includes/class-wp-customize-manager.php:4842
+#: wp-includes/class-wp-customize-manager.php:4869
 msgid "Displaying %d themes"
 msgstr "Zobrazujeme %d tém/-y"
 
@@ -9539,10 +9539,6 @@ msgstr "Heslo zmenené pre používateľa: %s"
 msgid "Please select at least one item to perform this action on."
 msgstr "Prosím vyberte aspoň jednu položku, na ktorej chcete vykonať túto akciu."
 
-#: wp-includes/script-loader.php:1452
-msgid "Update Now"
-msgstr "Aktualizovať teraz"
-
 #. translators: Password change notification email subject. %s: Site title.
 #: wp-includes/pluggable.php:1910 wp-includes/user.php:2026
 msgid "[%s] Password Changed"
@@ -9578,12 +9574,16 @@ msgstr "Zdá sa, že aktuálne nemáte dostupné žiadne pluginy."
 msgid "Confirm use of weak password"
 msgstr "Potvrdiť použitie slabého hesla"
 
+#: wp-includes/script-loader.php:1452
+msgid "Update Now"
+msgstr "Aktualizovať"
+
 #: wp-includes/media-template.php:1435
 msgid "Image crop area preview. Requires mouse interaction."
 msgstr "Náhľad orezania obrázku. Vyžaduje interakciu myšou."
 
 #. translators: %s: Documentation URL.
-#: wp-includes/formatting.php:4785
+#: wp-includes/formatting.php:4802
 msgid "A structure tag is required when using custom permalinks. <a href=\"%s\">Learn more</a>"
 msgstr "Značka štruktúry je vyžadovaná pri použitý vlastných trvalých odkazov. <a href=\"%s\">Zistiť viac</a>"
 
@@ -9626,7 +9626,7 @@ msgstr "Neposielať %1$s tagy do %2$s."
 msgid "Link options"
 msgstr "Možnosti odkazu"
 
-#: wp-includes/script-loader.php:1122 wp-includes/js/dist/block-editor.js:20477
+#: wp-includes/script-loader.php:1122 wp-includes/js/dist/block-editor.js:20468
 msgid "Link selected."
 msgstr "Odkaz bol označený."
 
@@ -9683,7 +9683,7 @@ msgstr "Konštanta %1$s <strong>sa už nepoužíva</strong>. Pre zapnutie konfig
 
 #. translators: 1: Panel ID, 2: Link to 'customize_loaded_components' filter
 #. reference.
-#: wp-includes/class-wp-customize-manager.php:3851
+#: wp-includes/class-wp-customize-manager.php:3878
 msgid "Removing %1$s manually will cause PHP warnings. Use the %2$s filter instead."
 msgstr "Ručné odstránenie %1$s spôsobí varovné hlásenia PHP. Namiesto toho použite filter %2$s. "
 
@@ -9780,11 +9780,11 @@ msgctxt "post status"
 msgid "Private"
 msgstr "Súkromné"
 
-#: wp-includes/class-wp-customize-manager.php:5137
+#: wp-includes/class-wp-customize-manager.php:5164
 msgid "No logo selected"
 msgstr "Nebolo vybrané žiadne logo"
 
-#: wp-includes/class-wp-customize-manager.php:5139
+#: wp-includes/class-wp-customize-manager.php:5166
 msgid "Choose logo"
 msgstr "Vybrať logo"
 
@@ -9804,12 +9804,12 @@ msgstr "Volaná metóda konštruktora triedy pre %1$s v %2$s <strong>sa nepouž�
 msgid "%s is forbidden"
 msgstr "%s je zakázané"
 
-#: wp-includes/class-wp-customize-manager.php:5134
+#: wp-includes/class-wp-customize-manager.php:5161
 msgid "Change logo"
 msgstr "Zmeniť logo"
 
-#: wp-includes/class-wp-customize-manager.php:5133
-#: wp-includes/class-wp-customize-manager.php:5138
+#: wp-includes/class-wp-customize-manager.php:5160
+#: wp-includes/class-wp-customize-manager.php:5165
 msgid "Select logo"
 msgstr "Vybrať logo"
 
@@ -9848,7 +9848,7 @@ msgstr "<strong>Chyba</strong>: URL adresa je príliš dlhá."
 msgid "<strong>Error</strong>: Your comment is too long."
 msgstr "<strong>Chyba</strong>: váš komentár je príliš dlhý."
 
-#: wp-includes/class-wp-customize-manager.php:5125
+#: wp-includes/class-wp-customize-manager.php:5152
 msgid "Logo"
 msgstr "Logo"
 
@@ -9858,7 +9858,7 @@ msgid "Template is missing. Standalone themes need to have a %1$s template file.
 msgstr "Téma chýba. Samostatné témy musia obsahovať súbor %1$s. <a href=\"%2$s\">Odvodená téma</a> musí mať hlavičku v šablóne %3$s."
 
 #: wp-includes/class-wp-editor.php:1389
-#: wp-includes/js/dist/block-editor.js:20523
+#: wp-includes/js/dist/block-editor.js:20514
 msgid "Paste URL or type to search"
 msgstr "Vložte URL alebo začnite písať"
 
@@ -9867,20 +9867,20 @@ msgstr "Vložte URL alebo začnite písať"
 msgid "Invalid object type."
 msgstr "Neplatný typ objektu."
 
-#: wp-includes/class-wp-customize-manager.php:5074
-#: wp-includes/class-wp-customize-manager.php:5182
+#: wp-includes/class-wp-customize-manager.php:5101
+#: wp-includes/class-wp-customize-manager.php:5209
 msgid "Display Site Title and Tagline"
 msgstr "Zobraziť názov webovej stránky a slogan"
 
-#: wp-includes/class-wp-customize-manager.php:4931
+#: wp-includes/class-wp-customize-manager.php:4958
 msgid "Enter mobile preview mode"
 msgstr "Zobrazenie pre mobil"
 
-#: wp-includes/class-wp-customize-manager.php:4928
+#: wp-includes/class-wp-customize-manager.php:4955
 msgid "Enter tablet preview mode"
 msgstr "Zobrazenie pre tablet"
 
-#: wp-includes/class-wp-customize-manager.php:4924
+#: wp-includes/class-wp-customize-manager.php:4951
 msgid "Enter desktop preview mode"
 msgstr "Zobrazenie pre dektop"
 
@@ -10528,7 +10528,7 @@ msgid "Press return or enter to open this section"
 msgstr "Na otvorenie stlačte späť alebo Enter."
 
 #. translators: %s: Document title from the preview.
-#: wp-includes/class-wp-customize-manager.php:4481
+#: wp-includes/class-wp-customize-manager.php:4508
 msgid "Live Preview: %s"
 msgstr "Živý náhľad: %s"
 
@@ -10539,7 +10539,7 @@ msgstr "Žiadaná téma neexistuje."
 #. translators: 1: "type => link", 2: "taxonomy => link_category"
 #. translators: 1: caller_get_posts, 2: ignore_sticky_posts
 #: wp-includes/category.php:46 wp-includes/category-template.php:360
-#: wp-includes/class-wp-query.php:1810
+#: wp-includes/class-wp-query.php:1806
 msgid "%1$s is deprecated. Use %2$s instead."
 msgstr "%1$s sa už nepoužíva. Použite %2$s."
 
@@ -10571,7 +10571,7 @@ msgstr "Prepnúť sekciu: %s"
 #. Asian characters), enter 'characters_excluding_spaces' or
 #. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
 #. into your own language.
-#: wp-includes/script-loader.php:1915 wp-includes/formatting.php:3871
+#: wp-includes/script-loader.php:1915 wp-includes/formatting.php:3888
 #: wp-includes/js/dist/editor.js:12766
 msgctxt "Word count type. Do not translate!"
 msgid "words"
@@ -10677,11 +10677,11 @@ msgstr "Pridať nový obrázok hlavičky"
 msgid "Hide header image"
 msgstr "Schovať obrázok hlavičky"
 
-#: wp-includes/class-wp-customize-manager.php:5096
+#: wp-includes/class-wp-customize-manager.php:5123
 msgid "Site Icon"
 msgstr "Ikona webovej stránky"
 
-#: wp-includes/class-wp-customize-manager.php:5021
+#: wp-includes/class-wp-customize-manager.php:5048
 msgid "Site Identity"
 msgstr "Identita webovej stránky"
 
@@ -12091,7 +12091,7 @@ msgstr "&#8592; Zrušiť zoznam skladieb"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:130
 #: wp-includes/media-template.php:1166
-#: wp-includes/js/dist/block-editor.js:22909
+#: wp-includes/js/dist/block-editor.js:22900
 msgid "Link CSS Class"
 msgstr "CSS trieda odkazu"
 
@@ -12655,7 +12655,7 @@ msgid "Paste as text"
 msgstr "Vložiť ako text"
 
 #: wp-includes/media-template.php:1179 wp-includes/media.php:3884
-#: wp-includes/js/dist/block-editor.js:20789
+#: wp-includes/js/dist/block-editor.js:20780
 msgid "Replace"
 msgstr "Nahradiť"
 
@@ -12858,8 +12858,8 @@ msgstr "Tabuľka"
 msgid "Template:"
 msgstr "Šablóna:"
 
-#: wp-includes/js/dist/block-editor.js:22520
-#: wp-includes/js/dist/block-editor.js:22526
+#: wp-includes/js/dist/block-editor.js:22511
+#: wp-includes/js/dist/block-editor.js:22517
 #: wp-includes/js/dist/edit-post.js:1328
 msgid "Tools"
 msgstr "Nástroje"
@@ -12874,13 +12874,13 @@ msgstr "odrážkový zoznam"
 
 #: wp-includes/class-wp-customize-widgets.php:698
 #: wp-includes/class-wp-customize-nav-menus.php:1029
-#: wp-includes/js/dist/block-editor.js:24056
+#: wp-includes/js/dist/block-editor.js:24047
 msgid "Move down"
 msgstr "Premientniť dole"
 
 #: wp-includes/class-wp-customize-widgets.php:699
 #: wp-includes/class-wp-customize-nav-menus.php:1028
-#: wp-includes/js/dist/block-editor.js:24050
+#: wp-includes/js/dist/block-editor.js:24041
 msgid "Move up"
 msgstr "Premiestniť hore"
 
@@ -12994,7 +12994,7 @@ msgstr "Adresár témy \"%s\" neexistuje."
 msgid "This content is password protected. To view it please enter your password below:"
 msgstr "Obsah je chránený heslom. Pre zobrazenie zadajte vaše heslo:"
 
-#: wp-includes/class-wp-query.php:1470
+#: wp-includes/class-wp-query.php:1466
 msgctxt "Comma-separated list of search stopwords in your language"
 msgid "about,an,are,as,at,be,by,com,for,from,how,in,is,it,of,on,or,that,the,this,to,was,what,when,where,who,will,with,www"
 msgstr "o,na,je,sú,ako,od,com,pre,ako,v,to,k,čo,kde,kto,s,www "
@@ -13060,7 +13060,7 @@ msgstr "Neúspešný"
 
 #. translators: Time difference between two dates, in weeks. %s: Number of
 #. weeks.
-#: wp-includes/formatting.php:3751
+#: wp-includes/formatting.php:3768
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] "%s týždeň"
@@ -13069,7 +13069,7 @@ msgstr[2] "%s týždňov"
 
 #. translators: Time difference between two dates, in months. %s: Number of
 #. months.
-#: wp-includes/formatting.php:3758
+#: wp-includes/formatting.php:3775
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] "%s mesiac"
@@ -13078,7 +13078,7 @@ msgstr[2] "%s mesiacov"
 
 #. translators: Time difference between two dates, in years. %s: Number of
 #. years.
-#: wp-includes/formatting.php:3765
+#: wp-includes/formatting.php:3782
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s rok"
@@ -13122,7 +13122,7 @@ msgstr "G:i"
 msgid "F j, Y g:i a"
 msgstr "j. F Y G:i"
 
-#: wp-includes/js/dist/block-editor.js:23524
+#: wp-includes/js/dist/block-editor.js:23515
 msgid "Not set"
 msgstr "Nenastavené"
 
@@ -13225,8 +13225,8 @@ msgstr "Neplatné ID používateľa."
 msgid "Random Order"
 msgstr "Náhodné poradie"
 
-#: wp-includes/media.php:3936 wp-includes/js/dist/block-editor.js:20940
-#: wp-includes/js/dist/block-editor.js:21358
+#: wp-includes/media.php:3936 wp-includes/js/dist/block-editor.js:20931
+#: wp-includes/js/dist/block-editor.js:21349
 msgid "Insert from URL"
 msgstr "Vložiť z URL"
 
@@ -13294,7 +13294,7 @@ msgstr "Spravovať  video"
 
 #: wp-includes/widgets/class-wp-widget-media-video.php:28
 #: wp-includes/post.php:2740 wp-includes/js/dist/editor.js:8565
-#: wp-includes/js/dist/block-editor.js:21292
+#: wp-includes/js/dist/block-editor.js:21283
 #: wp-includes/js/dist/block-library.js:21833
 msgid "Video"
 msgstr "Video"
@@ -13333,7 +13333,7 @@ msgstr "Vlož na stránku"
 
 #: wp-includes/widgets/class-wp-widget-media-audio.php:28
 #: wp-includes/post.php:2731 wp-includes/js/dist/editor.js:8568
-#: wp-includes/js/dist/block-editor.js:21288
+#: wp-includes/js/dist/block-editor.js:21279
 #: wp-includes/js/dist/block-library.js:9205
 msgid "Audio"
 msgstr "Audio"
@@ -13416,7 +13416,7 @@ msgstr "Presuňte sem súbory"
 msgid "Create Gallery"
 msgstr "Vytvoriť galériu"
 
-#: wp-includes/media.php:3900 wp-includes/js/dist/block-editor.js:21400
+#: wp-includes/media.php:3900 wp-includes/js/dist/block-editor.js:21391
 msgid "Media Library"
 msgstr "Knižnica médií"
 
@@ -13481,14 +13481,14 @@ msgstr "Odkaz na"
 
 #: wp-includes/media-template.php:772 wp-includes/media-template.php:847
 #: wp-includes/media-template.php:1120
-#: wp-includes/js/dist/block-editor.js:22842
+#: wp-includes/js/dist/block-editor.js:22833
 #: wp-includes/js/dist/block-library.js:7851
 msgid "Media File"
 msgstr "Multimediálny súbor"
 
 #: wp-includes/media-template.php:779 wp-includes/media-template.php:844
 #: wp-includes/media-template.php:1123
-#: wp-includes/js/dist/block-editor.js:22847
+#: wp-includes/js/dist/block-editor.js:22838
 #: wp-includes/js/dist/block-library.js:7848
 msgid "Attachment Page"
 msgstr "Stránka prílohy"
@@ -13640,7 +13640,7 @@ msgstr "Nemáte oprávnenie upravovať články."
 msgid "Select Files"
 msgstr "Vybrať súbory"
 
-#: wp-includes/js/dist/block-editor.js:25311
+#: wp-includes/js/dist/block-editor.js:25302
 msgid "Clear selection."
 msgstr "Zrušiť výber."
 
@@ -13657,11 +13657,11 @@ msgstr "Textový editor (HTML)"
 msgid "Skip to toolbar"
 msgstr "Prejsť na panel nástrojov"
 
-#: wp-includes/class-wp-customize-manager.php:5194
+#: wp-includes/class-wp-customize-manager.php:5221
 msgid "Header Text Color"
 msgstr "Farba textu hlavičky"
 
-#: wp-includes/class-wp-customize-manager.php:5160
+#: wp-includes/class-wp-customize-manager.php:5187
 msgid "Colors"
 msgstr "Farby"
 
@@ -13697,7 +13697,7 @@ msgid "Sorry, you are not allowed to publish this page."
 msgstr "Nemáte oprávnenie publikovať túto stránku."
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:54
-#: wp-includes/class-wp-customize-manager.php:5255
+#: wp-includes/class-wp-customize-manager.php:5282
 msgid "Header Image"
 msgstr "Obrázok hlavičky"
 
@@ -13741,7 +13741,7 @@ msgstr[0] "Názov stránky musí obsahovať najmenej %s znak."
 msgstr[1] "Názov stránky musí obsahovať najmenej %s znaky."
 msgstr[2] "Názov stránky musí obsahovať najmenej %s znakov."
 
-#: wp-includes/class-wp-customize-manager.php:5550
+#: wp-includes/class-wp-customize-manager.php:5577
 msgid "A static page"
 msgstr "Statická stránka"
 
@@ -13750,13 +13750,13 @@ msgstr "Statická stránka"
 msgid "Text Color"
 msgstr "Farba textu"
 
-#: wp-includes/class-wp-customize-manager.php:5218
+#: wp-includes/class-wp-customize-manager.php:5245
 #: wp-includes/js/dist/block-editor.js:7575
 msgid "Background Color"
 msgstr "Farba pozadia"
 
 #: wp-includes/customize/class-wp-customize-background-image-control.php:33
-#: wp-includes/class-wp-customize-manager.php:5364
+#: wp-includes/class-wp-customize-manager.php:5391
 msgid "Background Image"
 msgstr "Obrázok pozadia"
 
@@ -13773,7 +13773,7 @@ msgstr "Odstrániť obrázok"
 msgid "Sorry, you are not allowed to edit this comment."
 msgstr "Nemáte oprávnenie na úpravu tohto komentára."
 
-#: wp-includes/class-wp-customize-manager.php:5584
+#: wp-includes/class-wp-customize-manager.php:5611
 msgid "Posts page"
 msgstr "Stránka s článkami"
 
@@ -13784,15 +13784,15 @@ msgstr "Stránka s článkami"
 #: wp-includes/customize/class-wp-customize-media-control.php:236
 #: wp-includes/customize/class-wp-customize-media-control.php:247
 #: wp-includes/customize/class-wp-customize-media-control.php:257
-#: wp-includes/class-wp-customize-manager.php:5135
+#: wp-includes/class-wp-customize-manager.php:5162
 #: wp-includes/class-wp-editor.php:1387 wp-includes/js/dist/edit-post.js:1145
 #: wp-includes/js/dist/block-directory.js:1501
 msgid "Remove"
 msgstr "Odstrániť"
 
-#: wp-includes/js/dist/block-editor.js:20932
-#: wp-includes/js/dist/block-editor.js:21414
-#: wp-includes/js/dist/block-editor.js:21427
+#: wp-includes/js/dist/block-editor.js:20923
+#: wp-includes/js/dist/block-editor.js:21405
+#: wp-includes/js/dist/block-editor.js:21418
 msgid "Upload"
 msgstr "Nahrať"
 
@@ -13915,11 +13915,11 @@ msgstr "Šablóna štýlu nie je čitateľná."
 msgid "Error: The themes directory is either empty or doesn&#8217;t exist. Please check your installation."
 msgstr "Chyba: Adresár tém je prázdny alebo neexistuje. Skontrolujte vašu instaláciu."
 
-#: wp-includes/class-wp-customize-manager.php:5055
+#: wp-includes/class-wp-customize-manager.php:5082
 msgid "Tagline"
 msgstr "Slogan"
 
-#: wp-includes/class-wp-customize-manager.php:5549
+#: wp-includes/class-wp-customize-manager.php:5576
 msgid "Your latest posts"
 msgstr "Najnovšie články"
 
@@ -13930,11 +13930,11 @@ msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Vyberte si &mdash; "
 
 #. translators: %s: Document title from the preview.
-#: wp-includes/class-wp-customize-manager.php:4478
+#: wp-includes/class-wp-customize-manager.php:4505
 msgid "Customize: %s"
 msgstr "Prispôsobiť: %s"
 
-#: wp-includes/js/dist/block-editor.js:23604
+#: wp-includes/js/dist/block-editor.js:23595
 msgid "Styles"
 msgstr "Štýly"
 
@@ -13971,7 +13971,7 @@ msgid "Sorry, you are not allowed to edit this post."
 msgstr "Nemáte oprávnenie na upravenie tohto článku."
 
 #: wp-includes/script-loader.php:1298 wp-includes/script-loader.php:1391
-#: wp-includes/post.php:4573
+#: wp-includes/post.php:4582
 msgctxt "tag delimiter"
 msgid ","
 msgstr ","
@@ -14085,7 +14085,7 @@ msgstr "Vytvoriť konfiguračný súbor"
 msgid "You can create a %s file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file."
 msgstr "Súbor %s môžete vytvoriť cez webové rozhranie, no nefunguje to pre všetky nastavenia serverov. Najbezpečnejšia cesta je vytvoriť si súbor manuálne."
 
-#: wp-includes/class-wp-customize-manager.php:5596
+#: wp-includes/class-wp-customize-manager.php:5623
 msgid "https://codex.wordpress.org/CSS"
 msgstr "https://codex.wordpress.org/CSS"
 
@@ -14197,7 +14197,7 @@ msgstr "<strong>Cyba</strong>: problém pri vytváraní záznamu stránky."
 msgid "Documentation"
 msgstr "Dokumentácia"
 
-#: wp-includes/general-template.php:4197 wp-includes/formatting.php:3859
+#: wp-includes/general-template.php:4197 wp-includes/formatting.php:3876
 msgid "&hellip;"
 msgstr "&hellip;"
 
@@ -14266,7 +14266,7 @@ msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Modrá"
 
-#: wp-includes/formatting.php:4767
+#: wp-includes/formatting.php:4784
 msgid "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "Časové pásmo, ktoré ste zadali, je neplatné. Prosím, vyberte platné časové pásmo."
 
@@ -14618,7 +14618,7 @@ msgid "Blavatar"
 msgstr "Blavatar"
 
 #. translators: %s: Taxonomy name.
-#: wp-includes/post.php:3969
+#: wp-includes/post.php:3978
 msgid "Invalid taxonomy: %s."
 msgstr "Neplatná taxonómia: %s."
 
@@ -14682,7 +14682,7 @@ msgid "You have searched the %1$s blog archives for <strong>&#8216;%2$s&#8217;</
 msgstr "V archívoch blogu %1$s ste vyhľadávali <strong>&#8216;%2$s&#8217;</strong>. Ak sa vám v týchto výsledkoch nepodarilo nič nájsť, môžete skúsiť jeden z týchto odkazov."
 
 #. translators: Used to join items in a list with only 2 items.
-#: wp-includes/formatting.php:5055
+#: wp-includes/formatting.php:5072
 msgid "%1$s and %2$s"
 msgstr "%1$s a %2$s"
 
@@ -14955,15 +14955,15 @@ msgstr "Stránka ktorú ste si vyžiadali nie je správne nainštalovaná. Pros�
 msgid "The given object ID is not that of a menu item."
 msgstr "Zadané ID objektu nie je položka menu."
 
-#: wp-includes/formatting.php:4708
+#: wp-includes/formatting.php:4725
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Adresa stránky ktorú ste zadali nevyzerá byť platná URL adresa. Prosím zadajte platnú URL adresu."
 
-#: wp-includes/formatting.php:4695
+#: wp-includes/formatting.php:4712
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "WordPress adresa ktorú ste zadali, nevyzerá ako platná URL adresa. Prosím zadajte platnú URL adresu."
 
-#: wp-includes/formatting.php:4585
+#: wp-includes/formatting.php:4602
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "Zadaná e-mailová adresa je zrejme neplatná. Zadajte platnú e-mailovú adresu."
 
@@ -15318,7 +15318,7 @@ msgstr "Zdrojová URL a cieľová URL nemôžu ukazovať na rovnaké miesto."
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:361
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:828
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:398
-#: wp-includes/post.php:3609 wp-includes/post.php:4185
+#: wp-includes/post.php:3612 wp-includes/post.php:4194
 #: wp-includes/revision.php:308
 msgid "Invalid post ID."
 msgstr "Neplatné ID článku."
@@ -15632,7 +15632,7 @@ msgstr "Komentáre sú chránené heslom. Pre zobrazenie komentárov zadajte hes
 #. translators: %s: Time duration in hour or hours.
 #. translators: Time difference between two dates, in hours. %s: Number of
 #. hours.
-#: wp-includes/functions.php:525 wp-includes/formatting.php:3737
+#: wp-includes/functions.php:525 wp-includes/formatting.php:3754
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s hodinu"
@@ -15640,7 +15640,7 @@ msgstr[1] "%s hodiny"
 msgstr[2] "%s hodín"
 
 #. translators: Time difference between two dates, in days. %s: Number of days.
-#: wp-includes/formatting.php:3744
+#: wp-includes/formatting.php:3761
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s deň"
@@ -15957,7 +15957,7 @@ msgstr "Horný index"
 msgid "Cut"
 msgstr "Vystrihnúť"
 
-#: wp-includes/class-wp-customize-manager.php:4280
+#: wp-includes/class-wp-customize-manager.php:4307
 #: wp-includes/class-wp-editor.php:1175
 msgid "Copy"
 msgstr "Kopírovať"
@@ -16016,13 +16016,13 @@ msgid "Select all"
 msgstr "Vybrať všetko"
 
 #: wp-includes/script-loader.php:643 wp-includes/class-wp-editor.php:1261
-#: wp-includes/js/dist/block-editor.js:22622
-#: wp-includes/js/dist/block-editor.js:22920
+#: wp-includes/js/dist/block-editor.js:22613
+#: wp-includes/js/dist/block-editor.js:22911
 msgid "Insert link"
 msgstr "Vložiť odkaz"
 
 #: wp-includes/class-wp-editor.php:1257
-#: wp-includes/js/dist/block-editor.js:22956
+#: wp-includes/js/dist/block-editor.js:22947
 msgid "Remove link"
 msgstr "Odstrániť odkaz"
 
@@ -16141,11 +16141,11 @@ msgstr "Domovská stránka"
 msgid "Missing Attachment"
 msgstr "Chýbajúca príloha"
 
-#: wp-includes/post.php:3923
+#: wp-includes/post.php:3932
 msgid "Could not update post in the database"
 msgstr "Nepodarilo sa aktualizovať článok v databáze"
 
-#: wp-includes/post.php:3938
+#: wp-includes/post.php:3947
 msgid "Could not insert post into the database"
 msgstr "Nepodarilo sa vložiť článok do databázy"
 
@@ -16188,7 +16188,7 @@ msgstr "&lt; Predošlá"
 #: wp-includes/script-loader.php:839
 #: wp-includes/widgets/class-wp-widget-media-image.php:28
 #: wp-includes/class-wp-editor.php:1216 wp-includes/js/dist/editor.js:8553
-#: wp-includes/js/dist/block-editor.js:21290
+#: wp-includes/js/dist/block-editor.js:21281
 #: wp-includes/js/dist/block-library.js:5200
 #: wp-includes/js/dist/block-library.js:5775
 msgid "Image"
@@ -16389,7 +16389,7 @@ msgstr "Tento argument bol zmenený na pole, aby zodpovedal správaniu ostatnýc
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:137
 #: wp-includes/media-template.php:1162
-#: wp-includes/js/dist/block-editor.js:22903
+#: wp-includes/js/dist/block-editor.js:22894
 msgid "Link Rel"
 msgstr "Vzťah odkazu"
 
@@ -16407,7 +16407,7 @@ msgstr "Zhrnutie zo spätného odkazu:"
 msgid "Pingback excerpt: "
 msgstr "Zhrnutie zo spätného upozornenia:"
 
-#: wp-includes/post.php:3656
+#: wp-includes/post.php:3659
 msgid "Content, title, and excerpt are empty."
 msgstr "Obsah, názov a zhrnutie sú prázdne."
 
@@ -16749,7 +16749,7 @@ msgstr "Názov strany"
 
 #. translators: Time difference between two dates, in minutes (min=minute). %s:
 #. Number of minutes.
-#: wp-includes/formatting.php:3730
+#: wp-includes/formatting.php:3747
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s minúta"
@@ -16906,8 +16906,8 @@ msgstr "Vľavo dole"
 msgid "Bottom Right"
 msgstr "Vpravo dole"
 
-#: wp-includes/class-wp-customize-manager.php:5409
-#: wp-includes/class-wp-customize-manager.php:5468
+#: wp-includes/class-wp-customize-manager.php:5436
+#: wp-includes/class-wp-customize-manager.php:5495
 msgid "Fill Screen"
 msgstr "Zaplniť obrazovku"
 
@@ -17120,7 +17120,7 @@ msgstr "Jasná"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:78
 #: wp-includes/media-template.php:1103 wp-includes/class-wp-editor.php:1329
-#: wp-includes/js/dist/block-editor.js:19213
+#: wp-includes/js/dist/block-editor.js:19204
 #: wp-includes/js/dist/format-library.js:927
 msgid "Width"
 msgstr "Šírka"
@@ -17156,7 +17156,7 @@ msgstr "Formát času"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:84
 #: wp-includes/media-template.php:1108 wp-includes/class-wp-editor.php:1328
-#: wp-includes/js/dist/block-editor.js:19224
+#: wp-includes/js/dist/block-editor.js:19215
 msgid "Height"
 msgstr "Výška"
 
@@ -17297,12 +17297,12 @@ msgid "First Post"
 msgstr "Prvý článok"
 
 #: wp-includes/class-wp-xmlrpc-server.php:545
-#: wp-includes/class-wp-customize-manager.php:5038
+#: wp-includes/class-wp-customize-manager.php:5065
 msgid "Site Title"
 msgstr "Názov stránky"
 
 #: wp-includes/js/dist/components.js:39290
-#: wp-includes/js/dist/block-editor.js:21561
+#: wp-includes/js/dist/block-editor.js:21552
 msgid "All"
 msgstr "Všetko"
 
@@ -17338,7 +17338,7 @@ msgstr "Indikátor bezpečnosti hesla"
 #: wp-includes/customize/class-wp-customize-media-control.php:235
 #: wp-includes/customize/class-wp-customize-media-control.php:246
 #: wp-includes/customize/class-wp-customize-media-control.php:256
-#: wp-includes/class-wp-customize-manager.php:5136
+#: wp-includes/class-wp-customize-manager.php:5163
 #: wp-includes/js/dist/components.js:33463
 #: wp-includes/js/dist/components.js:35215
 #: wp-includes/js/dist/block-library.js:18937
@@ -17414,12 +17414,12 @@ msgstr[0] "Potvrdený <span class=\"count\">(%s)</span>"
 msgstr[1] "Potvrdené <span class=\"count\">(%s)</span>"
 msgstr[2] "Potvrdených <span class=\"count\">(%s)</span>"
 
-#: wp-includes/js/dist/block-editor.js:22622
-#: wp-includes/js/dist/block-editor.js:22920
+#: wp-includes/js/dist/block-editor.js:22613
+#: wp-includes/js/dist/block-editor.js:22911
 msgid "Edit link"
 msgstr "Upraviť odkaz"
 
-#: wp-includes/js/dist/block-editor.js:20065
+#: wp-includes/js/dist/block-editor.js:20056
 msgid "Search results for %s"
 msgstr "Výsledky hľadania pre %s"
 
@@ -17450,8 +17450,8 @@ msgstr "Autor"
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:94
 #: wp-includes/class-wp-editor.php:1265 wp-includes/class-wp-editor.php:1845
 #: wp-includes/class-wp-customize-nav-menus.php:1194
-#: wp-includes/js/dist/block-editor.js:20567
-#: wp-includes/js/dist/block-editor.js:21101
+#: wp-includes/js/dist/block-editor.js:20558
+#: wp-includes/js/dist/block-editor.js:21092
 #: wp-includes/js/dist/block-library.js:13557
 msgid "URL"
 msgstr "URL"
@@ -17468,9 +17468,9 @@ msgstr "Nie"
 #: wp-includes/class-wp-editor.php:1388
 #: wp-includes/class-walker-comment.php:242
 #: wp-includes/class-walker-comment.php:392 wp-includes/js/dist/editor.js:12394
-#: wp-includes/js/dist/block-editor.js:20132
-#: wp-includes/js/dist/block-editor.js:20751
-#: wp-includes/js/dist/block-editor.js:22532
+#: wp-includes/js/dist/block-editor.js:20123
+#: wp-includes/js/dist/block-editor.js:20742
+#: wp-includes/js/dist/block-editor.js:22523
 #: wp-includes/js/dist/block-library.js:17817
 msgid "Edit"
 msgstr "Upraviť"
@@ -17490,7 +17490,7 @@ msgid "Comments"
 msgstr "Komentáre"
 
 #: wp-includes/script-loader.php:1152 wp-includes/script-loader.php:1320
-#: wp-includes/class-wp-customize-manager.php:4751
+#: wp-includes/class-wp-customize-manager.php:4778
 #: wp-includes/js/dist/editor.js:9397 wp-includes/js/dist/edit-post.js:4970
 msgid "Publish"
 msgstr "Publikovať"
@@ -17510,7 +17510,7 @@ msgid "Target"
 msgstr "Cieľ"
 
 #: wp-includes/class-wp-editor.php:1219
-#: wp-includes/js/dist/block-editor.js:23614
+#: wp-includes/js/dist/block-editor.js:23605
 msgid "Advanced"
 msgstr "Pokročilé"
 
@@ -17545,8 +17545,8 @@ msgstr "Hotovo"
 msgid "Anonymous"
 msgstr "Anonym"
 
-#: wp-includes/js/dist/block-editor.js:19806
-#: wp-includes/js/dist/block-editor.js:22646
+#: wp-includes/js/dist/block-editor.js:19797
+#: wp-includes/js/dist/block-editor.js:22637
 msgid "Submit"
 msgstr "Zaslať"
 
@@ -17556,9 +17556,9 @@ msgid "RSS"
 msgstr "RSS"
 
 #: wp-includes/media-template.php:1441
-#: wp-includes/class-wp-customize-manager.php:4234
+#: wp-includes/class-wp-customize-manager.php:4261
 #: wp-includes/class-wp-editor.php:1249
-#: wp-includes/js/dist/block-editor.js:24823
+#: wp-includes/js/dist/block-editor.js:24814
 #: wp-includes/js/dist/block-library.js:14219
 msgid "Preview"
 msgstr "Náhľad"
@@ -17571,8 +17571,8 @@ msgstr "Najnovšie komentáre"
 #: wp-includes/script-loader.php:1100 wp-includes/script-loader.php:1164
 #: wp-includes/script-loader.php:1312 wp-includes/media.php:3882
 #: wp-includes/class-wp-editor.php:1182 wp-includes/class-wp-editor.php:1886
-#: wp-includes/js/dist/block-editor.js:21334
-#: wp-includes/js/dist/block-editor.js:21337
+#: wp-includes/js/dist/block-editor.js:21325
+#: wp-includes/js/dist/block-editor.js:21328
 msgid "Cancel"
 msgstr "Zrušiť"
 
@@ -17581,7 +17581,7 @@ msgid "Content"
 msgstr "Obsah"
 
 #: wp-includes/script-loader.php:1154 wp-includes/script-loader.php:1324
-#: wp-includes/class-wp-customize-manager.php:4756
+#: wp-includes/class-wp-customize-manager.php:4783
 #: wp-includes/js/dist/editor.js:11076
 msgid "Save Draft"
 msgstr "Uložiť koncept"
@@ -17723,16 +17723,16 @@ msgstr "Nezaradené"
 
 #: wp-includes/script-loader.php:841 wp-includes/script-loader.php:1165
 #: wp-includes/script-loader.php:1968
-#: wp-includes/class-wp-customize-manager.php:5627
+#: wp-includes/class-wp-customize-manager.php:5654
 #: wp-includes/class-wp-editor.php:1183 wp-includes/class-wp-editor.php:1840
 #: wp-includes/js/dist/components.js:33272
-#: wp-includes/js/dist/block-editor.js:22639
+#: wp-includes/js/dist/block-editor.js:22630
 #: wp-includes/js/dist/edit-post.js:3179 wp-includes/js/dist/edit-post.js:3503
 #: wp-includes/js/dist/edit-post.js:3848
 msgid "Close"
 msgstr "Zatvoriť"
 
-#: wp-includes/media.php:3881 wp-includes/js/dist/block-editor.js:22535
+#: wp-includes/media.php:3881 wp-includes/js/dist/block-editor.js:22526
 msgid "Select"
 msgstr "Vybrať"
 
@@ -17795,7 +17795,7 @@ msgstr "Všetky kategórie"
 #: wp-includes/script-loader.php:696 wp-includes/script-loader.php:875
 #: wp-includes/widgets/class-wp-widget-text.php:538
 #: wp-includes/widgets/class-wp-widget-text.php:553
-#: wp-includes/class-wp-customize-manager.php:4207
+#: wp-includes/class-wp-customize-manager.php:4234
 msgid "Dismiss"
 msgstr "Zrušiť"
 
@@ -17815,7 +17815,7 @@ msgstr "Kategórie"
 
 #: wp-includes/media.php:3877 wp-includes/media.php:4442
 #: wp-includes/class-wp-editor.php:1233
-#: wp-includes/js/dist/block-editor.js:21285
+#: wp-includes/js/dist/block-editor.js:21276
 msgid "Media"
 msgstr "Multimédiá"
 
@@ -17847,8 +17847,8 @@ msgstr "Spätné upozorenie"
 
 #: wp-includes/class-wp-customize-widgets.php:777 wp-includes/media.php:3921
 #: wp-includes/class-wp-editor.php:1390
-#: wp-includes/js/dist/block-editor.js:20691
-#: wp-includes/js/dist/block-editor.js:21108
+#: wp-includes/js/dist/block-editor.js:20682
+#: wp-includes/js/dist/block-editor.js:21099
 #: wp-includes/js/dist/block-library.js:23595
 #: wp-includes/js/dist/format-library.js:933
 msgid "Apply"
