@@ -426,7 +426,6 @@ acf_add_local_field_group(array(
 	'active' => true,
 	'description' => '',
 ));
-
 acf_add_local_field_group(array(
 	'key' => 'group_5e61490953fe3',
 	'title' => 'Domovská Stránka',
@@ -438,6 +437,44 @@ acf_add_local_field_group(array(
 			'type' => 'wysiwyg',
 			'instructions' => '',
 			'required' => 1,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '50',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '',
+			'tabs' => 'visual',
+			'toolbar' => 'full',
+			'media_upload' => 1,
+			'delay' => 0,
+		),
+		array(
+			'key' => 'field_5f1ac2bab5d24',
+			'label' => 'Čím je OZ PON špecifické?',
+			'name' => 'cim_je_pon_specificke',
+			'type' => 'wysiwyg',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '50',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '',
+			'tabs' => 'visual',
+			'toolbar' => 'full',
+			'media_upload' => 1,
+			'delay' => 0,
+		),
+		array(
+			'key' => 'field_5f1ac2eeb5d25',
+			'label' => 'Naše služby',
+			'name' => 'nase_sluzby',
+			'type' => 'wysiwyg',
+			'instructions' => '',
+			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(
 				'width' => '50',
