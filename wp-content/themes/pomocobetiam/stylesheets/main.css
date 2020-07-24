@@ -660,77 +660,78 @@ template {
 /* line 4, ../sass/base/_base.scss */
 .block {
   padding: 70px 0;
-  margin: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 4px;
 }
-/* line 8, ../sass/base/_base.scss */
+/* line 9, ../sass/base/_base.scss */
 .block-inner + .block-inner {
   margin-top: 20px;
 }
 
-/* line 12, ../sass/base/_base.scss */
+/* line 13, ../sass/base/_base.scss */
 .block-pink {
   background-color: rgba(237, 12, 110, 0.2);
 }
-/* line 14, ../sass/base/_base.scss */
+/* line 15, ../sass/base/_base.scss */
 .block-pink h2,
 .block-pink h3,
 .block-pink h4 {
   color: #ed0c6e;
 }
 
-/* line 20, ../sass/base/_base.scss */
+/* line 21, ../sass/base/_base.scss */
 .block-blue {
   background-color: rgba(0, 153, 204, 0.2);
 }
-/* line 22, ../sass/base/_base.scss */
+/* line 23, ../sass/base/_base.scss */
 .block-blue h2,
 .block-blue h3,
 .block-blue h4 {
   color: #0099cc;
 }
 
-/* line 28, ../sass/base/_base.scss */
+/* line 29, ../sass/base/_base.scss */
 .block-transparent {
   background-color: transparent;
 }
-/* line 30, ../sass/base/_base.scss */
+/* line 31, ../sass/base/_base.scss */
 .block-transparent h2,
 .block-transparent h3,
 .block-transparent h4 {
   color: #ed0c6e;
 }
 
-/* line 37, ../sass/base/_base.scss */
+/* line 38, ../sass/base/_base.scss */
 .page-main {
   margin-top: 170px;
   margin-bottom: 50px;
 }
 @media (max-width: 992px) {
-  /* line 37, ../sass/base/_base.scss */
+  /* line 38, ../sass/base/_base.scss */
   .page-main {
     margin-top: 120px;
   }
 }
 
-/* line 46, ../sass/base/_base.scss */
+/* line 47, ../sass/base/_base.scss */
 .contact-info-item {
   display: inline-block;
 }
 
-/* line 52, ../sass/base/_base.scss */
+/* line 53, ../sass/base/_base.scss */
 #faq h4,
 #faq h5,
 #faq h6 {
   font-weight: 300;
 }
 
-/* line 59, ../sass/base/_base.scss */
+/* line 60, ../sass/base/_base.scss */
 .pink {
   color: #ed0c6e;
 }
 
-/* line 62, ../sass/base/_base.scss */
+/* line 63, ../sass/base/_base.scss */
 .pink-bg {
   background-color: rgba(237, 12, 110, 0.2);
 }
@@ -873,12 +874,24 @@ li {
     font-size: 1.2em;
   }
 }
-/* line 105, ../sass/base/_fonts.scss */
+@media (max-width: 710) {
+  /* line 88, ../sass/base/_fonts.scss */
+  .page-head-nav-list li {
+    font-size: 1em;
+  }
+}
+@media (max-width: 520px) {
+  /* line 88, ../sass/base/_fonts.scss */
+  .page-head-nav-list li {
+    font-size: 0.8em;
+  }
+}
+/* line 111, ../sass/base/_fonts.scss */
 .page-head-nav-list li.active > a, .page-head-nav-list-item-dropdown li.active > a {
   color: #ed0c6e;
   font-weight: bold;
 }
-/* line 110, ../sass/base/_fonts.scss */
+/* line 116, ../sass/base/_fonts.scss */
 .page-head-nav-list-item-dropdown li.active {
   background-color: transparent;
 }
