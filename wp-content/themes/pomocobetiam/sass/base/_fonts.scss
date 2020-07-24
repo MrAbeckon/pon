@@ -1,26 +1,49 @@
-h1,h2,h3,h4,h5,h6, 
-p, 
-a, 
-li {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+button {
     margin-bottom: 0;
     font-family: $main-fonts;
 }
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: bold;
     color: $main-font-color;
 }
-p, li,
-a, a:visited, a:hover {
+p,
+li,
+a,
+a:visited,
+a:hover {
     color: $main-font-color;
+    text-decoration: none;
 }
-.block h1, .block h2, .block h3, .block h4, .block h5, .block h6 {
-    font-weight: 300;
+.block h1,
+.block h2,
+.block h3,
+.block h4,
+.block h5,
+.block h6 {
+    // font-weight: 300;
     margin-bottom: 12px;
     font-family: $block-fonts;
 }
 .block p {
     margin-bottom: 20px;
     font-family: $block-fonts;
+}
+ul {
+    list-style: none;
 }
 
 html {
@@ -44,19 +67,47 @@ h5 {
 h6 {
     font-size: 1em;
 }
+p,
+li {
+    font-size: 1em;
+    .page-footer & {
+        font-size: 0.8em;
+    }
+}
 
-.page-head-nav-list li {
-    font-family: $navigation-fonts;
-    font-size: 1.2em;
-    font-weight: 500;
-    text-transform: uppercase;
+@media (max-width: 1200px) {
+    .page-head-nav-headings h5 {
+        font-size: 1em;
+    }
+    .page-head-nav-headings p {
+        font-size: 0.8em;
+    }
+}
 
-    a {
+.page-head-nav-list {
+    li {
         font-family: $navigation-fonts;
+        font-size: 1em;
+        font-weight: 500;
+        text-transform: uppercase;
+
+        a {
+            font-family: $navigation-fonts;
+        }
+        @media (max-width: 1200px) {
+            font-size: 0.8em;
+        }
+        @media (max-width: 992px) {
+            font-size: 1.2em;
+        }
     }
 
-    &.active a{
+    & li.active > a,
+    &-item-dropdown li.active > a {
         color: $main-theme-color;
         font-weight: bold;
+    }
+    &-item-dropdown li.active {
+        background-color: transparent;
     }
 }

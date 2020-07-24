@@ -1,0 +1,11 @@
+.otv_hodiny {
+    .key {
+        font-weight: bold;
+        .block-blue & {
+            color: $blue;
+        }
+        .block-transparent & {
+            color: $pink;
+        }
+    }
+}

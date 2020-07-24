@@ -1,7 +1,16 @@
 .page-footer {
-    margin-top: 40px;
+    border-top: 1px solid $main-background-color;
+    // padding-bottom: 150px;
 
-    h3,h4,h5 {
+    .copyright {
+        padding-bottom: 10px;
+        padding-top: 140px;
+    }
+    h4 {
         color: $second-font-color;
+    }
+    h5,h6 {
+        color: $second-font-color-medium;
+        font-weight: 300;
     }
 }

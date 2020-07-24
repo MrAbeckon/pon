@@ -1,52 +1,15 @@
+.page-main a {
+    // @extend %link;
+}
 .mail {
     @extend %link;
-    a, i {
-
-        .block-pink & {
-            color: $main-theme-color;
-        }
-        .block-blue & {
-            color: $second-theme-color;
-        }
-        .block-transparent & {
-            color: $second-theme-color;
-        }
-    }
-    &:hover {
-        background-color: rgba(0, 153, 204,0.2);
-    }
-    &:hover i {
-        // font-size: 1.1em;
-        font-weight: bold;
-    }
 }
 .phone {
     @extend %link;
-    a, i {
-
-        .block-pink & {
-            color: $main-theme-color;
-        }
-        .block-blue & {
-            color: $second-theme-color;
-        }
-        .block-transparent & {
-            color: $second-theme-color;
-        }
-    }
 }
 .document {
     @extend %link;
-    a, i {
-
-        .block-pink & {
-            color: $main-theme-color;
-        }
-        .block-blue & {
-            color: $second-theme-color;
-        }
-        .block-transparent & {
-            color: $second-theme-color;
-        }
-    }
+} 
+.external-link {
+    @extend %link;
 }   

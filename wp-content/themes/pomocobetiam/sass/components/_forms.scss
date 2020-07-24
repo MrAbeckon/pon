@@ -1,0 +1,93 @@
+.form {
+    width: 100%;
+
+    &-heading {
+        margin: 0 1%;
+    }
+
+    .form-field,
+    .form-textarea,
+    .form-submit,
+    .form-checkbox {
+        margin: 10px 1%;
+
+        @media (max-width: 992px) {
+            margin: 20px 0;
+        }
+    }
+
+    // common form field wrapper
+    .form-field {
+        display: inline-block;
+        vertical-align: top;
+        border-radius: 0;
+        width: 46%;
+
+        // common elements
+        .wpcf7-form-control-wrap {
+            input {
+                @extend %input;
+            }
+            select {
+                @extend %select;
+            }
+        }
+
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+    .form-textarea {
+        width: 96%;
+
+        .wpcf7-form-control-wrap {
+            textarea {
+                @extend %textarea;
+            }
+        }
+    }
+    .form-recaptcha {
+        margin-left: 20px;
+    }
+    .form-submit {
+        width: 96%;
+
+        input {
+            width: 100%;
+            @media (max-width: 992px) {
+                width: 100%;
+            }
+        }
+    }
+    .form-checkbox {
+        .wpcf7-form-control-wrap {
+            .last {
+                margin-left: 0;
+            }
+            input[type='checkbox'] {
+                @extend %checkbox;
+            }
+        }
+    }
+
+    // specific forms
+    &-support {
+        // border-bottom: 2px solid $main-theme-color;
+    }
+
+    // feedback
+    .wpcf7-response-output {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+        width: 100vw;
+        margin: 0 !important;
+        border: 0 !important;
+        text-align: center;
+        padding: 40px !important;
+        background-color: $main-theme-color;
+        color: white;
+        font-weight: bold;
+    }
+}

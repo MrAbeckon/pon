@@ -1,8 +1,7 @@
-.home-linka {
+.kontakt-linka {
     // text-align: center;
-
-    border-bottom: 2px solid $main-theme-color;
-    padding: 20px 20px 5px;
+    border-bottom: none;
+    padding: 10px 10px;
     border-radius: 4px;
     background-color: $main-background-color;
     p {
@@ -18,12 +17,6 @@
         }
     }
 }
-
-#faq {
-    .question {
-        h4 {
-            color: $main-font-color;
-            margin-bottom: 5px;
-        }
-    }
+#map {
+    height: 400px;
 }

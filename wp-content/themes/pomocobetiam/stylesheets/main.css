@@ -1,3 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+/* line 38, ../sass/abstracts/_variables.scss */
+.mail, .phone, .document, .external-link, .button, input[type=submit] {
+  background-color: transparent;
+  outline: none;
+  border-radius: 4px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 43, ../sass/abstracts/_variables.scss */
+.mail i, .phone i, .document i, .external-link i, .button i, input[type=submit] i {
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding-right: 5px;
+}
+
+/* line 48, ../sass/abstracts/_variables.scss */
+.mail, .phone, .document, .external-link {
+  border: none;
+  padding: 8px 20px 8px 15px;
+  margin: 5px 0;
+}
+/* line 55, ../sass/abstracts/_variables.scss */
+.mail a, .phone a, .document a, .external-link a, .mail i, .phone i, .document i, .external-link i {
+  padding: 0px 4px;
+}
+/* line 58, ../sass/abstracts/_variables.scss */
+.block-pink .mail a, .block-pink .phone a, .block-pink .document a, .block-pink .external-link a, .block-pink .mail i, .block-pink .phone i, .block-pink .document i, .block-pink .external-link i {
+  color: #ed0c6e;
+}
+/* line 61, ../sass/abstracts/_variables.scss */
+.block-blue .mail a, .block-blue .phone a, .block-blue .document a, .block-blue .external-link a, .block-blue .mail i, .block-blue .phone i, .block-blue .document i, .block-blue .external-link i {
+  color: #0099cc;
+}
+/* line 64, ../sass/abstracts/_variables.scss */
+.block-transparent .mail a, .block-transparent .phone a, .block-transparent .document a, .block-transparent .external-link a, .block-transparent .mail i, .block-transparent .phone i, .block-transparent .document i, .block-transparent .external-link i {
+  color: #0099cc;
+}
+/* line 70, ../sass/abstracts/_variables.scss */
+.block-transparent .mail:hover, .block-transparent .phone:hover, .block-transparent .document:hover, .block-transparent .external-link:hover {
+  background-color: rgba(0, 153, 204, 0.2);
+}
+/* line 75, ../sass/abstracts/_variables.scss */
+.block-pink .mail:hover, .block-pink .phone:hover, .block-pink .document:hover, .block-pink .external-link:hover {
+  background-color: rgba(237, 12, 110, 0.2);
+}
+/* line 80, ../sass/abstracts/_variables.scss */
+.block-blue .mail:hover, .block-blue .phone:hover, .block-blue .document:hover, .block-blue .external-link:hover {
+  background-color: rgba(0, 153, 204, 0.2);
+}
+/* line 85, ../sass/abstracts/_variables.scss */
+.mail:hover i, .phone:hover i, .document:hover i, .external-link:hover i {
+  font-weight: bold;
+}
+
+/* line 89, ../sass/abstracts/_variables.scss */
+.button, input[type=submit] {
+  border-width: 2px;
+  border-style: solid;
+  padding: 7px 15px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+/* line 96, ../sass/abstracts/_variables.scss */
+.button:hover, input[type=submit]:hover {
+  -moz-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+
+/* line 100, ../sass/abstracts/_variables.scss */
+.form .form-field .wpcf7-form-control-wrap input, .form .form-textarea .wpcf7-form-control-wrap textarea, .form .form-field .wpcf7-form-control-wrap select, .form .form-checkbox .wpcf7-form-control-wrap input[type='checkbox'] {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 100%;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 112, ../sass/abstracts/_variables.scss */
+.form .form-field .wpcf7-form-control-wrap input {
+  border-bottom: 2px solid #000;
+  padding: 5px 10px;
+}
+/* line 116, ../sass/abstracts/_variables.scss */
+.block-transparent .form .form-field .wpcf7-form-control-wrap input, .form .form-field .wpcf7-form-control-wrap .block-transparent input {
+  border-bottom-color: rgba(237, 12, 110, 0.2);
+}
+/* line 119, ../sass/abstracts/_variables.scss */
+.block-pink .form .form-field .wpcf7-form-control-wrap input, .form .form-field .wpcf7-form-control-wrap .block-pink input {
+  border-bottom-color: #ed0c6e;
+}
+/* line 122, ../sass/abstracts/_variables.scss */
+.block-blue .form .form-field .wpcf7-form-control-wrap input, .form .form-field .wpcf7-form-control-wrap .block-blue input {
+  border-bottom-color: #0099cc;
+}
+
+/* line 126, ../sass/abstracts/_variables.scss */
+.form .form-textarea .wpcf7-form-control-wrap textarea {
+  border-bottom: 2px solid #000;
+  padding: 5px 10px;
+}
+/* line 130, ../sass/abstracts/_variables.scss */
+.block-transparent .form .form-textarea .wpcf7-form-control-wrap textarea, .form .form-textarea .wpcf7-form-control-wrap .block-transparent textarea {
+  border-bottom-color: rgba(237, 12, 110, 0.2);
+}
+/* line 133, ../sass/abstracts/_variables.scss */
+.block-pink .form .form-textarea .wpcf7-form-control-wrap textarea, .form .form-textarea .wpcf7-form-control-wrap .block-pink textarea {
+  border-bottom-color: #ed0c6e;
+}
+/* line 136, ../sass/abstracts/_variables.scss */
+.block-blue .form .form-textarea .wpcf7-form-control-wrap textarea, .form .form-textarea .wpcf7-form-control-wrap .block-blue textarea {
+  border-bottom-color: #0099cc;
+}
+
+/* line 140, ../sass/abstracts/_variables.scss */
+.form .form-field .wpcf7-form-control-wrap select {
+  -moz-appearance: none;
+  /* Firefox */
+  -webkit-appearance: none;
+  /* Safari and Chrome */
+  appearance: none;
+  background: url("../images/caret-down-solid.svg") no-repeat right transparent;
+  background-size: 4%;
+  background-position-x: 98%;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  border-bottom: 2px solid #000;
+  padding: 5px 10px;
+}
+/* line 157, ../sass/abstracts/_variables.scss */
+.block-transparent .form .form-field .wpcf7-form-control-wrap select, .form .form-field .wpcf7-form-control-wrap .block-transparent select {
+  border-bottom-color: rgba(237, 12, 110, 0.2);
+}
+/* line 160, ../sass/abstracts/_variables.scss */
+.block-pink .form .form-field .wpcf7-form-control-wrap select, .form .form-field .wpcf7-form-control-wrap .block-pink select {
+  border-bottom-color: #ed0c6e;
+}
+/* line 163, ../sass/abstracts/_variables.scss */
+.block-blue .form .form-field .wpcf7-form-control-wrap select, .form .form-field .wpcf7-form-control-wrap .block-blue select {
+  border-bottom-color: #0099cc;
+}
+
+/* line 167, ../sass/abstracts/_variables.scss */
+.form .form-checkbox .wpcf7-form-control-wrap input[type='checkbox'] {
+  width: auto;
+  margin: 10px;
+}
+/* line 172, ../sass/abstracts/_variables.scss */
+.form .form-checkbox .wpcf7-form-control-wrap input[type='checkbox'] + span {
+  vertical-align: middle;
+  color: #ed0c6e;
+}
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -499,233 +661,554 @@ template {
 .block {
   padding: 70px 0;
   margin: 20px 0;
+  border-radius: 4px;
 }
-/* line 7, ../sass/base/_base.scss */
+/* line 8, ../sass/base/_base.scss */
 .block-inner + .block-inner {
   margin-top: 20px;
 }
 
-/* line 11, ../sass/base/_base.scss */
+/* line 12, ../sass/base/_base.scss */
 .block-pink {
   background-color: rgba(237, 12, 110, 0.2);
 }
-/* line 13, ../sass/base/_base.scss */
-.block-pink h2, .block-pink h3, .block-pink h4 {
+/* line 14, ../sass/base/_base.scss */
+.block-pink h2,
+.block-pink h3,
+.block-pink h4 {
   color: #ed0c6e;
 }
 
-/* line 17, ../sass/base/_base.scss */
+/* line 20, ../sass/base/_base.scss */
 .block-blue {
   background-color: rgba(0, 153, 204, 0.2);
 }
-/* line 19, ../sass/base/_base.scss */
-.block-blue h2, .block-blue h3, .block-blue h4 {
+/* line 22, ../sass/base/_base.scss */
+.block-blue h2,
+.block-blue h3,
+.block-blue h4 {
   color: #0099cc;
 }
 
-/* line 23, ../sass/base/_base.scss */
+/* line 28, ../sass/base/_base.scss */
 .block-transparent {
   background-color: transparent;
 }
-/* line 25, ../sass/base/_base.scss */
-.block-transparent h2, .block-transparent h3, .block-transparent h4 {
-  color: #0099cc;
+/* line 30, ../sass/base/_base.scss */
+.block-transparent h2,
+.block-transparent h3,
+.block-transparent h4 {
+  color: #ed0c6e;
 }
 
-/* line 30, ../sass/base/_base.scss */
+/* line 37, ../sass/base/_base.scss */
 .page-main {
-  margin-top: 50px;
+  margin-top: 170px;
   margin-bottom: 50px;
 }
+@media (max-width: 992px) {
+  /* line 37, ../sass/base/_base.scss */
+  .page-main {
+    margin-top: 120px;
+  }
+}
 
-/* line 36, ../sass/base/_base.scss */
+/* line 46, ../sass/base/_base.scss */
 .contact-info-item {
   display: inline-block;
 }
-/* line 38, ../sass/base/_base.scss */
-.contact-info-item + .contact-info-item {
-  margin-left: 20px;
+
+/* line 52, ../sass/base/_base.scss */
+#faq h4,
+#faq h5,
+#faq h6 {
+  font-weight: 300;
+}
+
+/* line 59, ../sass/base/_base.scss */
+.pink {
+  color: #ed0c6e;
+}
+
+/* line 62, ../sass/base/_base.scss */
+.pink-bg {
+  background-color: rgba(237, 12, 110, 0.2);
 }
 
 /* line 1, ../sass/base/_fonts.scss */
-h1, h2, h3, h4, h5, h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 p,
 a,
-li {
-  font-family: "Tahoma", "Arial", sans-serif;
+li,
+button {
   margin-bottom: 0;
+  font-family: "Work Sans", "Arial", sans-serif;
 }
 
-/* line 8, ../sass/base/_fonts.scss */
-h1, h2, h3, h4, h5, h6 {
+/* line 14, ../sass/base/_fonts.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
-  color: black;
-}
-
-/* line 12, ../sass/base/_fonts.scss */
-p, li,
-a, a:visited, a:hover {
-  color: black;
-}
-
-/* line 16, ../sass/base/_fonts.scss */
-.active a {
-  color: #ed0c6e;
-  font-weight: bold;
-}
-
-/* line 20, ../sass/base/_fonts.scss */
-.block h1, .block h2, .block h3, .block h4, .block h5, .block h6 {
-  margin-bottom: 12px;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 /* line 23, ../sass/base/_fonts.scss */
-.block p {
-  margin-bottom: 20px;
+p,
+li,
+a,
+a:visited,
+a:hover {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
 }
 
-/* line 27, ../sass/base/_fonts.scss */
+/* line 31, ../sass/base/_fonts.scss */
+.block h1,
+.block h2,
+.block h3,
+.block h4,
+.block h5,
+.block h6 {
+  margin-bottom: 12px;
+  font-family: "Work Sans", "Arial", sans-serif;
+}
+
+/* line 41, ../sass/base/_fonts.scss */
+.block p {
+  margin-bottom: 20px;
+  font-family: "Work Sans", "Arial", sans-serif;
+}
+
+/* line 45, ../sass/base/_fonts.scss */
+ul {
+  list-style: none;
+}
+
+/* line 49, ../sass/base/_fonts.scss */
 html {
   font-size: 16px;
 }
 
-/* line 30, ../sass/base/_fonts.scss */
+/* line 52, ../sass/base/_fonts.scss */
 h1 {
   font-size: 2em;
 }
 
-/* line 33, ../sass/base/_fonts.scss */
+/* line 55, ../sass/base/_fonts.scss */
 h2 {
   font-size: 1.8em;
 }
 
-/* line 36, ../sass/base/_fonts.scss */
+/* line 58, ../sass/base/_fonts.scss */
 h3 {
   font-size: 1.6em;
 }
 
-/* line 39, ../sass/base/_fonts.scss */
+/* line 61, ../sass/base/_fonts.scss */
 h4 {
   font-size: 1.4em;
 }
 
-/* line 42, ../sass/base/_fonts.scss */
+/* line 64, ../sass/base/_fonts.scss */
 h5 {
   font-size: 1.2em;
 }
 
-/* line 45, ../sass/base/_fonts.scss */
+/* line 67, ../sass/base/_fonts.scss */
 h6 {
   font-size: 1em;
 }
 
+/* line 70, ../sass/base/_fonts.scss */
+p,
+li {
+  font-size: 1em;
+}
+/* line 73, ../sass/base/_fonts.scss */
+.page-footer p, .page-footer
+li {
+  font-size: 0.8em;
+}
+
+@media (max-width: 1200px) {
+  /* line 79, ../sass/base/_fonts.scss */
+  .page-head-nav-headings h5 {
+    font-size: 1em;
+  }
+
+  /* line 82, ../sass/base/_fonts.scss */
+  .page-head-nav-headings p {
+    font-size: 0.8em;
+  }
+}
+/* line 88, ../sass/base/_fonts.scss */
+.page-head-nav-list li {
+  font-family: "Work Sans", "Arial", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+/* line 94, ../sass/base/_fonts.scss */
+.page-head-nav-list li a {
+  font-family: "Work Sans", "Arial", sans-serif;
+}
+@media (max-width: 1200px) {
+  /* line 88, ../sass/base/_fonts.scss */
+  .page-head-nav-list li {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 992px) {
+  /* line 88, ../sass/base/_fonts.scss */
+  .page-head-nav-list li {
+    font-size: 1.2em;
+  }
+}
+/* line 105, ../sass/base/_fonts.scss */
+.page-head-nav-list li.active > a, .page-head-nav-list-item-dropdown li.active > a {
+  color: #ed0c6e;
+  font-weight: bold;
+}
+/* line 110, ../sass/base/_fonts.scss */
+.page-head-nav-list-item-dropdown li.active {
+  background-color: transparent;
+}
+
 /* line 1, ../sass/layout/_header.scss */
 .page-head {
-  padding: 0 80px;
+  background-color: white;
 }
 /* line 3, ../sass/layout/_header.scss */
 .page-head-nav {
-  padding-top: 0px;
+  padding: 0px;
 }
-/* line 7, ../sass/layout/_header.scss */
+/* line 8, ../sass/layout/_header.scss */
 .page-head-nav-logo .navbar-brand img {
   width: 100px;
   display: inline-block;
 }
-/* line 13, ../sass/layout/_header.scss */
+@media (max-width: 992px) {
+  /* line 8, ../sass/layout/_header.scss */
+  .page-head-nav-logo .navbar-brand img {
+    width: 70px;
+  }
+}
+/* line 18, ../sass/layout/_header.scss */
 .page-head-nav-headings {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 19, ../sass/layout/_header.scss */
-.page-head-nav-list-item {
-  padding: 50px 25px;
-}
-/* line 21, ../sass/layout/_header.scss */
-.page-head-nav-list-item.active {
-  background-color: rgba(237, 12, 110, 0.2);
-}
-/* line 24, ../sass/layout/_header.scss */
-.page-head-nav-list-item:hover:not(.active) {
-  background-color: rgba(237, 12, 110, 0.2);
+/* line 23, ../sass/layout/_header.scss */
+.page-head-nav-list {
+  text-align: left;
+  letter-spacing: 1px;
 }
 /* line 27, ../sass/layout/_header.scss */
-.page-head-nav-list-item:hover:not(.active) a {
-  color: white;
+.page-head-nav-list * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+/* line 34, ../sass/layout/_header.scss */
+.page-head-nav-list-item {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1em;
+  padding: 50px 5px;
+}
+/* line 40, ../sass/layout/_header.scss */
+.page-head-nav-list-item a {
+  padding: 0.5em 0.8em;
+  margin: 0.2em 0;
+  display: block;
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  text-decoration: none;
+}
+/* line 48, ../sass/layout/_header.scss */
+.page-head-nav-list-item a:before, .page-head-nav-list-item a:after {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+/* line 58, ../sass/layout/_header.scss */
+.page-head-nav-list-item a:before {
+  left: 0;
+  top: 0;
+  border-left: 3px solid #ed0c6e;
+  border-top: 3px solid #ed0c6e;
+  -webkit-transform: translate(100%, 50%);
+  transform: translate(100%, 50%);
+}
+/* line 66, ../sass/layout/_header.scss */
+.page-head-nav-list-item a:after {
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid #ed0c6e;
+  border-bottom: 3px solid #ed0c6e;
+  -webkit-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+}
+/* line 74, ../sass/layout/_header.scss */
+.page-head-nav-list-item a:hover, .active .page-head-nav-list-item a {
+  color: #000;
+}
+/* line 78, ../sass/layout/_header.scss */
+.page-head-nav-list-item a:hover:before, .active .page-head-nav-list-item a:before, .page-head-nav-list-item a:hover:after, .active .page-head-nav-list-item a:after {
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+/* line 87, ../sass/layout/_header.scss */
+.page-head-nav-list-item:hover a {
+  text-decoration: none;
+}
+/* line 99, ../sass/layout/_header.scss */
+.page-head-nav-list-item-dropdown {
+  left: inherit;
+  border: none;
+  width: 420px;
+  text-align: center;
+  transform: translate(-32%, -55px);
+  padding: 20px;
+}
+/* line 107, ../sass/layout/_header.scss */
+.page-head-nav-list-item-dropdown .dropdown-item:focus,
+.page-head-nav-list-item-dropdown .dropdown-item:hover {
+  background-color: transparent;
+}
+@media (max-width: 992px) {
+  /* line 99, ../sass/layout/_header.scss */
+  .page-head-nav-list-item-dropdown {
+    text-align: left;
+    width: 100%;
+    transform: translate(0, -10px);
+    font-size: 15px;
+  }
+}
+@media (max-width: 992px) {
+  /* line 34, ../sass/layout/_header.scss */
+  .page-head-nav-list-item {
+    padding: 0;
+  }
+}
+@media (max-width: 992px) {
+  /* line 23, ../sass/layout/_header.scss */
+  .page-head-nav-list {
+    height: 100%;
+    justify-content: center;
+    padding-bottom: 80px;
+  }
+  /* line 127, ../sass/layout/_header.scss */
+  .page-head-nav-list-item {
+    padding: 0;
+  }
+}
+@media (max-width: 992px) {
+  /* line 132, ../sass/layout/_header.scss */
+  .page-head-nav #navbarNav {
+    height: calc(100vh - 89px);
+  }
 }
 
 /* line 1, ../sass/layout/_footer.scss */
 .page-footer {
-  margin-top: 40px;
+  border-top: 1px solid rgba(237, 12, 110, 0.2);
 }
-/* line 4, ../sass/layout/_footer.scss */
-.page-footer h3, .page-footer h4, .page-footer h5 {
+/* line 5, ../sass/layout/_footer.scss */
+.page-footer .copyright {
+  padding-bottom: 10px;
+  padding-top: 140px;
+}
+/* line 9, ../sass/layout/_footer.scss */
+.page-footer h4 {
   color: #ed0c6e;
 }
-
-/* line 1, ../sass/components/_buttons.scss */
-.button {
-  background-color: transparent;
-  padding: 7px 15px;
-  border-width: 2px;
-  outline: none;
-  margin: 20px 0;
-  font-weight: bold;
-  transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+/* line 12, ../sass/layout/_footer.scss */
+.page-footer h5, .page-footer h6 {
+  color: rgba(237, 12, 110, 0.6);
+  font-weight: 300;
 }
 
-/* line 13, ../sass/components/_buttons.scss */
+/* line 5, ../sass/components/_buttons.scss */
 .button-pink {
   border-color: #ed0c6e;
   color: #ed0c6e;
 }
-/* line 16, ../sass/components/_buttons.scss */
+/* line 8, ../sass/components/_buttons.scss */
 .button-pink:hover {
   background-color: rgba(237, 12, 110, 0.2);
-  transform: scale(1.02);
-  box-shadow: 0 0 8px 4px rgba(237, 12, 110, 0.2);
 }
 
-/* line 25, ../sass/components/_buttons.scss */
+/* line 13, ../sass/components/_buttons.scss */
 .button-blue {
   border-color: #0099cc;
   color: #0099cc;
 }
-/* line 28, ../sass/components/_buttons.scss */
+/* line 16, ../sass/components/_buttons.scss */
 .button-blue:hover {
   background-color: rgba(0, 153, 204, 0.2);
-  transform: scale(1.02);
-  box-shadow: 0 0 8px 4px rgba(0, 153, 204, 0.2);
+}
+
+/* line 1, ../sass/components/_forms.scss */
+.form {
+  width: 100%;
+}
+/* line 4, ../sass/components/_forms.scss */
+.form-heading {
+  margin: 0 1%;
+}
+/* line 8, ../sass/components/_forms.scss */
+.form .form-field,
+.form .form-textarea,
+.form .form-submit,
+.form .form-checkbox {
+  margin: 10px 1%;
+}
+@media (max-width: 992px) {
+  /* line 8, ../sass/components/_forms.scss */
+  .form .form-field,
+  .form .form-textarea,
+  .form .form-submit,
+  .form .form-checkbox {
+    margin: 20px 0;
+  }
+}
+/* line 20, ../sass/components/_forms.scss */
+.form .form-field {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 0;
+  width: 46%;
+}
+@media (max-width: 992px) {
+  /* line 20, ../sass/components/_forms.scss */
+  .form .form-field {
+    width: 100%;
+  }
+}
+/* line 40, ../sass/components/_forms.scss */
+.form .form-textarea {
+  width: 96%;
+}
+/* line 49, ../sass/components/_forms.scss */
+.form .form-recaptcha {
+  margin-left: 20px;
+}
+/* line 52, ../sass/components/_forms.scss */
+.form .form-submit {
+  width: 96%;
+}
+/* line 55, ../sass/components/_forms.scss */
+.form .form-submit input {
+  width: 100%;
+}
+@media (max-width: 992px) {
+  /* line 55, ../sass/components/_forms.scss */
+  .form .form-submit input {
+    width: 100%;
+  }
+}
+/* line 64, ../sass/components/_forms.scss */
+.form .form-checkbox .wpcf7-form-control-wrap .last {
+  margin-left: 0;
+}
+/* line 79, ../sass/components/_forms.scss */
+.form .wpcf7-response-output {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  margin: 0 !important;
+  border: 0 !important;
+  text-align: center;
+  padding: 40px !important;
+  background-color: #ed0c6e;
+  color: white;
+  font-weight: bold;
+}
+
+/* line 2, ../sass/components/_otv_hodiny.scss */
+.otv_hodiny .key {
+  font-weight: bold;
+}
+/* line 4, ../sass/components/_otv_hodiny.scss */
+.block-blue .otv_hodiny .key {
+  color: #0099cc;
+}
+/* line 7, ../sass/components/_otv_hodiny.scss */
+.block-transparent .otv_hodiny .key {
+  color: #ed0c6e;
 }
 
 /* line 1, ../sass/pages/_home.scss */
 .home-linka {
-  text-align: center;
+  border-bottom: 2px solid #ed0c6e;
+  padding: 20px 20px 5px;
+  border-radius: 4px;
+  background-color: rgba(237, 12, 110, 0.2);
 }
-/* line 3, ../sass/pages/_home.scss */
+/* line 8, ../sass/pages/_home.scss */
 .home-linka p {
   text-transform: uppercase;
+  color: #ed0c6e;
 }
-/* line 6, ../sass/pages/_home.scss */
+/* line 12, ../sass/pages/_home.scss */
 .home-linka h1 {
   color: #ed0c6e;
   display: inline-block;
-  padding: 5px 20px;
   margin: 5px 0 20px;
+}
+/* line 16, ../sass/pages/_home.scss */
+.home-linka h1 a {
+  color: #ed0c6e;
+}
+
+/* line 24, ../sass/pages/_home.scss */
+#faq .question h4 {
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 5px;
+}
+
+/* line 1, ../sass/pages/_kontakt.scss */
+.kontakt-linka {
+  border-bottom: none;
+  padding: 10px 10px;
+  border-radius: 4px;
   background-color: rgba(237, 12, 110, 0.2);
 }
-
-/* line 14, ../sass/pages/_home.scss */
-.home-intro {
-  padding: 0 18%;
-  text-align: center;
+/* line 7, ../sass/pages/_kontakt.scss */
+.kontakt-linka p {
+  text-transform: uppercase;
+  color: #ed0c6e;
+}
+/* line 11, ../sass/pages/_kontakt.scss */
+.kontakt-linka h1 {
+  color: #ed0c6e;
+  display: inline-block;
+  margin: 5px 0 20px;
+}
+/* line 15, ../sass/pages/_kontakt.scss */
+.kontakt-linka h1 a {
+  color: #ed0c6e;
 }
 
-/* line 23, ../sass/pages/_home.scss */
-#faq .question h4 {
-  color: black;
-  margin-bottom: 5px;
+/* line 20, ../sass/pages/_kontakt.scss */
+#map {
+  height: 400px;
 }
