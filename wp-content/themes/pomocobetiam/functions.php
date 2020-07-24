@@ -29,7 +29,7 @@ add_action('after_setup_theme', 'pomocobetiam_setup');
 $js_v = '1.1';
 $css_v = '1.1';
 function enqueueGoogleApi(){
-  // wp_enqueue_script ( 'google-api', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyD8wff3dxcoXHYSJHnZNGMiXTctffRYwzU', array());
+  wp_enqueue_script ( 'google-api', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCzDM50AbKSBB1xE_zZyAO86FPyuox__4Y&callback=initMap', array(), false, true);
 }
 function enqueue_admin_styles_scripts() {
   enqueueGoogleApi();
@@ -38,14 +38,13 @@ function enqueue_admin_styles_scripts() {
 add_action( 'admin_enqueue_scripts', 'enqueue_admin_styles_scripts');
 function enqueue_styles_scripts() {
   // scripts
-  if(is_single() && ('custom_post_type' == get_post_type())):
-    enqueueGoogleApi();
-    wp_enqueue_script ( 'google-map', get_template_directory_uri() . '/js/google-map.js', array('jquery'), $js_v);
-  endif;
   // wp_enqueue_script ('cookie-consent', 'https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js', array());
   wp_enqueue_script ( 'core-script', get_template_directory_uri() . '/js/core.min.js', array('jquery'), $js_v);
   wp_enqueue_script ( 'bootstrap-script', get_template_directory_uri() . '/js/bootstrap.min.js');
   wp_enqueue_script ( 'script', get_template_directory_uri() . '/js/script.js', array('jquery'), $js_v);
+  if(is_page('kontakt')) {
+    enqueueGoogleApi();
+  }
   // styles
   wp_enqueue_style( 'bootstrap-css', get_template_directory_uri().'/stylesheets/bootstrap.min.css');
   wp_enqueue_style ('style', get_template_directory_uri().'/stylesheets/main.css', array(), $css_v);
@@ -198,7 +197,7 @@ function vyrocne_spravy() {
     'show_ui' => true,
     'show_in_menu' => true,
     'query_var' => true,
-    'rewrite' => array('slug' => 'vyrocne_spravy'),
+    'rewrite' => array('slug' => 'vyrocne-spravy'),
     'capability_type' => 'post',
     'has_archive' => false,
     'hierarchical' => false,
@@ -207,11 +206,52 @@ function vyrocne_spravy() {
     'taxonomies' => array(),
     );
 
-  register_post_type('vyrocne_spravy', $info);
+  register_post_type('vyrocne-spravy', $info);
 
 }
 add_action('init', 'vyrocne_spravy');
 /******************************  end vyrocne_spravy  ******************************/
+
+
+/******************************  podporte-nas  ******************************/
+function podporte_nas() {
+  $labels = array(
+    'name' => 'Podporte nás',
+    'singular_name' => 'Podpora',
+    'add_new' => 'Pridať podporu',
+    'add_new_item' => 'Pridať nový typ podpory',
+    'edit_item' => 'Zmeniť podporu',
+    'new_item' => 'Pridať podporu',
+    'all_items' => 'Zoznam druhov podpory',
+    'view_item' => 'Zobrazit podporu',
+    'search_items' => 'Hľadať podporu',
+    'not_found' => 'Podpora nenájdená',
+    'not_found_in_trash' => 'Podpora nenájdená',
+    'parent_item_colon' => '',
+    'menu_name' => 'Podporte nás'
+    );
+
+  $info = array(
+    'labels' => $labels,
+    'public' => true,
+    'publicly_queryable' => true,
+    'show_ui' => true,
+    'show_in_menu' => true,
+    'query_var' => true,
+    'rewrite' => array('slug' => 'podporte-nas'),
+    'capability_type' => 'post',
+    'has_archive' => false,
+    'hierarchical' => false,
+    'menu_position' => null,
+    'supports' => array('title'),
+    'taxonomies' => array(),
+    );
+
+  register_post_type('podporte-nas', $info);
+
+}
+add_action('init', 'podporte_nas');
+/******************************  end podporte-nas  ******************************/
 
 //Změna slova pro stránkování
   function my_custom_page_word() {
@@ -230,5 +270,16 @@ function compareByTimeStamp($time1, $time2)
     else
         return 0; 
 } 
-
+function shapeSpace_script_loader_tag($tag, $handle) {
+	if ($handle === 'google-api') {
+		if (false === stripos($tag, 'defer')) {
+			$tag = str_replace('<script ', '<script defer ', $tag);	
+		}
+		if (false === stripos($tag, 'async')) {
+			$tag = str_replace('<script ', '<script async ', $tag);
+		}
+	}
+	return $tag;
+}
+add_filter('script_loader_tag', 'shapeSpace_script_loader_tag', 10, 2);
 ?>
