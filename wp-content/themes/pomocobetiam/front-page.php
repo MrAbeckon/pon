@@ -7,10 +7,10 @@
 				</br>
 				linka pomoci obetiam
 			</p>
-			<h1 class="text-center"><?php the_field('linka_pomoci'); ?></h1>
+			<h1 class="text-center"><a href="tel:<?php echo LINKA_POMOCI; ?>"><?php echo LINKA_POMOCI; ?></a></h1>
 		</div>
 	</div>
-	<div class="col-6 offset-3 text-center">
+	<div class="col-xs-12 col-md-6 offset-md-3 text-center">
 		<div class="home-intro">
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem molestias quod vel porro voluptatibus? Porro dolor sapiente maxime provident adipisci labore obcaecati temporibus corporis laboriosam quis? Id doloribus aliquid assumenda?
@@ -23,19 +23,19 @@
 </section>
 
 <section class="row block block-pink">
-	<div class="col-3 offset-1 mt-3">
+	<div class="col-xs-12 col-md-3 offset-md-1 mt-md-3">
 		<h2>Kto je obeť?</h2>
 	</div>
-	<div class="col-6 block-inner">
+	<div class="col-xs-12 col-md-6 block-inner">
 		<?php the_field('kto_je_obet'); ?>
 	</div>
 </section>
 
 <section class="row block block-blue">
-	<div class="col-3 offset-1 mt-3">
+	<div class="col-xs-12 col-md-3 offset-md-1 mt-md-3">
 		<h2>Kto sme my?</h2>
 	</div>
-	<div class="col-6 block-inner">
+	<div class="col-xs-12 col-md-6 block-inner">
 		<?php the_field('kto_sme_my'); ?>
 	</div>
 	<!-- <div class="col-6 offset-4 block-inner">
@@ -47,33 +47,39 @@
 			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque fugiat aspernatur odit harum nulla velit minima obcaecati eveniet, nesciunt omnis molestias, sunt ratione fuga temporibus architecto magnam aut dolores. Facilis!
 		</p>
 	</div> -->
-	<div class="col-6 offset-4 block-inner">
-		<button class="button button-blue" type="button">
+	<div class="col-xs-12 col-md-6 offset-md-4 block-inner">
+		<!-- <button class="button button-blue" type="button">
 			<i class="fas fa-external-link-alt"></i>
 			Kontaktujte nás
-		</button>
+		</button> -->
+		<?php get_template_part( 'components/otv_hodiny' ); ?>
+
 		<div class="contact-info">
-			<div class="phone contact-info-item">
+			<div class="phone contact-info-item d-inline-block">
 				<a href="#">	
 					<i class="fas fa-phone"></i>
 					<?php the_field('linka_pomoci'); ?>
 				</a>
 			</div>
-			<div class="mail contact-info-item">				
-				<a href="#">
+			<?php 
+			foreach( EMAILS as $key => $val ): ?>
+			<div class="mail contact-info-item d-inline-block">				
+				<a href="mailto:<?php echo $val; ?>">
 					<i class="far fa-envelope"></i>
-					info@pomocobetiam.sk
+					<?php echo $val; ?>
 				</a>
 			</div>
+			<?php
+			endforeach;?>
 		</div>
 	</div>
 </section>
 
 <section class="row block block-transparent">
-	<div class="col-3 offset-1 mt-3">
+	<div class="col-xs-12 col-md-3 offset-md-1 mt-md-3">
 		<h2>Iné kontakty</h2>	
 	</div>
-	<div class="col-6 block-inner">
+	<div class="col-xs-12 col-md-6 block-inner">
 		<?php the_field('ine_kontakty'); ?>
 	</div>
 	<!-- <div class="col-6 offset-4 block-inner">
@@ -102,7 +108,7 @@
 	);
 	$the_query = new WP_Query( $args ); ?>
 
-	<div class="col-8 offset-2 block-inner">
+	<div class="col-xs-12 col-md-8 offset-md-2 block-inner">
 		<h2>Lorem</h2>
 		
 		<?php
@@ -124,9 +130,9 @@
 </section>
 
 <section class="row block block-pink">
-	<div class="col-8 offset-2 block-inner">
+	<div class="col-xs-12 col-md-8 offset-md-2 block-inner">
 		<?php the_field('podpora'); ?>
-		<div class="document contact-info-item">
+		<div class="document contact-info-item d-inline-block">
 			<a href="#">
 				<i class="far fa-file-alt"></i>
 				výročné správy
@@ -153,7 +159,7 @@
 		<button class="button button-pink" type="button">
 			požiadajte o podporu online
 		</button>
-		<div class="document contact-info-item">
+		<div class="document contact-info-item d-inline-block">
 			<a href="#">
 				<i class="far fa-file-alt"></i>
 				výročné správy

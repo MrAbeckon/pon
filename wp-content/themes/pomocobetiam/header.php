@@ -32,19 +32,31 @@
 
     <body>
         <?php
+        // CONSTANTS ACROSS PAGES
+        define('LINKA_POMOCI', get_field('linka_pomoci', 43));
+        $otvaracie_hodiny = array(
+          "Pondelok" => get_field('po', 43), 
+          "Utorok" => get_field('ut', 43), 
+          "Streda" => get_field('st', 43), 
+          "Štvrtok" => get_field('stv', 43), 
+          "Piatok" => get_field('pi', 43), 
+          "Sobota" => get_field('so', 43), 
+          "Nedela" => get_field('ne', 43));
+        define('OTV_HODINY', $otvaracie_hodiny);
+        $adresy = explode("\n",get_field('adresa', 43));
+        define('ADRESY', $adresy);
+        $email_adresses = explode("\n",get_field('email', 43));
+        $emails = array("Linka" => $email_adresses[0], "Info" => $email_adresses[1]);
+        define('EMAILS', $emails);
+        define('ICO', get_field('ico', 43));
+        
         $current_uri = home_url(add_query_arg(NULL, NULL));
-
         $isHome = is_home();
-        $isPruvod = is_page("pruvod");
-        $isDoprovod = is_page("doprovodak");
         $isMedia = strpos($current_uri, "/media/") !== false;
 
         $headerClasses = array();
         if (!$isHome) {
             $headerClasses[] = "no-hp";
-        }
-        if ($isProgram || $isPruvod || $isDoprovod || $isMedia) {
-            $headerClasses[] = "programPage";
         }
         ?>
         <script type="text/javascript">
@@ -55,7 +67,7 @@
         <header class="page-head container fixed-top">
           <nav class="page-head-nav navbar navbar-light navbar-expand-lg">
             <div class="page-head-nav-logo">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="/">
                 <img src="<?php echo get_template_directory_uri() ?>/images/logo.jpg" alt="POMOC OBETIAM LOGO" />
               </a>
               <div class="page-head-nav-headings">
@@ -98,7 +110,7 @@
                           if ( $subnav->menu_item_parent == $curNavItemID) { ?>
                               
                               <li class="dropdown-item">
-                              <div class=""><a href="<?php echo $subnav->url ?>"><?php echo $subnav->title; ?></a></div>
+                              <a href="<?php echo $subnav->url ?>"><?php echo $subnav->title; ?></a>
                           
                           <?php if ( in_array('dropdown-list', $subnav->classes)) {?>
                                 <ul class="dropdown-list style-none">
@@ -155,7 +167,8 @@
                     $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) ); 
                     echo $term->name;
                   } else {
-                    the_title();
+                    // the_title();
+                    get_template_part( 'components/content', 'header' );
                   } ?>
                 </h1>
               </div>
@@ -169,14 +182,17 @@
         // START OF LAYOUT ?>
 
           <?php
-              if (!is_front_page()): ?>
-            <section class="row block block-transparent pt-0">
-                <div class="col-8 offset-2 block-inner">
+              if (!is_front_page() && !is_page('podporte-nas')): ?>
+              <section class="row block block-transparent pt-0">
+
+              <?php
+              elseif(is_page('podporte-nas')): ?>
+              <section class="row block block-pink mt-0">
 
               <?php
               else: ?>
               <section class="row mb-5">
-                  <div class="col-6 offset-3 text-center mb-4 ">
+                  <div class="col-xs-12 col-md-6 offset-md-3 text-center mb-4 ">
                 
               <?php
               endif; ?>

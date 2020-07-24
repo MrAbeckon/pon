@@ -5,21 +5,22 @@
   <div class="container text-center text-md-left pt-4">
 
     <div class="row">
-      <div class="col-2">
+      <div class="col-xs-12 mb-4 mb-sm-4 mb-md-0 col-md-2">
 
         <img src="<?php echo get_template_directory_uri() ?>/images/pink_logo.png" />
 
       </div>
 
-      <div class="col-4">
+      <div class="col-xs-12 mb-4 mb-sm-4 mb-md-0 col-md-4">
 
         <h4>Navštívte nás</h4>
 
         <p>
           Pomoc obetiam násilia </br>
-          IČO: 31795382</br>
+          IČO: <?php echo ICO; ?></br>
           Právna forma: občianske združenie</br>
-          Dostojevského rad 1, 811 09 Bratislava
+          <?php echo ADRESY[0]; ?> </br>
+          <?php echo ADRESY[1]; ?>
         </p>
 
         <button class="button button-pink" type="button">
@@ -33,7 +34,7 @@
 
       </div>
 
-      <div class="col-3">
+      <div class="col-xs-12 col-sm-6 col-md-3">
 
         <h4>Lorem</h4>
 
@@ -62,7 +63,7 @@
 
       </div>
 
-      <div class="col-3">
+      <div class="col-xs-12 col-sm-6 col-md-3">
 
         <h4>Lorem</h4>
 
@@ -102,6 +103,8 @@
 <div id="cookieparent">
   <div id="cookieconsent"></div>
 </div>
+
+<?php wp_footer(); ?>
 
 </body>
 </html>
