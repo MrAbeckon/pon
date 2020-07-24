@@ -41,15 +41,18 @@
 	<div class="col-xs-12 col-md-6 block-inner">
 		<?php the_field('kto_sme_my'); ?>
 	</div>
-	<!-- <div class="col-6 offset-4 block-inner">
-		<h3>Lorem</h3>
-		<p>
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque fugiat aspernatur odit harum nulla velit minima obcaecati eveniet, nesciunt omnis molestias, sunt ratione fuga temporibus architecto magnam aut dolores. Facilis!
-		</p>
-		<p>
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque fugiat aspernatur odit harum nulla velit minima obcaecati eveniet, nesciunt omnis molestias, sunt ratione fuga temporibus architecto magnam aut dolores. Facilis!
-		</p>
-	</div> -->
+	<div class="col-xs-12 col-md-3 offset-md-1 mt-md-3">
+		<h2>Čím je OZ PON špecifické?</h2>
+	</div>
+	<div class="col-xs-12 col-md-6 block-inner mt-md-3">
+		<?php the_field('cim_je_pon_specificke'); ?>
+	</div>
+	<div class="col-xs-12 col-md-3 offset-md-1 mt-md-3">
+		<h2>Naše služby</h2>
+	</div>
+	<div class="col-xs-12 col-md-6 block-inner mt-md-3">
+		<?php the_field('nase_sluzby'); ?>
+	</div>
 	<div class="col-xs-12 col-md-6 offset-md-4 block-inner">
 		<!-- <button class="button button-blue" type="button">
 			<i class="fas fa-external-link-alt"></i>
