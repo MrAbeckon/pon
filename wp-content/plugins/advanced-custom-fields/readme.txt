@@ -67,7 +67,15 @@ From your WordPress dashboard
 
 == Changelog ==
 
-= 5.8.10 =
+= 5.8.12 =
+*Release Date - 10 June 2020*
+
+* Fix - Improved string escaping in Select2 drop-downs to address XSS concerns.
+* Fix - Fixed bug causing PHP error when updating the settings of a Checkbox field.
+* Fix - Fixed bug causing WYSIWYG field to hide when toggling between Document and Block tabs within the Block editor.
+* Fix - Fixed bug incorrectly validating the length of Text and Textarea field values that contained HTML entities.
+
+= 5.8.11 =
 *Release Date - 12 May 2020*
 
 * Fix - Fixed bug in ACF Blocks where "inserter examples" and "block templates" did not load the defined "data".
@@ -80,6 +88,11 @@ From your WordPress dashboard
 * i18n - Updated Finnish translation thanks to Mikko Kekki
 * i18n - Updated French translation thanks to Maxime Bernard-Jacquet.
 * i18n - Updated Turkish translation thanks to Emre Erkan.
+
+= 5.8.10 =
+*Release Date - 12 May 2020*
+
+* See hotfix version 5.8.11 for release notes.
 
 = 5.8.9 =
 *Release Date - 26 March 2020*
