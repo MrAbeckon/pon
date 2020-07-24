@@ -7,7 +7,10 @@
 				</br>
 				linka pomoci obetiam
 			</p>
-			<h1 class="text-center"><a href="tel:<?php echo LINKA_POMOCI; ?>"><?php echo LINKA_POMOCI; ?></a></h1>
+			<h1 class="text-center">
+				<a href="tel:<?php echo LINKA_POMOCI; ?>"><?php echo LINKA_POMOCI; ?></a></br>
+                <a href="tel:<?php echo LINKA_POMOCI_2; ?>"><?php echo LINKA_POMOCI_2; ?></a>
+            </h1>
 		</div>
 	</div>
 	<div class="col-xs-12 col-md-6 offset-md-3 text-center">

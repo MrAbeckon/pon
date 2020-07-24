@@ -7,7 +7,10 @@
             <p class="text-uppercase ml-2 mb-2">
                 nonstop linka
             </p>
-            <h1 class="text-center"><a href="tel:<?php echo LINKA_POMOCI; ?>"><?php echo LINKA_POMOCI; ?></a></h1>
+            <h1 class="text-left">
+                <a href="tel:<?php echo LINKA_POMOCI; ?>"><?php echo LINKA_POMOCI; ?></a></br>
+                <a href="tel:<?php echo LINKA_POMOCI_2; ?>"><?php echo LINKA_POMOCI_2; ?></a>
+            </h1>
         </div>
         <?php get_template_part( 'components/otv_hodiny' ); ?>
         <p class="mt-4">

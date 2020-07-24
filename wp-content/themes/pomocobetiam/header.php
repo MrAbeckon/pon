@@ -34,6 +34,7 @@
         <?php
         // CONSTANTS ACROSS PAGES
         define('LINKA_POMOCI', get_field('linka_pomoci', 43));
+        define('LINKA_POMOCI_2', get_field('linka_pomoci_2', 43));
         $otvaracie_hodiny = array(
           "Pondelok" => get_field('po', 43), 
           "Utorok" => get_field('ut', 43), 
