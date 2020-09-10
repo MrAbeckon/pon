@@ -1,6 +1,9 @@
-$pink: rgb(237, 12, 110);
-$medium-pink: rgba(237, 12, 110, 0.6);
-$light-pink: rgba(237, 12, 110, 0.2);
+$new_pink: rgb(237, 12, 50);
+// $new_pink: rgb(166, 12,237);
+$old_pink: rgb(237, 12, 110);
+$pink: $new_pink;
+$medium-pink: rgba($new_pink, 0.6);
+$light-pink: rgba($new_pink, 0.2);
 $blue: rgb(0, 153, 204);
 $medium-blue: rgba(0, 153, 204, 0.6);
 $light-blue: rgba(0, 153, 204, 0.2);

@@ -29,7 +29,7 @@
 }
 /* line 58, ../sass/abstracts/_variables.scss */
 .block-pink .mail a, .block-pink .phone a, .block-pink .document a, .block-pink .external-link a, .block-pink .mail i, .block-pink .phone i, .block-pink .document i, .block-pink .external-link i {
-  color: #ed0c6e;
+  color: #ed0c32;
 }
 /* line 61, ../sass/abstracts/_variables.scss */
 .block-blue .mail a, .block-blue .phone a, .block-blue .document a, .block-blue .external-link a, .block-blue .mail i, .block-blue .phone i, .block-blue .document i, .block-blue .external-link i {
@@ -45,7 +45,7 @@
 }
 /* line 75, ../sass/abstracts/_variables.scss */
 .block-pink .mail:hover, .block-pink .phone:hover, .block-pink .document:hover, .block-pink .external-link:hover {
-  background-color: rgba(237, 12, 110, 0.2);
+  background-color: rgba(237, 12, 50, 0.2);
 }
 /* line 80, ../sass/abstracts/_variables.scss */
 .block-blue .mail:hover, .block-blue .phone:hover, .block-blue .document:hover, .block-blue .external-link:hover {
@@ -91,11 +91,11 @@
 }
 /* line 116, ../sass/abstracts/_variables.scss */
 .block-transparent .form .form-field .wpcf7-form-control-wrap input, .form .form-field .wpcf7-form-control-wrap .block-transparent input {
-  border-bottom-color: rgba(237, 12, 110, 0.2);
+  border-bottom-color: rgba(237, 12, 50, 0.2);
 }
 /* line 119, ../sass/abstracts/_variables.scss */
 .block-pink .form .form-field .wpcf7-form-control-wrap input, .form .form-field .wpcf7-form-control-wrap .block-pink input {
-  border-bottom-color: #ed0c6e;
+  border-bottom-color: #ed0c32;
 }
 /* line 122, ../sass/abstracts/_variables.scss */
 .block-blue .form .form-field .wpcf7-form-control-wrap input, .form .form-field .wpcf7-form-control-wrap .block-blue input {
@@ -109,11 +109,11 @@
 }
 /* line 130, ../sass/abstracts/_variables.scss */
 .block-transparent .form .form-textarea .wpcf7-form-control-wrap textarea, .form .form-textarea .wpcf7-form-control-wrap .block-transparent textarea {
-  border-bottom-color: rgba(237, 12, 110, 0.2);
+  border-bottom-color: rgba(237, 12, 50, 0.2);
 }
 /* line 133, ../sass/abstracts/_variables.scss */
 .block-pink .form .form-textarea .wpcf7-form-control-wrap textarea, .form .form-textarea .wpcf7-form-control-wrap .block-pink textarea {
-  border-bottom-color: #ed0c6e;
+  border-bottom-color: #ed0c32;
 }
 /* line 136, ../sass/abstracts/_variables.scss */
 .block-blue .form .form-textarea .wpcf7-form-control-wrap textarea, .form .form-textarea .wpcf7-form-control-wrap .block-blue textarea {
@@ -137,11 +137,11 @@
 }
 /* line 157, ../sass/abstracts/_variables.scss */
 .block-transparent .form .form-field .wpcf7-form-control-wrap select, .form .form-field .wpcf7-form-control-wrap .block-transparent select {
-  border-bottom-color: rgba(237, 12, 110, 0.2);
+  border-bottom-color: rgba(237, 12, 50, 0.2);
 }
 /* line 160, ../sass/abstracts/_variables.scss */
 .block-pink .form .form-field .wpcf7-form-control-wrap select, .form .form-field .wpcf7-form-control-wrap .block-pink select {
-  border-bottom-color: #ed0c6e;
+  border-bottom-color: #ed0c32;
 }
 /* line 163, ../sass/abstracts/_variables.scss */
 .block-blue .form .form-field .wpcf7-form-control-wrap select, .form .form-field .wpcf7-form-control-wrap .block-blue select {
@@ -156,7 +156,7 @@
 /* line 172, ../sass/abstracts/_variables.scss */
 .form .form-checkbox .wpcf7-form-control-wrap input[type='checkbox'] + span {
   vertical-align: middle;
-  color: #ed0c6e;
+  color: #ed0c32;
 }
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -669,13 +669,13 @@ template {
 
 /* line 13, ../sass/base/_base.scss */
 .block-pink {
-  background-color: rgba(237, 12, 110, 0.2);
+  background-color: rgba(237, 12, 50, 0.2);
 }
 /* line 15, ../sass/base/_base.scss */
 .block-pink h2,
 .block-pink h3,
 .block-pink h4 {
-  color: #ed0c6e;
+  color: #ed0c32;
 }
 
 /* line 21, ../sass/base/_base.scss */
@@ -697,7 +697,7 @@ template {
 .block-transparent h2,
 .block-transparent h3,
 .block-transparent h4 {
-  color: #ed0c6e;
+  color: #ed0c32;
 }
 
 /* line 38, ../sass/base/_base.scss */
@@ -726,12 +726,12 @@ template {
 
 /* line 60, ../sass/base/_base.scss */
 .pink {
-  color: #ed0c6e;
+  color: #ed0c32;
 }
 
 /* line 63, ../sass/base/_base.scss */
 .pink-bg {
-  background-color: rgba(237, 12, 110, 0.2);
+  background-color: rgba(237, 12, 50, 0.2);
 }
 
 /* line 1, ../sass/base/_fonts.scss */
@@ -886,7 +886,7 @@ li {
 }
 /* line 111, ../sass/base/_fonts.scss */
 .page-head-nav-list li.active > a, .page-head-nav-list-item-dropdown li.active > a {
-  color: #ed0c6e;
+  color: #ed0c32;
   font-weight: bold;
 }
 /* line 116, ../sass/base/_fonts.scss */
@@ -960,8 +960,8 @@ li {
 .page-head-nav-list-item a:before {
   left: 0;
   top: 0;
-  border-left: 1.5px solid #ed0c6e;
-  border-top: 1.5px solid #ed0c6e;
+  border-left: 1.5px solid #ed0c32;
+  border-top: 1.5px solid #ed0c32;
   -webkit-transform: translate(100%, 50%);
   transform: translate(100%, 50%);
 }
@@ -969,8 +969,8 @@ li {
 .page-head-nav-list-item a:after {
   right: 0;
   bottom: 0;
-  border-right: 1.5px solid #ed0c6e;
-  border-bottom: 1.5px solid #ed0c6e;
+  border-right: 1.5px solid #ed0c32;
+  border-bottom: 1.5px solid #ed0c32;
   -webkit-transform: translate(-100%, -50%);
   transform: translate(-100%, -50%);
 }
@@ -1038,7 +1038,7 @@ li {
 
 /* line 1, ../sass/layout/_footer.scss */
 .page-footer {
-  border-top: 1px solid rgba(237, 12, 110, 0.2);
+  border-top: 1px solid rgba(237, 12, 50, 0.2);
 }
 /* line 5, ../sass/layout/_footer.scss */
 .page-footer .copyright {
@@ -1047,22 +1047,22 @@ li {
 }
 /* line 9, ../sass/layout/_footer.scss */
 .page-footer h4 {
-  color: #ed0c6e;
+  color: #ed0c32;
 }
 /* line 12, ../sass/layout/_footer.scss */
 .page-footer h5, .page-footer h6 {
-  color: rgba(237, 12, 110, 0.6);
+  color: rgba(237, 12, 50, 0.6);
   font-weight: 300;
 }
 
 /* line 5, ../sass/components/_buttons.scss */
 .button-pink {
-  border-color: #ed0c6e;
-  color: #ed0c6e;
+  border-color: #ed0c32;
+  color: #ed0c32;
 }
 /* line 8, ../sass/components/_buttons.scss */
 .button-pink:hover {
-  background-color: rgba(237, 12, 110, 0.2);
+  background-color: rgba(237, 12, 50, 0.2);
 }
 
 /* line 13, ../sass/components/_buttons.scss */
@@ -1149,7 +1149,7 @@ li {
   border: 0 !important;
   text-align: center;
   padding: 40px !important;
-  background-color: #ed0c6e;
+  background-color: #ed0c32;
   color: white;
   font-weight: bold;
 }
@@ -1164,29 +1164,29 @@ li {
 }
 /* line 7, ../sass/components/_otv_hodiny.scss */
 .block-transparent .otv_hodiny .key {
-  color: #ed0c6e;
+  color: #ed0c32;
 }
 
 /* line 1, ../sass/pages/_home.scss */
 .home-linka {
-  border-bottom: 2px solid #ed0c6e;
+  border-bottom: 2px solid #ed0c32;
   padding: 20px 20px 5px;
-  background-color: rgba(237, 12, 110, 0.2);
+  background-color: rgba(237, 12, 50, 0.2);
 }
 /* line 8, ../sass/pages/_home.scss */
 .home-linka p {
   text-transform: uppercase;
-  color: #ed0c6e;
+  color: #ed0c32;
 }
 /* line 12, ../sass/pages/_home.scss */
 .home-linka h1 {
-  color: #ed0c6e;
+  color: #ed0c32;
   display: inline-block;
   margin: 5px 0 20px;
 }
 /* line 16, ../sass/pages/_home.scss */
 .home-linka h1 a {
-  color: #ed0c6e;
+  color: #ed0c32;
 }
 
 /* line 24, ../sass/pages/_home.scss */
@@ -1200,22 +1200,22 @@ li {
   border-bottom: none;
   padding: 10px 10px;
   border-radius: 4px;
-  background-color: rgba(237, 12, 110, 0.2);
+  background-color: rgba(237, 12, 50, 0.2);
 }
 /* line 7, ../sass/pages/_kontakt.scss */
 .kontakt-linka p {
   text-transform: uppercase;
-  color: #ed0c6e;
+  color: #ed0c32;
 }
 /* line 11, ../sass/pages/_kontakt.scss */
 .kontakt-linka h1 {
-  color: #ed0c6e;
+  color: #ed0c32;
   display: inline-block;
   margin: 5px 0 20px;
 }
 /* line 15, ../sass/pages/_kontakt.scss */
 .kontakt-linka h1 a {
-  color: #ed0c6e;
+  color: #ed0c32;
 }
 
 /* line 20, ../sass/pages/_kontakt.scss */
