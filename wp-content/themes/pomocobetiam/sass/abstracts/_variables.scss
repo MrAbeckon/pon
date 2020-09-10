@@ -38,7 +38,7 @@ $normal: 16px;
 %component {
     background-color: transparent;
     outline: none;
-    border-radius: 4px;
+    // border-radius: 4px;
     @include transition(all 0.3s ease-in-out);
     i {
         @include transition(all 0.3s ease-in-out);

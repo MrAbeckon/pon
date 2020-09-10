@@ -3,7 +3,6 @@
 .mail, .phone, .document, .external-link, .button, input[type=submit] {
   background-color: transparent;
   outline: none;
-  border-radius: 4px;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -662,7 +661,6 @@ template {
   padding: 70px 0;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-radius: 4px;
 }
 /* line 9, ../sass/base/_base.scss */
 .block-inner + .block-inner {
@@ -1173,7 +1171,6 @@ li {
 .home-linka {
   border-bottom: 2px solid #ed0c6e;
   padding: 20px 20px 5px;
-  border-radius: 4px;
   background-color: rgba(237, 12, 110, 0.2);
 }
 /* line 8, ../sass/pages/_home.scss */
