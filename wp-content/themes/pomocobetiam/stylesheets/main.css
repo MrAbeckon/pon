@@ -960,8 +960,8 @@ li {
 .page-head-nav-list-item a:before {
   left: 0;
   top: 0;
-  border-left: 3px solid #ed0c6e;
-  border-top: 3px solid #ed0c6e;
+  border-left: 1.5px solid #ed0c6e;
+  border-top: 1.5px solid #ed0c6e;
   -webkit-transform: translate(100%, 50%);
   transform: translate(100%, 50%);
 }
@@ -969,8 +969,8 @@ li {
 .page-head-nav-list-item a:after {
   right: 0;
   bottom: 0;
-  border-right: 3px solid #ed0c6e;
-  border-bottom: 3px solid #ed0c6e;
+  border-right: 1.5px solid #ed0c6e;
+  border-bottom: 1.5px solid #ed0c6e;
   -webkit-transform: translate(-100%, -50%);
   transform: translate(-100%, -50%);
 }
