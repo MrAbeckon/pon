@@ -181,15 +181,18 @@
           } 
              
         // START OF LAYOUT ?>
-
-          <?php
-              if (!is_front_page() && !is_page('podporte-nas')): ?>
-              <section class="row block block-transparent pt-0">
-                <div class="col-xs-12 col-md-10 offset-md-1">
+              <?php
+              if(is_page('podporte-nas')): ?>
+              <section class="row block block-pink mt-0">
 
               <?php
-              elseif(is_page('podporte-nas')): ?>
-              <section class="row block block-pink mt-0">
+              elseif(is_page('kontakt')): ?>
+              <section class="row block block-transparent pt-0">
+
+              <?php
+              elseif (!is_front_page() && !is_page('podporte-nas')): ?>
+              <section class="row block block-transparent pt-0">
+                <div class="col-xs-12 col-md-10 offset-md-1">
 
               <?php
               else: ?>
